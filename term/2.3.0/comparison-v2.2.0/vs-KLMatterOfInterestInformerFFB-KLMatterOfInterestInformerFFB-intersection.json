@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b9566db0-f450-4eab-a77e-2caa6af756e3-132",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b9566db0-f450-4eab-a77e-2caa6af756e3-132",
+  "name" : "IntersectionKLMatterOfInterestInformerFFBAndKLMatterOfInterestInformerFFB",
+  "title" : "Intersection of KLKildeTilOplysningFFB And KLKildeTilOplysningFFB",
+  "status" : "active",
+  "date" : "2025-08-21T08:43:24+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "b5731132-f6b9-4a47-995d-681d2b755d4f"
+      }]
+    }]
+  }
+}

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>KLTilstandeKoderHjemmepleje - KL Terminologi v2.2.0</title>
+    <title>KLTilstandeKoderHjemmepleje - KL Terminologi v2.3.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -18,6 +18,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
     <link href="assets/css/kl-dk.css" rel="stylesheet"/>
 
@@ -30,10 +31,10 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
-    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
@@ -45,6 +46,7 @@
     h3,h4,h5,h6{--heading-prefix:"2.41"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
         <div id="hl7-nav">
@@ -59,7 +61,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">KL Terminologi</span>
             <br/>
-            <span style="display:inline-block;">2.2.0 - Release
+            <span style="display:inline-block;">2.3.0 - Release
 
 
             </span>
@@ -117,7 +119,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the KLTerm (v2.2.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="http://fhir.kl.dk/term/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the KLTerm (v2.3.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="http://fhir.kl.dk/term/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -169,7 +171,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://fhir.kl.dk/term/ValueSet/KLConditionCodesHomeCare<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/term/ValueSet/KLConditionCodesHomeCare"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">2.2.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/term/ValueSet/KLConditionCodesHomeCare|2.2.0"/></span>
+      <span class="copy-text">2.3.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/term/ValueSet/KLConditionCodesHomeCare|2.3.0"/></span>
       </td>
     </tr>
 
@@ -185,7 +187,7 @@
         
           Active
           
-            as of 2024-10-31
+            as of 2025-08-21
           
         
       </td>
@@ -225,7 +227,7 @@
 
 <!-- Content Logical Definition heading in the fragment -->
   <h3>Logical Definition (CLD)</h3>
-<div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet KLConditionCodesHomeCare</b></p><a name="KLConditionCodesHomeCare"> </a><a name="hcKLConditionCodesHomeCare"> </a><a name="KLConditionCodesHomeCare-en-US"> </a><p>This value set includes codes based on the following rules:</p>
+<div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"></p><a name="KLConditionCodesHomeCare"> </a><a name="hcKLConditionCodesHomeCare"> </a><p>This value set includes codes based on the following rules:</p>
 <ul><li>Include codes from<a href="CodeSystem-FSIII.html"><code>urn:oid:1.2.208.176.2.21</code></a> where concept  descends from <a href="CodeSystem-FSIII.html#FSIII-43c2b7f0-5e55-4627-8fcf-bdaf5a9d84ac">43c2b7f0-5e55-4627-8fcf-bdaf5a9d84ac</a></li>
 <li>Include codes from<a href="CodeSystem-FSIII.html"><code>urn:oid:1.2.208.176.2.21</code></a> where concept  descends from <a href="CodeSystem-FSIII.html#FSIII-1c850a09-aa49-4fae-9354-f932f13e030b">1c850a09-aa49-4fae-9354-f932f13e030b</a></li>
 <li>Include codes from<a href="CodeSystem-FSIII.html"><code>urn:oid:1.2.208.176.2.21</code></a> where concept  descends from <a href="CodeSystem-FSIII.html#FSIII-462f9352-0129-4d8e-8c75-a6dfed78ddcf">462f9352-0129-4d8e-8c75-a6dfed78ddcf</a></li>
@@ -241,7 +243,7 @@
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet </b></p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-FSIII.html">codesystem FSIII v2.2.0 (CodeSystem)</a></p><p>This value set contains 74 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-urn:oid:1.2.208.176.2.21-0285a61e-e563-4f2a-a33f-fedf28a57661"> </a>  <a href="CodeSystem-FSIII.html#FSIII-0285a61e-e563-4f2a-a33f-fedf28a57661">0285a61e-e563-4f2a-a33f-fedf28a57661</a></td><td>urn:oid:1.2.208.176.2.21</td><td>Drikke</td><td><div><p>Holde fast om en drik, tage drikken op til munden og drikke på en kulturelt accepteret måde, blande, omrøre og skænke drikke op, åbne flasker og dåser, bruge sugerør eller drikke af rindende vand fra en hane eller en kilde; amning.</p>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"/><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on <a href="CodeSystem-FSIII.html">codesystem FSIII v2.3.0 (CodeSystem)</a></p><p>This value set contains 74 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-urn:oid:1.2.208.176.2.21-0285a61e-e563-4f2a-a33f-fedf28a57661"> </a>  <a href="CodeSystem-FSIII.html#FSIII-0285a61e-e563-4f2a-a33f-fedf28a57661">0285a61e-e563-4f2a-a33f-fedf28a57661</a></td><td>urn:oid:1.2.208.176.2.21</td><td>Drikke</td><td><div><p>Holde fast om en drik, tage drikken op til munden og drikke på en kulturelt accepteret måde, blande, omrøre og skænke drikke op, åbne flasker og dåser, bruge sugerør eller drikke af rindende vand fra en hane eller en kilde; amning.</p>
 </div></td></tr><tr><td style="white-space:nowrap"><a name="x-urn:oid:1.2.208.176.2.21-4d46bd94-9518-431c-82e8-ebb91bca307a"> </a>  <a href="CodeSystem-FSIII.html#FSIII-4d46bd94-9518-431c-82e8-ebb91bca307a">4d46bd94-9518-431c-82e8-ebb91bca307a</a></td><td>urn:oid:1.2.208.176.2.21</td><td>Vaske sig</td><td><div><p>Vaske og tørre sig på kroppen og kropsdele med anvendelse af vand og passende rensemidler f.eks. tage bad, brusebad, vaske hænder og fødder, ansigt og hår og tørre sig med håndklæde.</p>
 </div></td></tr><tr><td style="white-space:nowrap"><a name="x-urn:oid:1.2.208.176.2.21-56291a75-960d-4fbb-8f28-ae27da8851dc"> </a>  <a href="CodeSystem-FSIII.html#FSIII-56291a75-960d-4fbb-8f28-ae27da8851dc">56291a75-960d-4fbb-8f28-ae27da8851dc</a></td><td>urn:oid:1.2.208.176.2.21</td><td>Fødeindtagelse</td><td><div><p>Indtagelse og bearbejdning af fødemidler og væsker gennem munden.</p>
 </div></td></tr><tr><td style="white-space:nowrap"><a name="x-urn:oid:1.2.208.176.2.21-581f65f9-cd0a-4630-8cc5-c8c125ae2d0c"> </a>  <a href="CodeSystem-FSIII.html#FSIII-581f65f9-cd0a-4630-8cc5-c8c125ae2d0c">581f65f9-cd0a-4630-8cc5-c8c125ae2d0c</a></td><td>urn:oid:1.2.208.176.2.21</td><td>Kropspleje</td><td><div><p>Pleje af de dele af kroppen, som behøver anden pleje end vask og tørring f.eks. hud, ansigt, tænder, hår, negle og kønsdele.</p>
@@ -400,7 +402,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://kl.dk">Kommunernes Landsforening</a>.  Package kl.dk.fhir.term#2.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 31, 2024 13:18+0100">2024-10-31</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://kl.dk">Kommunernes Landsforening</a>.  Package kl.dk.fhir.term#2.3.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 21, 2025 08:46+0200">2025-08-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>KLSygeplejeIndsatserFSIII - KL Terminologi v2.2.0</title>
+    <title>KLSygeplejeIndsatserFSIII - KL Terminologi v2.3.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -18,6 +18,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
     <link href="assets/css/kl-dk.css" rel="stylesheet"/>
 
@@ -30,10 +31,10 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
-    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
@@ -45,6 +46,7 @@
     h3,h4,h5,h6{--heading-prefix:"2.36"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
         <div id="hl7-nav">
@@ -59,7 +61,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">KL Terminologi</span>
             <br/>
-            <span style="display:inline-block;">2.2.0 - Release
+            <span style="display:inline-block;">2.3.0 - Release
 
 
             </span>
@@ -117,7 +119,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the KLTerm (v2.2.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="http://fhir.kl.dk/term/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the KLTerm (v2.3.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="http://fhir.kl.dk/term/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -169,7 +171,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://fhir.kl.dk/term/ValueSet/KLNursingInterventionsFSIII<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/term/ValueSet/KLNursingInterventionsFSIII"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">2.2.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/term/ValueSet/KLNursingInterventionsFSIII|2.2.0"/></span>
+      <span class="copy-text">2.3.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/term/ValueSet/KLNursingInterventionsFSIII|2.3.0"/></span>
       </td>
     </tr>
 
@@ -185,7 +187,7 @@
         
           Active
           
-            as of 2024-10-31
+            as of 2025-08-21
           
         
       </td>
@@ -225,7 +227,7 @@
 
 <!-- Content Logical Definition heading in the fragment -->
   <h3>Logical Definition (CLD)</h3>
-<div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet KLNursingInterventionsFSIII</b></p><a name="KLNursingInterventionsFSIII"> </a><a name="hcKLNursingInterventionsFSIII"> </a><a name="KLNursingInterventionsFSIII-en-US"> </a><p>This value set includes codes based on the following rules:</p>
+<div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"></p><a name="KLNursingInterventionsFSIII"> </a><a name="hcKLNursingInterventionsFSIII"> </a><p>This value set includes codes based on the following rules:</p>
 <ul><li>Include codes from<a href="CodeSystem-FSIII.html"><code>urn:oid:1.2.208.176.2.21</code></a> where concept  descends from <a href="CodeSystem-FSIII.html#FSIII-993d8f7b-fbed-4a78-90d9-6efbfa835114">993d8f7b-fbed-4a78-90d9-6efbfa835114</a></li>
 <li>Include codes from<a href="CodeSystem-FSIII.html"><code>urn:oid:1.2.208.176.2.21</code></a> where concept  descends from <a href="CodeSystem-FSIII.html#FSIII-ff47f955-3179-446f-b211-dc29de9456e3">ff47f955-3179-446f-b211-dc29de9456e3</a></li>
 <li>Include codes from<a href="CodeSystem-FSIII.html"><code>urn:oid:1.2.208.176.2.21</code></a> where concept  descends from <a href="CodeSystem-FSIII.html#FSIII-G1">G1</a></li>
@@ -235,7 +237,7 @@
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet </b></p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-FSIII.html">codesystem FSIII v2.2.0 (CodeSystem)</a></p><p>This value set contains 104 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-urn:oid:1.2.208.176.2.21-0204a44a-29ca-4ac0-9f08-a8dcb35b44d9"> </a>  <a href="CodeSystem-FSIII.html#FSIII-0204a44a-29ca-4ac0-9f08-a8dcb35b44d9">0204a44a-29ca-4ac0-9f08-a8dcb35b44d9</a></td><td>urn:oid:1.2.208.176.2.21</td><td>Vejledning</td><td><div><p>Indsatsen omfatter typisk samtale om, hvordan borgeren kan håndtere og agere ift. fysiske, psykiske, sociale og åndelige potentielle og/eller aktuelle tilstande, fx hvordan borgeren søger kommunale indsatser, eller hvordan konflikter kan håndteres.</p>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"/><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on <a href="CodeSystem-FSIII.html">codesystem FSIII v2.3.0 (CodeSystem)</a></p><p>This value set contains 104 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-urn:oid:1.2.208.176.2.21-0204a44a-29ca-4ac0-9f08-a8dcb35b44d9"> </a>  <a href="CodeSystem-FSIII.html#FSIII-0204a44a-29ca-4ac0-9f08-a8dcb35b44d9">0204a44a-29ca-4ac0-9f08-a8dcb35b44d9</a></td><td>urn:oid:1.2.208.176.2.21</td><td>Vejledning</td><td><div><p>Indsatsen omfatter typisk samtale om, hvordan borgeren kan håndtere og agere ift. fysiske, psykiske, sociale og åndelige potentielle og/eller aktuelle tilstande, fx hvordan borgeren søger kommunale indsatser, eller hvordan konflikter kan håndteres.</p>
 </div></td></tr><tr><td style="white-space:nowrap"><a name="x-urn:oid:1.2.208.176.2.21-4374f01c-494b-4fc6-9d95-a0022fa515cf"> </a>  <a href="CodeSystem-FSIII.html#FSIII-4374f01c-494b-4fc6-9d95-a0022fa515cf">4374f01c-494b-4fc6-9d95-a0022fa515cf</a></td><td>urn:oid:1.2.208.176.2.21</td><td>Psykiatrisk pleje</td><td><div><p>Indsatsen omfatter typisk opbygning af relation, støtte til at få praktisk og mental struktur i dagligdagen, fx til håndtering og accept af psykiatriske symptomer, diagnoser, behandling og afledte problemer.</p>
 </div></td></tr><tr><td style="white-space:nowrap"><a name="x-urn:oid:1.2.208.176.2.21-476708f4-505d-4575-9e1f-e9dadb7d7759"> </a>  <a href="CodeSystem-FSIII.html#FSIII-476708f4-505d-4575-9e1f-e9dadb7d7759">476708f4-505d-4575-9e1f-e9dadb7d7759</a></td><td>urn:oid:1.2.208.176.2.21</td><td>Psykisk støtte</td><td><div><p>Indsatsen omfatter typisk støtte til at mestre dagligdagen, bevare livskvalitet, forbedre mulighederne for livsudfoldelse og forebygge forværring.</p>
 </div></td></tr><tr><td style="white-space:nowrap"><a name="x-urn:oid:1.2.208.176.2.21-61bbabf0-40a9-4e4c-ae73-5eea09928299"> </a>  <a href="CodeSystem-FSIII.html#FSIII-61bbabf0-40a9-4e4c-ae73-5eea09928299">61bbabf0-40a9-4e4c-ae73-5eea09928299</a></td><td>urn:oid:1.2.208.176.2.21</td><td>Behandling med ortopædiske hjælpemidler</td><td><div><p>Indsatsen omfatter typisk fx anlæggelse af og støtte til brug af ordinerede arm-, ben- og knæskinner, armslynger og korsetter.</p>
@@ -408,7 +410,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://kl.dk">Kommunernes Landsforening</a>.  Package kl.dk.fhir.term#2.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 31, 2024 13:18+0100">2024-10-31</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://kl.dk">Kommunernes Landsforening</a>.  Package kl.dk.fhir.term#2.3.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 21, 2025 08:46+0200">2025-08-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

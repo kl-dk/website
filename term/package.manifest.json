@@ -1,6 +1,6 @@
 {
-  "version" : "2.2.0",
+  "version" : "2.3.0",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20241031131815",
+  "date" : "20250821084607",
   "name" : "kl.dk.fhir.term"
 }

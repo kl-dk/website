@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "4fbe26cd-bd23-436e-80b6-e79c73ebee4b-71",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4fbe26cd-bd23-436e-80b6-e79c73ebee4b-71",
+  "name" : "UnionKLConditionOCodesFFBAndKLConditionOCodesFFB",
+  "title" : "Union of KLTilstandOKoderFFB And KLTilstandOKoderFFB",
+  "status" : "active",
+  "date" : "2025-08-21T08:47:01+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "7445fb2b-0009-43d9-b49b-1b9782f2fcd9"
+      }]
+    }]
+  }
+}

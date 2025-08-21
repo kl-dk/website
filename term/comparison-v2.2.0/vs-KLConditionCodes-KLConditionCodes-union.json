@@ -1,0 +1,26 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "4fbe26cd-bd23-436e-80b6-e79c73ebee4b-47",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4fbe26cd-bd23-436e-80b6-e79c73ebee4b-47",
+  "name" : "UnionKLConditionCodesAndKLConditionCodes",
+  "title" : "Union of KLTilstandKoder And KLTilstandKoder",
+  "status" : "active",
+  "date" : "2025-08-21T08:47:01+02:00",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLConditionCodesHomeCare"]
+    },
+    {
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLConditionCodesNursing"]
+    },
+    {
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLConditionCodesTheraphy"]
+    },
+    {
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLConditionCodesPrevention"]
+    },
+    {
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLConditionCodesFFB"]
+    }]
+  }
+}

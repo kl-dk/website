@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b9566db0-f450-4eab-a77e-2caa6af756e3-149",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b9566db0-f450-4eab-a77e-2caa6af756e3-149",
+  "name" : "UnionKLPerformanceLevelCodesFSIIIAndKLPerformanceLevelCodesFSIII",
+  "title" : "Union of KLUdførelsesKoderFSIII And KLUdførelsesKoderFSIII",
+  "status" : "active",
+  "date" : "2025-08-21T08:43:24+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "d6d48a71-b96f-4b88-86f9-b13bd3c03560"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "C"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b9566db0-f450-4eab-a77e-2caa6af756e3-144",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b9566db0-f450-4eab-a77e-2caa6af756e3-144",
+  "name" : "IntersectionKLNursingInterventionsFSIIIAndKLNursingInterventionsFSIII",
+  "title" : "Intersection of KLSygeplejeIndsatserFSIII And KLSygeplejeIndsatserFSIII",
+  "status" : "active",
+  "date" : "2025-08-21T08:43:24+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "993d8f7b-fbed-4a78-90d9-6efbfa835114"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "ff47f955-3179-446f-b211-dc29de9456e3"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "G1"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "G2"
+      }]
+    }]
+  }
+}

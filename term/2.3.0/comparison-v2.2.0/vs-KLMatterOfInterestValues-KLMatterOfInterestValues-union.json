@@ -1,0 +1,24 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b9566db0-f450-4eab-a77e-2caa6af756e3-134",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b9566db0-f450-4eab-a77e-2caa6af756e3-134",
+  "name" : "UnionKLMatterOfInterestValuesAndKLMatterOfInterestValues",
+  "title" : "Union of KLIngenOplysningerKoder And KLIngenOplysningerKoder",
+  "status" : "active",
+  "date" : "2025-08-21T08:43:24+02:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "d7ff926a-4955-478f-b300-0b0ec0785013"
+      },
+      {
+        "code" : "B6"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "2254dac8-8aa3-4334-8502-9720194f49ad"
+      }]
+    }]
+  }
+}

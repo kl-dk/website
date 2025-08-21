@@ -7,16 +7,16 @@
       "canonical" : "http://fhir.kl.dk/term",
       "category" : "Terminology",
       "ci-build" : "http://build.fhir.org/ig/hl7dk/kl-term/",
-      "version-count" : 5,
+      "version-count" : 6,
       "latest" : {
-        "version" : "2.2.0",
-        "date" : "2024-10-31",
-        "path" : "http://fhir.kl.dk/term/2.2.0"
+        "version" : "2.3.0",
+        "date" : "2025-08-21",
+        "path" : "http://fhir.kl.dk/term/2.3.0"
       },
       "milestone" : {
-        "version" : "2.2.0",
-        "date" : "2024-10-31",
-        "path" : "http://fhir.kl.dk/term/2.2.0"
+        "version" : "2.3.0",
+        "date" : "2025-08-21",
+        "path" : "http://fhir.kl.dk/term/2.3.0"
       }
     },
     {

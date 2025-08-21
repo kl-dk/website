@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes",
-      "version" : "2.2.0",
+      "version" : "2.3.0",
       "status" : "active",
       "name" : "CareSocialCodes",
       "title" : "CareSocialCodes",
@@ -10,15 +10,15 @@
       "uses" : {
       },
       "ValueSet-KLEncounterTypes.html" : "KLKontaktTyper",
-      "ValueSet-KLGoalTypeCodes.html" : "KLMålKategoriKoder",
-      "ValueSet-KLTargetMeasureCodes.html" : "KLTypeAfObservationPåMål",
-      "ValueSet-CancellationTypes.html" : "CancellationTypes",
-      "ValueSet-KLCarePlanCategoryCodes.html" : "KLIndsatsforløbTypekoder",
-      "ValueSet-KLInformationGatheringTypeCodes.html" : "KLOplysningsaktivitetsTypeKoder",
-      "ValueSet-KLServicesTypes.html" : "KLServiceTyper",
       "ValueSet-KLEvaluationTypeCodes.html" : "KLVurderingTypekoder",
+      "ValueSet-CancellationTypes.html" : "CancellationTypes",
+      "ValueSet-KLServicesTypes.html" : "KLServiceTyper",
       "ValueSet-KLConsentToLiasing.html" : "KLBorgerIndforståetMedHenvendelseKoder",
-      "ValueSet-KLMatterOfInterestInformerFFB.html" : "KLKildeTilOplysningFFB"
+      "ValueSet-KLGoalTypeCodes.html" : "KLMålKategoriKoder",
+      "ValueSet-KLInformationGatheringTypeCodes.html" : "KLOplysningsaktivitetsTypeKoder",
+      "ValueSet-KLCarePlanCategoryCodes.html" : "KLIndsatsforløbTypekoder",
+      "ValueSet-KLMatterOfInterestInformerFFB.html" : "KLKildeTilOplysningFFB",
+      "ValueSet-KLTargetMeasureCodes.html" : "KLTypeAfObservationPåMål"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -36,7 +36,7 @@
     },
     {
       "url" : "urn:oid:1.2.208.176.2.1",
-      "version" : "2.2.0",
+      "version" : "2.3.0",
       "status" : "active",
       "name" : "NPU",
       "title" : "NPU",
@@ -48,7 +48,7 @@
     },
     {
       "url" : "urn:oid:1.2.208.176.2.21",
-      "version" : "2.2.0",
+      "version" : "2.3.0",
       "status" : "active",
       "name" : "FSIII",
       "title" : "FSIII",
@@ -56,31 +56,31 @@
       "oids" : ["1.2.208.176.2.21"],
       "uses" : {
       },
-      "ValueSet-KLTheraphyAreasFSIII.html" : "KLTræningOmråderFSIII",
-      "ValueSet-KLTrainingInterventionsFSIII.html" : "KLTræningIndsatserFSIII",
-      "ValueSet-KLGeneralInformationFSIII.html" : "KLGenerelInformationFSIII",
-      "ValueSet-KLRequestFromFSIII.html" : "KLHenvendelseHenvisningFraFSIII",
-      "ValueSet-KLConditionCodesNursing.html" : "KLTilstandeKoderSygepleje",
-      "ValueSet-KLHomeCareInterventionsFSIII.html" : "KLHjemmeplejeIndsatserFSIII",
       "ValueSet-KLConditionCodesPrevention.html" : "KLTilstandKoderForebyggelse",
-      "ValueSet-KLFollowUpCodesFSIII.html" : "KLOpfølgningKoderFSIII",
-      "ValueSet-KLNursingAreasFSIII.html" : "KLSygeplejeOmråderFSIII",
-      "ValueSet-KLCitizenObservationCodesFSIII.html" : "KLBorgervurderingsObservationskoderFSIII",
       "ValueSet-KLPreventionAreasFSIII.html" : "KLForebyggelseOmråderFSIII",
-      "ValueSet-KLSeveritiesFSIII.html" : "KLFunktionsevneniveauFSIII",
-      "ValueSet-KLHomeCareAreasFSIII.html" : "KLHjemmeplejeOmråderFSIII",
-      "ValueSet-KLMatterOfInterestValues.html" : "KLIngenOplysningerKoder",
+      "ValueSet-KLCitizenObservationCodesFSIII.html" : "KLBorgervurderingsObservationskoderFSIII",
+      "ValueSet-KLHomeCareInterventionsFSIII.html" : "KLHjemmeplejeIndsatserFSIII",
+      "ValueSet-KLRequestFromFSIII.html" : "KLHenvendelseHenvisningFraFSIII",
       "ValueSet-KLNursingInterventionsFSIII.html" : "KLSygeplejeIndsatserFSIII",
+      "ValueSet-KLNursingAreasFSIII.html" : "KLSygeplejeOmråderFSIII",
       "ValueSet-KLPerformanceLevelCodesFSIII.html" : "KLUdførelsesKoderFSIII",
-      "ValueSet-KLConditionCodesTheraphy.html" : "KLTilstandKoderTræning",
-      "ValueSet-KLChangeValueCodesFSIII.html" : "KLMåltypeKoderFSIII",
+      "ValueSet-KLTheraphyAreasFSIII.html" : "KLTræningOmråderFSIII",
       "ValueSet-KLImportanceLevelCodesFSIII.html" : "KLBetydningKoderFSIII",
       "ValueSet-KLPreventionInterventionsFSIII.html" : "KLForebyggelseIndsatserFSIII",
-      "ValueSet-KLConditionCodesHomeCare.html" : "KLTilstandeKoderHjemmepleje"
+      "ValueSet-KLConditionCodesHomeCare.html" : "KLTilstandeKoderHjemmepleje",
+      "ValueSet-KLConditionCodesNursing.html" : "KLTilstandeKoderSygepleje",
+      "ValueSet-KLHomeCareAreasFSIII.html" : "KLHjemmeplejeOmråderFSIII",
+      "ValueSet-KLGeneralInformationFSIII.html" : "KLGenerelInformationFSIII",
+      "ValueSet-KLSeveritiesFSIII.html" : "KLFunktionsevneniveauFSIII",
+      "ValueSet-KLChangeValueCodesFSIII.html" : "KLMåltypeKoderFSIII",
+      "ValueSet-KLTrainingInterventionsFSIII.html" : "KLTræningIndsatserFSIII",
+      "ValueSet-KLConditionCodesTheraphy.html" : "KLTilstandKoderTræning",
+      "ValueSet-KLMatterOfInterestValues.html" : "KLIngenOplysningerKoder",
+      "ValueSet-KLFollowUpCodesFSIII.html" : "KLOpfølgningKoderFSIII"
     },
     {
       "url" : "urn:oid:1.2.208.176.2.22",
-      "version" : "2.2.0",
+      "version" : "2.3.0",
       "status" : "active",
       "name" : "FFB",
       "title" : "FFB",
@@ -89,17 +89,17 @@
       "uses" : {
       },
       "ValueSet-KLChangeValueCodesFFB.html" : "KLMåltypekoderFFB",
-      "ValueSet-KLMatterOfInterestValues.html" : "KLIngenOplysningerKoder",
       "ValueSet-KLTargetGroupsFFB.html" : "KLMålgrupperFFB",
-      "ValueSet-KLNeedsAssessmentCodesFFB.html" : "KLStøttebehovsvurderingskoderFFB",
-      "ValueSet-KLServiceCodesFFB.html" : "KLTilbudsKoderFFB",
-      "ValueSet-KLThemesFFB.html" : "KLTemaerFFB",
-      "ValueSet-KLInterventionsFFB.html" : "KLYdelserFFB",
-      "ValueSet-KLConditionOCodesFFB.html" : "KLTilstandOKoderFFB",
       "ValueSet-KLConditionADCodesFFB.html" : "KLTilstandADKoderFFB",
       "ValueSet-KLConditionFFCodesFFB.html" : "KLTilstandFFKoderFFB",
+      "ValueSet-KLServiceCodesFFB.html" : "KLTilbudsKoderFFB",
+      "ValueSet-KLFollowUpCodesFFB.html" : "KLOpfølgningKoderFFB",
+      "ValueSet-KLInterventionsFFB.html" : "KLYdelserFFB",
       "ValueSet-KLSeveritiesFFB.html" : "KLFunktionsevneniveauFFB",
-      "ValueSet-KLFollowUpCodesFFB.html" : "KLOpfølgningKoderFFB"
+      "ValueSet-KLConditionOCodesFFB.html" : "KLTilstandOKoderFFB",
+      "ValueSet-KLNeedsAssessmentCodesFFB.html" : "KLStøttebehovsvurderingskoderFFB",
+      "ValueSet-KLThemesFFB.html" : "KLTemaerFFB",
+      "ValueSet-KLMatterOfInterestValues.html" : "KLIngenOplysningerKoder"
     }
   ]
 }

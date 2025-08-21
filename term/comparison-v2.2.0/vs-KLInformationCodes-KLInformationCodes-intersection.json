@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "4fbe26cd-bd23-436e-80b6-e79c73ebee4b-114",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4fbe26cd-bd23-436e-80b6-e79c73ebee4b-114",
+  "name" : "IntersectionKLInformationCodesAndKLInformationCodes",
+  "title" : "Intersection of KLOplysningKoder And KLOplysningKoder",
+  "status" : "active",
+  "date" : "2025-08-21T08:47:01+02:00",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLGeneralInformationFSIII"]
+    },
+    {
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLNursingAreasFSIII"]
+    },
+    {
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLHomeCareAreasFSIII"]
+    },
+    {
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLTheraphyAreasFSIII"]
+    },
+    {
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLPreventionAreasFSIII"]
+    },
+    {
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLThemesFFB"]
+    }]
+  }
+}

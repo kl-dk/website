@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "4fbe26cd-bd23-436e-80b6-e79c73ebee4b-119",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4fbe26cd-bd23-436e-80b6-e79c73ebee4b-119",
+  "name" : "UnionKLInformationGatheringTypeCodesAndKLInformationGatheringTypeCodes",
+  "title" : "Union of KLOplysningsaktivitetsTypeKoder And KLOplysningsaktivitetsTypeKoder",
+  "status" : "active",
+  "date" : "2025-08-21T08:47:01+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "940f37e6-8a3d-483b-adac-be8af3268a5b"
+      }]
+    }]
+  }
+}

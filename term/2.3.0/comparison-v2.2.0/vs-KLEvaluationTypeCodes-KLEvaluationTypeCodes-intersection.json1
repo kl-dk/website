@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b9566db0-f450-4eab-a77e-2caa6af756e3-84",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b9566db0-f450-4eab-a77e-2caa6af756e3-84",
+  "name" : "IntersectionKLEvaluationTypeCodesAndKLEvaluationTypeCodes",
+  "title" : "Intersection of KLVurderingTypekoder And KLVurderingTypekoder",
+  "status" : "active",
+  "date" : "2025-08-21T08:43:24+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "95ec4535-8fe8-4296-867c-35de421794cf"
+      }]
+    }]
+  }
+}

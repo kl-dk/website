@@ -3,12 +3,11 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="CareSocialCodes"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem CareSocialCodes</b></p><a name="CareSocialCodes"> </a><a name="hcCareSocialCodes"> </a><a name="CareSocialCodes-en-US"> </a><p>This case-sensitive code system <code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code> defines the following codes in a Is-A hierarchy:</p><table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>1</td><td style="white-space:nowrap">95ec4535-8fe8-4296-867c-35de421794cf<a name="CareSocialCodes-95ec4535-8fe8-4296-867c-35de421794cf"> </a></td><td>evaluering</td><td><div><p>evaluering</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem CareSocialCodes</b></p><a name="CareSocialCodes"> </a><a name="hcCareSocialCodes"> </a><p>This case-sensitive code system <code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code> defines the following codes in a Is-A hierarchy:</p><table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>1</td><td style="white-space:nowrap">95ec4535-8fe8-4296-867c-35de421794cf<a name="CareSocialCodes-95ec4535-8fe8-4296-867c-35de421794cf"> </a></td><td>evaluering</td><td><div><p>evaluering</p>
 </div></td></tr><tr><td>2</td><td style="white-space:nowrap">  effe55c7-572c-4a99-8fb4-2a9dda2f6572<a name="CareSocialCodes-effe55c7-572c-4a99-8fb4-2a9dda2f6572"> </a></td><td>FFB støttebehovsvurdering</td><td><div><p>Angiver, hvor stort et behov borgeren har for hjælp og støtte.</p>
 </div></td></tr><tr><td>2</td><td style="white-space:nowrap">  053a301d-1bb8-4cc4-b781-87825ecf0ef8<a name="CareSocialCodes-053a301d-1bb8-4cc4-b781-87825ecf0ef8"> </a></td><td>FFB vurdering af borgers situation</td><td><div><p>Vurdering der sammenholder oplysninger fra udredning mhp en samlet faglig analyse og konklusion.</p>
 </div></td></tr><tr><td>2</td><td style="white-space:nowrap">  3f7a8ca0-afca-4b0d-8773-a99b5f2f8aaf<a name="CareSocialCodes-3f7a8ca0-afca-4b0d-8773-a99b5f2f8aaf"> </a></td><td>VUM Borgerens perspektiv på indsatsen</td><td><div><p>VUM Borgerens perspektiv på indsatsen</p>
 </div></td></tr><tr><td>2</td><td style="white-space:nowrap">  f52887de-023f-4193-b6b0-4b0a37b1cffc<a name="CareSocialCodes-f52887de-023f-4193-b6b0-4b0a37b1cffc"> </a></td><td>VUM Borgerens ressourcer i forhold til indsatsen</td><td><div><p>VUM Borgerens ressourcer i forhold til indsatsen</p>
-</div></td></tr><tr><td>2</td><td style="white-space:nowrap">  54c4ffea-7caf-4edc-8aa9-ef6e0be26c4c<a name="CareSocialCodes-54c4ffea-7caf-4edc-8aa9-ef6e0be26c4c"> </a></td><td>FSIII helhedsvurdering</td><td><div><p>Sagsvurdering, der sammenholder resultaterne af en myndighedsudredning og den øvrige sagsoplysning med henblik på at træffe en afgørelse</p>
 </div></td></tr><tr><td>1</td><td style="white-space:nowrap">7b41185e-eeb4-437d-8120-5d51bbd27a79<a name="CareSocialCodes-7b41185e-eeb4-437d-8120-5d51bbd27a79"> </a></td><td>Indsats/ydelses-anmodning</td><td><div><p>Indsats/ydelses-anmodning</p>
 </div></td></tr><tr><td>2</td><td style="white-space:nowrap">  4a297733-4d66-4726-a933-590d55cf91e0<a name="CareSocialCodes-4a297733-4d66-4726-a933-590d55cf91e0"> </a></td><td>Social indsats</td><td><div><p>Der anmodes om en social indsats</p>
 </div></td></tr><tr><td>2</td><td style="white-space:nowrap">  ad865929-7363-4b2d-a271-01993181fbaf<a name="CareSocialCodes-ad865929-7363-4b2d-a271-01993181fbaf"> </a></td><td>Kommunal pleje og omsorg</td><td><div><p>Der anmodes om kommunal pleje og omsorg fx hjemmepleje til ældre borger.</p>
@@ -50,9 +49,9 @@
 </div></td></tr><tr><td>2</td><td style="white-space:nowrap">  f8ebd11a-04f3-4aa0-9786-406e8896c84d<a name="CareSocialCodes-f8ebd11a-04f3-4aa0-9786-406e8896c84d"> </a></td><td>socialfaglig udredning, VUM/FFB</td><td><div><p>udførelse af socialfaglig udredning som specificeret af VUM og FFB</p>
 </div></td></tr><tr><td>2</td><td style="white-space:nowrap">  47fd1468-89da-4803-9d7a-ecc039a30d92<a name="CareSocialCodes-47fd1468-89da-4803-9d7a-ecc039a30d92"> </a></td><td>sygeplejefaglig udredning, FSIII</td><td><div><p>udførelse af sygeplejefaglig udredning jævnfør FSIII</p>
 </div></td></tr><tr><td>2</td><td style="white-space:nowrap">  0f0f223c-abe3-4720-aab8-c257679a0a4e<a name="CareSocialCodes-0f0f223c-abe3-4720-aab8-c257679a0a4e"> </a></td><td>terapeutfaglig udredning, FSIII</td><td><div><p>udførelse af terapeutfaglig udredning jævnfør FSIII</p>
-</div></td></tr><tr><td>2</td><td style="white-space:nowrap">  e70c66c0-a939-493b-8ea8-5b7e7b48ba1a<a name="CareSocialCodes-e70c66c0-a939-493b-8ea8-5b7e7b48ba1a"> </a></td><td>generelle oplysninger, FSIII</td><td><div><p>indhentning af generelle oplysninger jævnfør FSIII</p>
 </div></td></tr><tr><td>1</td><td style="white-space:nowrap">10deb210-e7e1-4d56-9531-b9ff2102126e<a name="CareSocialCodes-10deb210-e7e1-4d56-9531-b9ff2102126e"> </a></td><td>Planlagt indsatsforløb</td><td><div><p>Planlagt indsatsforløb</p>
 </div></td></tr><tr><td>2</td><td style="white-space:nowrap">  e459386d-1474-4c31-89c5-c8bc7a25e3d4<a name="CareSocialCodes-e459386d-1474-4c31-89c5-c8bc7a25e3d4"> </a></td><td>Social indsats</td><td><div><p>Det planlagte indsatsforløb er en social indsats, som defineret af FFB, med tilhørende ydelser, målgruppe og tilbud</p>
+</div></td></tr><tr><td>2</td><td style="white-space:nowrap">  01302bcb-c7f3-42c4-8ded-68e33da064eb<a name="CareSocialCodes-01302bcb-c7f3-42c4-8ded-68e33da064eb"> </a></td><td>Lettilgængelige tilbud til børn og unge i psykisk mistrivsel</td><td><div><p>Forløbskode for lettilgængelige tilbud til børn og unge i psykisk mistrivsel.</p>
 </div></td></tr><tr><td>2</td><td style="white-space:nowrap">  4fd6c23a-6ff3-4251-ac37-3ca095027b5b<a name="CareSocialCodes-4fd6c23a-6ff3-4251-ac37-3ca095027b5b"> </a></td><td>Kommunal Sundhedsfremme og forebyggelse</td><td><div><p>Det planlagte indsatsforløb vedrører sundhedsfremme og forebyggelse efter §119.</p>
 </div></td></tr><tr><td>3</td><td style="white-space:nowrap">    9791e55a-656f-47eb-8fd5-c4a06b0a4662<a name="CareSocialCodes-9791e55a-656f-47eb-8fd5-c4a06b0a4662"> </a></td><td>Opfølgningsforløb efter §119</td><td><div><p>Planlagt indsatsforløb der består af opfølgningsindsatser. Anvendes hvis der i forvejen planlægges opfølgning ved flere forskellige lejligheder fx efter 2,4 og 6 måneder.</p>
 </div></td></tr><tr><td>3</td><td style="white-space:nowrap">    5c160c02-e858-4c1f-925a-71ed64844749<a name="CareSocialCodes-5c160c02-e858-4c1f-925a-71ed64844749"> </a></td><td>Interventionsforløb efter §119</td><td><div><p>Et planlagt §119 indsatsforløb, som udelukkende indeholder interventioner, og som leveres samlet. Med interventioner menes indsatser, der søger at forbedre borgers tilstand. For §119 kunne et interventionsforløb fx være et KOL-træningshold der indeholder indsatserne fysisk træning og funktionstræning.</p>
@@ -93,15 +92,18 @@
 </div></td></tr><tr><td>3</td><td style="white-space:nowrap">    a3f2bd01-078b-486e-81be-797d192ad7bd<a name="CareSocialCodes-a3f2bd01-078b-486e-81be-797d192ad7bd"> </a></td><td>Aktivt fravalg pga. anden træning</td><td><div><p>Borger har behov, men har foretaget et aktivt fravalg fordi han/hun er påbegyndt træning i andet regi fx fitnesscenter</p>
 </div></td></tr><tr><td>3</td><td style="white-space:nowrap">    0cd5734d-b663-47c6-a3da-6b14a937d144<a name="CareSocialCodes-0cd5734d-b663-47c6-a3da-6b14a937d144"> </a></td><td>Aktivt fravalg pga. anden sygdom</td><td><div><p>Borger har behov, men har foretaget et aktivt fravalg pga. anden sygdom</p>
 </div></td></tr><tr><td>3</td><td style="white-space:nowrap">    f8436c2e-af1c-44fe-939d-473b518dd01d<a name="CareSocialCodes-f8436c2e-af1c-44fe-939d-473b518dd01d"> </a></td><td>Aktivt fravalg pga. økonomi ifm. transport</td><td><div><p>Borger har behov, men har foretaget et aktivt fravalg pga. den omkostning der er forbundet med transport til det sted indsatsen tilbydes</p>
+</div></td></tr><tr><td>1</td><td style="white-space:nowrap">880028ec-5f16-4242-ba53-57a902094d5b<a name="CareSocialCodes-880028ec-5f16-4242-ba53-57a902094d5b"> </a></td><td>Deltagere i kontakt</td><td><div><p>Deltagere i kontakt</p>
+</div></td></tr><tr><td>2</td><td style="white-space:nowrap">  ca228a58-bd0e-4b0e-81ce-3866adc26535<a name="CareSocialCodes-ca228a58-bd0e-4b0e-81ce-3866adc26535"> </a></td><td>Barn/ung deltager</td><td><div><p>Behandler og barn/ung i målgruppen (5-17år) og evt. forældre, værger el.lign. er til stede. Barnet/den unge er genstand for journaloptagelsen.</p>
+</div></td></tr><tr><td>2</td><td style="white-space:nowrap">  d3578249-10df-4051-851d-3986b1570bee<a name="CareSocialCodes-d3578249-10df-4051-851d-3986b1570bee"> </a></td><td>Omsorgsperson uden barn/ung</td><td><div><p>Behandling hvor kun behandler og forældre, værger el.lign. til barn/ung er til stede. Barnet/den unge er genstand for journalen.</p>
 </div></td></tr></table></div>
   </text>
   <url value="http://fhir.kl.dk/term/CodeSystem/CareSocialCodes"/>
-  <version value="2.2.0"/>
+  <version value="2.3.0"/>
   <name value="CareSocialCodes"/>
   <title value="CareSocialCodes"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-10-31T13:18:46+01:00"/>
+  <date value="2025-08-21T08:46:07+02:00"/>
   <publisher value="Kommunernes Landsforening"/>
   <contact>
     <name value="Kommunernes Landsforening"/>
@@ -137,11 +139,6 @@
       <code value="f52887de-023f-4193-b6b0-4b0a37b1cffc"/>
       <display value="VUM Borgerens ressourcer i forhold til indsatsen"/>
       <definition value="VUM Borgerens ressourcer i forhold til indsatsen"/>
-    </concept>
-    <concept>
-      <code value="54c4ffea-7caf-4edc-8aa9-ef6e0be26c4c"/>
-      <display value="FSIII helhedsvurdering"/>
-      <definition value="Sagsvurdering, der sammenholder resultaterne af en myndighedsudredning og den øvrige sagsoplysning med henblik på at træffe en afgørelse"/>
     </concept>
   </concept>
   <concept>
@@ -348,11 +345,6 @@
       <display value="terapeutfaglig udredning, FSIII"/>
       <definition value="udførelse af terapeutfaglig udredning jævnfør FSIII"/>
     </concept>
-    <concept>
-      <code value="e70c66c0-a939-493b-8ea8-5b7e7b48ba1a"/>
-      <display value="generelle oplysninger, FSIII"/>
-      <definition value="indhentning af generelle oplysninger jævnfør FSIII"/>
-    </concept>
   </concept>
   <concept>
     <code value="10deb210-e7e1-4d56-9531-b9ff2102126e"/>
@@ -362,6 +354,11 @@
       <code value="e459386d-1474-4c31-89c5-c8bc7a25e3d4"/>
       <display value="Social indsats"/>
       <definition value="Det planlagte indsatsforløb er en social indsats, som defineret af FFB, med tilhørende ydelser, målgruppe og tilbud"/>
+    </concept>
+    <concept>
+      <code value="01302bcb-c7f3-42c4-8ded-68e33da064eb"/>
+      <display value="Lettilgængelige tilbud til børn og unge i psykisk mistrivsel"/>
+      <definition value="Forløbskode for lettilgængelige tilbud til børn og unge i psykisk mistrivsel."/>
     </concept>
     <concept>
       <code value="4fd6c23a-6ff3-4251-ac37-3ca095027b5b"/>
@@ -557,6 +554,21 @@
         <display value="Aktivt fravalg pga. økonomi ifm. transport"/>
         <definition value="Borger har behov, men har foretaget et aktivt fravalg pga. den omkostning der er forbundet med transport til det sted indsatsen tilbydes"/>
       </concept>
+    </concept>
+  </concept>
+  <concept>
+    <code value="880028ec-5f16-4242-ba53-57a902094d5b"/>
+    <display value="Deltagere i kontakt"/>
+    <definition value="Deltagere i kontakt"/>
+    <concept>
+      <code value="ca228a58-bd0e-4b0e-81ce-3866adc26535"/>
+      <display value="Barn/ung deltager"/>
+      <definition value="Behandler og barn/ung i målgruppen (5-17år) og evt. forældre, værger el.lign. er til stede. Barnet/den unge er genstand for journaloptagelsen."/>
+    </concept>
+    <concept>
+      <code value="d3578249-10df-4051-851d-3986b1570bee"/>
+      <display value="Omsorgsperson uden barn/ung"/>
+      <definition value="Behandling hvor kun behandler og forældre, værger el.lign. til barn/ung er til stede. Barnet/den unge er genstand for journalen."/>
     </concept>
   </concept>
 </CodeSystem>

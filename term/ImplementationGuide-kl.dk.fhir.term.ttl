@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,14 +11,14 @@
   fhir:id [ fhir:v "kl.dk.fhir.term"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide kl.dk.fhir.term</b></p><a name=\"kl.dk.fhir.term\"> </a><a name=\"hckl.dk.fhir.term\"> </a><a name=\"kl.dk.fhir.term-en-US\"> </a><h2>KLTerm</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.kl.dk/term/ImplementationGuide/kl.dk.fhir.term</pre></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide kl.dk.fhir.term</b></p><a name=\"kl.dk.fhir.term\"> </a><a name=\"hckl.dk.fhir.term\"> </a><h2>KLTerm</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.kl.dk/term/ImplementationGuide/kl.dk.fhir.term</pre></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://fhir.kl.dk/term/ImplementationGuide/kl.dk.fhir.term"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "2.2.0"] ; # 
+  fhir:version [ fhir:v "2.3.0"] ; # 
   fhir:name [ fhir:v "KLTerm"] ; # 
   fhir:title [ fhir:v "KL Terminologi"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-10-31T13:18:46+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-21T08:46:07+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Kommunernes Landsforening"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Kommunernes Landsforening" ] ;
@@ -33,540 +34,888 @@
      fhir:id [ fhir:v "hl7tx" ] ;
      fhir:extension ( [
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "Automatically added as a dependency - all IGs depend on HL7 Terminology" ]
+       fhir:value [
+         a fhir:markdown ;
+         fhir:v "Automatically added as a dependency - all IGs depend on HL7 Terminology"
+       ]
      ] ) ;
      fhir:uri [
        fhir:v "http://terminology.hl7.org/ImplementationGuide/hl7.terminology"^^xsd:anyURI ;
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "6.0.2" ]
+     fhir:version [ fhir:v "6.5.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack" ]
+       fhir:value [
+         a fhir:markdown ;
+         fhir:v "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
+       ]
      ] ) ;
      fhir:uri [
        fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
-     fhir:version [ fhir:v "5.1.0" ]
+     fhir:version [ fhir:v "5.2.0" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "copyrightyear" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "copyrightyear"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "2022+" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "2022+"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "releaselabel" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "releaselabel"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Release" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Release"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "special-url" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "urn:oid:1.2.208.176.2.21" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "urn:oid:1.2.208.176.2.21"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "special-url" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "urn:oid:1.2.208.176.2.22" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "urn:oid:1.2.208.176.2.22"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "special-url" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "urn:oid:1.2.208.176.2.1" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "urn:oid:1.2.208.176.2.1"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "autoload-resources" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "autoload-resources"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-liquid" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "path-liquid"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "template/liquid" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "template/liquid"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-liquid" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "path-liquid"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "input/liquid" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "input/liquid"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-qa" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "path-qa"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "temp/qa" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "temp/qa"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-temp" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "path-temp"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "temp/pages" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "temp/pages"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-output" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "path-output"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "output" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "output"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-suppressed-warnings" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "path-suppressed-warnings"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "input/ignoreWarnings.txt" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "input/ignoreWarnings.txt"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-history" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "path-history"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://fhir.kl.dk/term/history.html" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "http://fhir.kl.dk/term/history.html"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "template-html" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "template-html"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "template-page.html" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "template-page.html"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "template-md" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "template-md"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "template-page-md.html" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "template-page-md.html"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-contact" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "apply-contact"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-context" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "apply-context"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-copyright" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "apply-copyright"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-jurisdiction" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "apply-jurisdiction"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-license" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "apply-license"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-publisher" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "apply-publisher"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-version" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "apply-version"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-wg" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "apply-wg"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "active-tables" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "active-tables"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "fmm-definition" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "fmm-definition"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://hl7.org/fhir/versions.html#maturity" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "http://hl7.org/fhir/versions.html#maturity"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "propagate-status" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "propagate-status"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "excludelogbinaryformat" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "excludelogbinaryformat"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "tabbed-snapshots" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "tabbed-snapshots"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "hl7.fhir.uv.tools#0.2.0" ]
+       fhir:value [
+         a fhir:code ;
+         fhir:v "hl7.fhir.uv.tools.r4#0.7.1"
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "copyrightyear" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "copyrightyear"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "2022+" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "2022+"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "releaselabel" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "releaselabel"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Release" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "Release"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "special-url" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "urn:oid:1.2.208.176.2.21" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "urn:oid:1.2.208.176.2.21"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "special-url" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "urn:oid:1.2.208.176.2.22" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "urn:oid:1.2.208.176.2.22"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "special-url" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "urn:oid:1.2.208.176.2.1" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "urn:oid:1.2.208.176.2.1"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "autoload-resources" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "autoload-resources"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-liquid" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "path-liquid"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "template/liquid" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "template/liquid"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-liquid" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "path-liquid"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "input/liquid" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "input/liquid"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-qa" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "path-qa"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "temp/qa" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "temp/qa"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-temp" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "path-temp"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "temp/pages" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "temp/pages"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-output" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "path-output"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "output" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "output"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-suppressed-warnings" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "path-suppressed-warnings"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "input/ignoreWarnings.txt" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "input/ignoreWarnings.txt"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-history" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "path-history"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://fhir.kl.dk/term/history.html" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "http://fhir.kl.dk/term/history.html"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "template-html" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "template-html"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "template-page.html" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "template-page.html"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "template-md" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "template-md"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "template-page-md.html" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "template-page-md.html"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-contact" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "apply-contact"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-context" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "apply-context"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-copyright" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "apply-copyright"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-jurisdiction" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "apply-jurisdiction"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-license" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "apply-license"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-publisher" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "apply-publisher"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-version" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "apply-version"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "apply-wg" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "apply-wg"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "active-tables" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "active-tables"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "fmm-definition" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "fmm-definition"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://hl7.org/fhir/versions.html#maturity" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "http://hl7.org/fhir/versions.html#maturity"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "propagate-status" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "propagate-status"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "excludelogbinaryformat" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "excludelogbinaryformat"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "tabbed-snapshots" ]
+         fhir:value [
+           a fhir:code ;
+           fhir:v "tabbed-snapshots"
+         ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "true" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "true"
+         ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] ) ;
      fhir:resource ( [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/CancellationTypes> ;
@@ -574,11 +923,17 @@
        ] ;
        fhir:name [ fhir:v "CancellationTypes" ] ;
        fhir:description [ fhir:v "Cancellation valueset, to be implemented in KL-term and FKI" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/CodeSystem/CareSocialCodes> ;
@@ -586,11 +941,17 @@
        ] ;
        fhir:name [ fhir:v "CareSocialCodes" ] ;
        fhir:description [ fhir:v "Administrative/technical codes in Local Govenment Denmark (KL), associated with common use cases across areas or kl-core" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/CodeSystem/FBOE> ;
@@ -598,11 +959,17 @@
        ] ;
        fhir:name [ fhir:v "FBOE" ] ;
        fhir:description [ fhir:v "Concepts used for standardizing documentation for Danish postpartum nursing/childrens health promotion program in schools (Da: Sundhedsplejen). The concepts are utilized in the National Database for Children and Youth (LDBU)." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/CodeSystem/FFB> ;
@@ -610,11 +977,17 @@
        ] ;
        fhir:name [ fhir:v "FFB" ] ;
        fhir:description [ fhir:v "Codes from FFB" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/CodeSystem/FSIII> ;
@@ -622,11 +995,17 @@
        ] ;
        fhir:name [ fhir:v "FSIII" ] ;
        fhir:description [ fhir:v "Codes from FSIII" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLImportanceLevelCodesFSIII> ;
@@ -634,11 +1013,17 @@
        ] ;
        fhir:name [ fhir:v "KLBetydningKoderFSIII" ] ;
        fhir:description [ fhir:v "Importance level codes (Betydning), as evaluated by the citizen" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLConsentToLiasing> ;
@@ -646,11 +1031,17 @@
        ] ;
        fhir:name [ fhir:v "KLBorgerIndforståetMedHenvendelseKoder" ] ;
        fhir:description [ fhir:v "Codes for citizens knowledge of referal/request as defined by FFB" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLCitizenObservationCodesFSIII> ;
@@ -658,11 +1049,17 @@
        ] ;
        fhir:name [ fhir:v "KLBorgervurderingsObservationskoderFSIII" ] ;
        fhir:description [ fhir:v "Observation codes for citizens own observations as defined by FSIII" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLCitizenObservationResultCodesFSIII> ;
@@ -670,11 +1067,17 @@
        ] ;
        fhir:name [ fhir:v "KLBorgervurderingsResultatkoderFSIII" ] ;
        fhir:description [ fhir:v "Performance and Importance level codes, as evaluated by the citizen" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLPreventionInterventionsFSIII> ;
@@ -682,11 +1085,17 @@
        ] ;
        fhir:name [ fhir:v "KLForebyggelseIndsatserFSIII" ] ;
        fhir:description [ fhir:v "Prevention and health promotion interventions as defined by FSIII" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLPreventionAreasFSIII> ;
@@ -694,11 +1103,17 @@
        ] ;
        fhir:name [ fhir:v "KLForebyggelseOmråderFSIII" ] ;
        fhir:description [ fhir:v "Prevention areas (observation codes), used for documentation within prevention and health promotion" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLSeveritiesFFB> ;
@@ -706,11 +1121,17 @@
        ] ;
        fhir:name [ fhir:v "KLFunktionsevneniveauFFB" ] ;
        fhir:description [ fhir:v "Severities related to conditions in FFB (funktionsevneniveau)" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLSeveritiesFSIII> ;
@@ -718,11 +1139,17 @@
        ] ;
        fhir:name [ fhir:v "KLFunktionsevneniveauFSIII" ] ;
        fhir:description [ fhir:v "Severities related to conditions in FSIII home care (funktionsniveau)" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLGeneralInformationFSIII> ;
@@ -730,11 +1157,17 @@
        ] ;
        fhir:name [ fhir:v "KLGenerelInformationFSIII" ] ;
        fhir:description [ fhir:v "Generel information codes (observations) as defined by FSIII" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLRequestFromFSIII> ;
@@ -742,11 +1175,17 @@
        ] ;
        fhir:name [ fhir:v "KLHenvendelseHenvisningFraFSIII" ] ;
        fhir:description [ fhir:v "Type of service requesters as defined by FSIII" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLHomeCareInterventionsFSIII> ;
@@ -754,11 +1193,17 @@
        ] ;
        fhir:name [ fhir:v "KLHjemmeplejeIndsatserFSIII" ] ;
        fhir:description [ fhir:v "Home Care Interventions as described by FSIII" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLHomeCareAreasFSIII> ;
@@ -766,11 +1211,17 @@
        ] ;
        fhir:name [ fhir:v "KLHjemmeplejeOmråderFSIII" ] ;
        fhir:description [ fhir:v "Observation codes for the five home care areas as defined by FSIII" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLInterventions> ;
@@ -778,11 +1229,17 @@
        ] ;
        fhir:name [ fhir:v "KLIndsatser" ] ;
        fhir:description [ fhir:v "Interventions as described by FSIII and FFB" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLInterventionsFSIII> ;
@@ -790,11 +1247,17 @@
        ] ;
        fhir:name [ fhir:v "KLIndsatserFSIII" ] ;
        fhir:description [ fhir:v "Interventions as described by FSIII" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLCarePlanCategoryCodes> ;
@@ -802,11 +1265,17 @@
        ] ;
        fhir:name [ fhir:v "KLIndsatsforløbTypekoder" ] ;
        fhir:description [ fhir:v "Codes for constraining the CarePlan category" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLMatterOfInterestValues> ;
@@ -814,11 +1283,17 @@
        ] ;
        fhir:name [ fhir:v "KLIngenOplysningerKoder" ] ;
        fhir:description [ fhir:v "Matter of interest values to support when no observations have been made" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLMatterOfInterestInformerFFB> ;
@@ -826,11 +1301,17 @@
        ] ;
        fhir:name [ fhir:v "KLKildeTilOplysningFFB" ] ;
        fhir:description [ fhir:v "Codes that identify who's perspective the matter-of-interest is comming from" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLComplicationCodesSCT> ;
@@ -838,11 +1319,17 @@
        ] ;
        fhir:name [ fhir:v "KLKomplikationskoderSCT" ] ;
        fhir:description [ fhir:v "Codes that indicate whether an intervention had complications or not" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLEncounterTypes> ;
@@ -850,11 +1337,17 @@
        ] ;
        fhir:name [ fhir:v "KLKontaktTyper" ] ;
        fhir:description [ fhir:v "Encounter types in Danish municipality health, social and elderly care (note that these are specific to this model, they are not replicas of a municipality terminology service)" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/CodeSystem/KLCommonproprietary> ;
@@ -862,11 +1355,17 @@
        ] ;
        fhir:name [ fhir:v "KLLokaleKoder" ] ;
        fhir:description [ fhir:v "Proprietary codes associated with KLCommonCareSocial, partial list, ID's likely to change." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLTargetGroupsFFB> ;
@@ -874,11 +1373,17 @@
        ] ;
        fhir:name [ fhir:v "KLMålgrupperFFB" ] ;
        fhir:description [ fhir:v "Target groups as defined by FFB" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLGoalTypeCodes> ;
@@ -886,11 +1391,17 @@
        ] ;
        fhir:name [ fhir:v "KLMålKategoriKoder" ] ;
        fhir:description [ fhir:v "Codes used to distinguish different kinds of goals" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLChangeValueCodes> ;
@@ -898,11 +1409,17 @@
        ] ;
        fhir:name [ fhir:v "KLMåltypeKoder" ] ;
        fhir:description [ fhir:v "Change values for goals (måltype). Express the target value for change of a condition" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLChangeValueCodesFFB> ;
@@ -910,11 +1427,17 @@
        ] ;
        fhir:name [ fhir:v "KLMåltypekoderFFB" ] ;
        fhir:description [ fhir:v "Change values for goals in FFB (FFB måltype). Express the target value for change of an activity or participation condition" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLChangeValueCodesFSIII> ;
@@ -922,11 +1445,17 @@
        ] ;
        fhir:name [ fhir:v "KLMåltypeKoderFSIII" ] ;
        fhir:description [ fhir:v "Change values for goals in FSIII (FSIII måltype). Express the target value for change of a health condition or funtional condition" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLObservationCodes> ;
@@ -934,11 +1463,17 @@
        ] ;
        fhir:name [ fhir:v "KLObservationskoder" ] ;
        fhir:description [ fhir:v "SNOMED CT and NPU codes used in Danish municipalities" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLFollowUpCodesFFB> ;
@@ -946,11 +1481,17 @@
        ] ;
        fhir:name [ fhir:v "KLOpfølgningKoderFFB" ] ;
        fhir:description [ fhir:v "Follow-up codes used in FFB" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLFollowUpCodesFSIII> ;
@@ -958,11 +1499,17 @@
        ] ;
        fhir:name [ fhir:v "KLOpfølgningKoderFSIII" ] ;
        fhir:description [ fhir:v "Follow-up codes used in FSIII" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLFollowUpCodes> ;
@@ -970,11 +1517,17 @@
        ] ;
        fhir:name [ fhir:v "KLOpfølgningKodes" ] ;
        fhir:description [ fhir:v "Follow-up codes used in Danish municipalities" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLInformationCodes> ;
@@ -982,11 +1535,17 @@
        ] ;
        fhir:name [ fhir:v "KLOplysningKoder" ] ;
        fhir:description [ fhir:v "Information codes from FSIII and FFB (Område, Tema, Generelle oplysninger)" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLInformationGatheringInvestigationCodes> ;
@@ -994,11 +1553,17 @@
        ] ;
        fhir:name [ fhir:v "KLOplysningsaktivitetsOgVurderingskoder" ] ;
        fhir:description [ fhir:v "Codes that identify valid items in an investigation in Danish municipalities" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLInformationGatheringTypeCodes> ;
@@ -1006,11 +1571,17 @@
        ] ;
        fhir:name [ fhir:v "KLOplysningsaktivitetsTypeKoder" ] ;
        fhir:description [ fhir:v "Codes used to specify which kind of information gathering is conducted" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLServicesTypes> ;
@@ -1018,11 +1589,17 @@
        ] ;
        fhir:name [ fhir:v "KLServiceTyper" ] ;
        fhir:description [ fhir:v "Types of services that the Danish municipalities provide which is covered by FSIII and FFB" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLNeedsAssessmentCodesFFB> ;
@@ -1030,11 +1607,17 @@
        ] ;
        fhir:name [ fhir:v "KLStøttebehovsvurderingskoderFFB" ] ;
        fhir:description [ fhir:v "Needs assesment codes as defined in FFB" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLSeverities> ;
@@ -1042,11 +1625,17 @@
        ] ;
        fhir:name [ fhir:v "KLSværhedgrader" ] ;
        fhir:description [ fhir:v "Severities related to conditions" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLNursingInterventionsFSIII> ;
@@ -1054,11 +1643,17 @@
        ] ;
        fhir:name [ fhir:v "KLSygeplejeIndsatserFSIII" ] ;
        fhir:description [ fhir:v "Nursing interventions as described by FSIII" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLNursingAreasFSIII> ;
@@ -1066,11 +1661,17 @@
        ] ;
        fhir:name [ fhir:v "KLSygeplejeOmråderFSIII" ] ;
        fhir:description [ fhir:v "Observation codes for the 12 nursing areas as defined by FSIII" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLThemesFFB> ;
@@ -1078,11 +1679,17 @@
        ] ;
        fhir:name [ fhir:v "KLTemaerFFB" ] ;
        fhir:description [ fhir:v "FFB Themes" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLServiceCodesFFB> ;
@@ -1090,11 +1697,17 @@
        ] ;
        fhir:name [ fhir:v "KLTilbudsKoderFFB" ] ;
        fhir:description [ fhir:v "Social service (tilbud) as defined by FFB" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLConditionADCodesFFB> ;
@@ -1102,11 +1715,17 @@
        ] ;
        fhir:name [ fhir:v "KLTilstandADKoderFFB" ] ;
        fhir:description [ fhir:v "Danish municipality FFB condition codes for Activities and Participation" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLConditionCodesHomeCare> ;
@@ -1114,11 +1733,17 @@
        ] ;
        fhir:name [ fhir:v "KLTilstandeKoderHjemmepleje" ] ;
        fhir:description [ fhir:v "Danish municipality home care condition codes (funktionsevnetilstande)" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLConditionCodesNursing> ;
@@ -1126,11 +1751,17 @@
        ] ;
        fhir:name [ fhir:v "KLTilstandeKoderSygepleje" ] ;
        fhir:description [ fhir:v "Danish municipality nursing condition codes" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLConditionsAndTargetGroupsFFB> ;
@@ -1138,11 +1769,17 @@
        ] ;
        fhir:name [ fhir:v "KLTilstandeOgMålgrupperFFB" ] ;
        fhir:description [ fhir:v "Conditions and target groups as defined by FFB" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLConditionFFCodesFFB> ;
@@ -1150,11 +1787,17 @@
        ] ;
        fhir:name [ fhir:v "KLTilstandFFKoderFFB" ] ;
        fhir:description [ fhir:v "Danish municipality FFB condition codes for body functions and structures" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLConditionCodes> ;
@@ -1162,11 +1805,17 @@
        ] ;
        fhir:name [ fhir:v "KLTilstandKoder" ] ;
        fhir:description [ fhir:v "Danish municipality condition codes" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLConditionCodesFFB> ;
@@ -1174,11 +1823,17 @@
        ] ;
        fhir:name [ fhir:v "KLTilstandKoderFFB" ] ;
        fhir:description [ fhir:v "Danish municipality FFB condition codes" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLConditionCodesPrevention> ;
@@ -1186,11 +1841,17 @@
        ] ;
        fhir:name [ fhir:v "KLTilstandKoderForebyggelse" ] ;
        fhir:description [ fhir:v "Danish municipality Prevention condition codes" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLConditionCodesFSIII> ;
@@ -1198,11 +1859,17 @@
        ] ;
        fhir:name [ fhir:v "KLTilstandKoderFSIII" ] ;
        fhir:description [ fhir:v "Danish municipality FSIII condition codes" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLConditionCodesTheraphy> ;
@@ -1210,11 +1877,17 @@
        ] ;
        fhir:name [ fhir:v "KLTilstandKoderTræning" ] ;
        fhir:description [ fhir:v "Danish municipality theraphy condition codes" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLConditionOCodesFFB> ;
@@ -1222,11 +1895,17 @@
        ] ;
        fhir:name [ fhir:v "KLTilstandOKoderFFB" ] ;
        fhir:description [ fhir:v "Danish municipality FFB condition codes for Environmental Factors" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLTrainingInterventionsFSIII> ;
@@ -1234,11 +1913,17 @@
        ] ;
        fhir:name [ fhir:v "KLTræningIndsatserFSIII" ] ;
        fhir:description [ fhir:v "Training interventions as defined by FSIII" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLTheraphyAreasFSIII> ;
@@ -1246,11 +1931,17 @@
        ] ;
        fhir:name [ fhir:v "KLTræningOmråderFSIII" ] ;
        fhir:description [ fhir:v "Theraphy areas (observation codes), used for documentation within physical training, physiotheraphy and occupational theraphy in Danish Municipalities as defined by FSIII" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLTargetMeasureCodes> ;
@@ -1258,11 +1949,17 @@
        ] ;
        fhir:name [ fhir:v "KLTypeAfObservationPåMål" ] ;
        fhir:description [ fhir:v "Target measure code, that determines whether the target is expressed as a severity, change value or using another observation" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLPerformanceLevelCodesFSIII> ;
@@ -1270,11 +1967,17 @@
        ] ;
        fhir:name [ fhir:v "KLUdførelsesKoderFSIII" ] ;
        fhir:description [ fhir:v "Performance level codes (Udførelse), as evaluated by the citizen" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLEvaluationTypeCodes> ;
@@ -1282,11 +1985,17 @@
        ] ;
        fhir:name [ fhir:v "KLVurderingTypekoder" ] ;
        fhir:description [ fhir:v "Codes used to distinguish different kinds of evaluations" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLEvaluationTypeCodesSCT> ;
@@ -1294,11 +2003,17 @@
        ] ;
        fhir:name [ fhir:v "KLVurderingTypekoderSCT" ] ;
        fhir:description [ fhir:v "SNOMED CT codes used to distinguish different kinds of evaluations" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/ValueSet/KLInterventionsFFB> ;
@@ -1306,11 +2021,35 @@
        ] ;
        fhir:name [ fhir:v "KLYdelserFFB" ] ;
        fhir:description [ fhir:v "social interventions (ydelser) as defined by FFB" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.kl.dk/term/CodeSystem/LTT> ;
+         fhir:reference [ fhir:v "CodeSystem/LTT" ]
+       ] ;
+       fhir:name [ fhir:v "LTT" ] ;
+       fhir:description [ fhir:v "Concepts used for standardizing documentation for Danish children/teenagers with mental challenges whom are helped in readily available treatment offers in the Danish municipalities." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
        ] ) ;
        fhir:reference [
          fhir:link <http://fhir.kl.dk/term/CodeSystem/NPU> ;
@@ -1318,22 +2057,37 @@
        ] ;
        fhir:name [ fhir:v "NPU" ] ;
        fhir:description [ fhir:v "NPUcodes used in Danish municipalities" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
      ] ) ;
      fhir:page [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "toc.html"^^xsd:anyURI ]
+         fhir:value [
+           a fhir:url ;
+           fhir:v "toc.html"^^xsd:anyURI
+         ]
        ] ) ;
-       fhir:name [ fhir:v "toc.html"^^xsd:anyURI ] ;
+       fhir:name [
+         a fhir:url ;
+         fhir:v "toc.html"^^xsd:anyURI
+       ] ;
        fhir:title [ fhir:v "Table of Contents" ] ;
        fhir:generation [ fhir:v "html" ] ;
        fhir:page ( [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "index.html"^^xsd:anyURI ]
+           fhir:value [
+             a fhir:url ;
+             fhir:v "index.html"^^xsd:anyURI
+           ]
          ] ) ;
-         fhir:name [ fhir:v "index.html"^^xsd:anyURI ] ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "index.html"^^xsd:anyURI
+         ] ;
          fhir:title [ fhir:v "Home" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )

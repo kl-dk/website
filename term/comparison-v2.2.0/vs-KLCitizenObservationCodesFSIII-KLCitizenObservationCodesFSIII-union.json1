@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "4fbe26cd-bd23-436e-80b6-e79c73ebee4b-35",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4fbe26cd-bd23-436e-80b6-e79c73ebee4b-35",
+  "name" : "UnionKLCitizenObservationCodesFSIIIAndKLCitizenObservationCodesFSIII",
+  "title" : "Union of KLBorgervurderingsObservationskoderFSIII And KLBorgervurderingsObservationskoderFSIII",
+  "status" : "active",
+  "date" : "2025-08-21T08:47:01+02:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "d6d48a71-b96f-4b88-86f9-b13bd3c03560"
+      },
+      {
+        "code" : "687159ad-a61c-47c0-a878-53aa54bae2d5"
+      },
+      {
+        "code" : "C"
+      },
+      {
+        "code" : "D"
+      }]
+    }]
+  }
+}

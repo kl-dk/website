@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b9566db0-f450-4eab-a77e-2caa6af756e3-95",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b9566db0-f450-4eab-a77e-2caa6af756e3-95",
+  "name" : "UnionKLFollowUpCodesFSIIIAndKLFollowUpCodesFSIII",
+  "title" : "Union of KLOpfølgningKoderFSIII And KLOpfølgningKoderFSIII",
+  "status" : "active",
+  "date" : "2025-08-21T08:43:24+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "ad78224f-b339-462c-9f2c-90b3120605cb"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "E"
+      }]
+    }]
+  }
+}

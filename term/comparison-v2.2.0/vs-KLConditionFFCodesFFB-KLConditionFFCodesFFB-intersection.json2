@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "4fbe26cd-bd23-436e-80b6-e79c73ebee4b-69",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4fbe26cd-bd23-436e-80b6-e79c73ebee4b-69",
+  "name" : "IntersectionKLConditionFFCodesFFBAndKLConditionFFCodesFFB",
+  "title" : "Intersection of KLTilstandFFKoderFFB And KLTilstandFFKoderFFB",
+  "status" : "active",
+  "date" : "2025-08-21T08:47:01+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "a134c31d-d316-46d4-935e-e500874dbbe1"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "25c5c614-305f-46cd-9891-55d564fc30cf"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "e1836145-0c20-4e20-971e-d62dfe4ea1a0"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "4fb78b88-d3af-4cfb-84d7-f06daf423317"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "4fbe26cd-bd23-436e-80b6-e79c73ebee4b-24",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4fbe26cd-bd23-436e-80b6-e79c73ebee4b-24",
+  "name" : "IntersectionKLCarePlanCategoryCodesAndKLCarePlanCategoryCodes",
+  "title" : "Intersection of KLIndsatsforløbTypekoder And KLIndsatsforløbTypekoder",
+  "status" : "active",
+  "date" : "2025-08-21T08:47:01+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "10deb210-e7e1-4d56-9531-b9ff2102126e"
+      }]
+    }]
+  }
+}

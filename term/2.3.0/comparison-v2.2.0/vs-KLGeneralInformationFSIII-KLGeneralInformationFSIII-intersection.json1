@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b9566db0-f450-4eab-a77e-2caa6af756e3-99",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b9566db0-f450-4eab-a77e-2caa6af756e3-99",
+  "name" : "IntersectionKLGeneralInformationFSIIIAndKLGeneralInformationFSIII",
+  "title" : "Intersection of KLGenerelInformationFSIII And KLGenerelInformationFSIII",
+  "status" : "active",
+  "date" : "2025-08-21T08:43:24+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "370e6178-9a5d-45f9-a2c9-f658186059c9"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "F"
+      }]
+    }]
+  }
+}

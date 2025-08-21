@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b9566db0-f450-4eab-a77e-2caa6af756e3-78",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b9566db0-f450-4eab-a77e-2caa6af756e3-78",
+  "name" : "IntersectionKLConsentToLiasingAndKLConsentToLiasing",
+  "title" : "Intersection of KLBorgerIndforståetMedHenvendelseKoder And KLBorgerIndforståetMedHenvendelseKoder",
+  "status" : "active",
+  "date" : "2025-08-21T08:43:24+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "3762dd32-4123-43a8-815d-ec40d3697652"
+      }]
+    }]
+  }
+}

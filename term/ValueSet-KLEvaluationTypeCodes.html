@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>KLVurderingTypekoder - KL Terminologi v2.2.0</title>
+    <title>KLVurderingTypekoder - KL Terminologi v2.3.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -18,6 +18,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
     <link href="assets/css/kl-dk.css" rel="stylesheet"/>
 
@@ -30,10 +31,10 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
-    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
@@ -45,6 +46,7 @@
     h3,h4,h5,h6{--heading-prefix:"2.55"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
         <div id="hl7-nav">
@@ -59,7 +61,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">KL Terminologi</span>
             <br/>
-            <span style="display:inline-block;">2.2.0 - Release
+            <span style="display:inline-block;">2.3.0 - Release
 
 
             </span>
@@ -117,7 +119,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the KLTerm (v2.2.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="http://fhir.kl.dk/term/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the KLTerm (v2.3.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="http://fhir.kl.dk/term/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -169,7 +171,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://fhir.kl.dk/term/ValueSet/KLEvaluationTypeCodes<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/term/ValueSet/KLEvaluationTypeCodes"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">2.2.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/term/ValueSet/KLEvaluationTypeCodes|2.2.0"/></span>
+      <span class="copy-text">2.3.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/term/ValueSet/KLEvaluationTypeCodes|2.3.0"/></span>
       </td>
     </tr>
 
@@ -185,7 +187,7 @@
         
           Active
           
-            as of 2024-10-31
+            as of 2025-08-21
           
         
       </td>
@@ -224,18 +226,17 @@
 
 <!-- Content Logical Definition heading in the fragment -->
   <h3>Logical Definition (CLD)</h3>
-<div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet KLEvaluationTypeCodes</b></p><a name="KLEvaluationTypeCodes"> </a><a name="hcKLEvaluationTypeCodes"> </a><a name="KLEvaluationTypeCodes-en-US"> </a>
+<div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"></p><a name="KLEvaluationTypeCodes"> </a><a name="hcKLEvaluationTypeCodes"> </a>
 <ul><li>Include codes from<a href="CodeSystem-CareSocialCodes.html"><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></a> where concept  descends from <a href="CodeSystem-CareSocialCodes.html#CareSocialCodes-95ec4535-8fe8-4296-867c-35de421794cf">95ec4535-8fe8-4296-867c-35de421794cf</a></li></ul></div>
 
   <p>&#160;</p>
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet </b></p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-CareSocialCodes.html">codesystem CareSocialCodes v2.2.0 (CodeSystem)</a></p><p>This value set contains 5 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-http://fhir.kl.dk/term/CodeSystem/CareSocialCodes-effe55c7-572c-4a99-8fb4-2a9dda2f6572"> </a>  <a href="CodeSystem-CareSocialCodes.html#CareSocialCodes-effe55c7-572c-4a99-8fb4-2a9dda2f6572">effe55c7-572c-4a99-8fb4-2a9dda2f6572</a></td><td>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</td><td>FFB støttebehovsvurdering</td><td><div><p>Angiver, hvor stort et behov borgeren har for hjælp og støtte.</p>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"/><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on <a href="CodeSystem-CareSocialCodes.html">codesystem CareSocialCodes v2.3.0 (CodeSystem)</a></p><p>This value set contains 4 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-http://fhir.kl.dk/term/CodeSystem/CareSocialCodes-effe55c7-572c-4a99-8fb4-2a9dda2f6572"> </a>  <a href="CodeSystem-CareSocialCodes.html#CareSocialCodes-effe55c7-572c-4a99-8fb4-2a9dda2f6572">effe55c7-572c-4a99-8fb4-2a9dda2f6572</a></td><td>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</td><td>FFB støttebehovsvurdering</td><td><div><p>Angiver, hvor stort et behov borgeren har for hjælp og støtte.</p>
 </div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://fhir.kl.dk/term/CodeSystem/CareSocialCodes-053a301d-1bb8-4cc4-b781-87825ecf0ef8"> </a>  <a href="CodeSystem-CareSocialCodes.html#CareSocialCodes-053a301d-1bb8-4cc4-b781-87825ecf0ef8">053a301d-1bb8-4cc4-b781-87825ecf0ef8</a></td><td>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</td><td>FFB vurdering af borgers situation</td><td><div><p>Vurdering der sammenholder oplysninger fra udredning mhp en samlet faglig analyse og konklusion.</p>
 </div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://fhir.kl.dk/term/CodeSystem/CareSocialCodes-3f7a8ca0-afca-4b0d-8773-a99b5f2f8aaf"> </a>  <a href="CodeSystem-CareSocialCodes.html#CareSocialCodes-3f7a8ca0-afca-4b0d-8773-a99b5f2f8aaf">3f7a8ca0-afca-4b0d-8773-a99b5f2f8aaf</a></td><td>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</td><td>VUM Borgerens perspektiv på indsatsen</td><td><div><p>VUM Borgerens perspektiv på indsatsen</p>
 </div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://fhir.kl.dk/term/CodeSystem/CareSocialCodes-f52887de-023f-4193-b6b0-4b0a37b1cffc"> </a>  <a href="CodeSystem-CareSocialCodes.html#CareSocialCodes-f52887de-023f-4193-b6b0-4b0a37b1cffc">f52887de-023f-4193-b6b0-4b0a37b1cffc</a></td><td>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</td><td>VUM Borgerens ressourcer i forhold til indsatsen</td><td><div><p>VUM Borgerens ressourcer i forhold til indsatsen</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://fhir.kl.dk/term/CodeSystem/CareSocialCodes-54c4ffea-7caf-4edc-8aa9-ef6e0be26c4c"> </a>  <a href="CodeSystem-CareSocialCodes.html#CareSocialCodes-54c4ffea-7caf-4edc-8aa9-ef6e0be26c4c">54c4ffea-7caf-4edc-8aa9-ef6e0be26c4c</a></td><td>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</td><td>FSIII helhedsvurdering</td><td><div><p>Sagsvurdering, der sammenholder resultaterne af en myndighedsudredning og den øvrige sagsoplysning med henblik på at træffe en afgørelse</p>
 </div></td></tr></table></div>
 
   <hr/>
@@ -295,7 +296,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://kl.dk">Kommunernes Landsforening</a>.  Package kl.dk.fhir.term#2.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 31, 2024 13:18+0100">2024-10-31</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://kl.dk">Kommunernes Landsforening</a>.  Package kl.dk.fhir.term#2.3.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 21, 2025 08:46+0200">2025-08-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

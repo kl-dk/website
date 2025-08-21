@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,15 +11,15 @@
   fhir:id [ fhir:v "KLFollowUpCodesFFB"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet KLFollowUpCodesFFB</b></p><a name=\"KLFollowUpCodesFFB\"> </a><a name=\"hcKLFollowUpCodesFFB\"> </a><a name=\"KLFollowUpCodesFFB-en-US\"> </a><ul><li>Include codes from<a href=\"CodeSystem-FFB.html\"><code>urn:oid:1.2.208.176.2.22</code></a> where concept  descends from <a href=\"CodeSystem-FFB.html#FFB-90479ffa-bf46-4b3a-a172-91f2798e2a43\">90479ffa-bf46-4b3a-a172-91f2798e2a43</a></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet KLFollowUpCodesFFB</b></p><a name=\"KLFollowUpCodesFFB\"> </a><a name=\"hcKLFollowUpCodesFFB\"> </a><ul><li>Include codes from<a href=\"CodeSystem-FFB.html\"><code>urn:oid:1.2.208.176.2.22</code></a> where concept  descends from <a href=\"CodeSystem-FFB.html#FFB-90479ffa-bf46-4b3a-a172-91f2798e2a43\">90479ffa-bf46-4b3a-a172-91f2798e2a43</a></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://fhir.kl.dk/term/ValueSet/KLFollowUpCodesFFB"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "2.2.0"] ; # 
+  fhir:version [ fhir:v "2.3.0"] ; # 
   fhir:name [ fhir:v "KLFollowUpCodesFFB"] ; # 
   fhir:title [ fhir:v "KLOpfølgningKoderFFB"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-10-31T13:18:46+01:00"^^xsd:dateTime] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-08-21T08:46:07+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Kommunernes Landsforening"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Kommunernes Landsforening" ] ;

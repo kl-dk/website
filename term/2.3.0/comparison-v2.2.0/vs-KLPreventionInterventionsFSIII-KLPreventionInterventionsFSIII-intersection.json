@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b9566db0-f450-4eab-a77e-2caa6af756e3-156",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b9566db0-f450-4eab-a77e-2caa6af756e3-156",
+  "name" : "IntersectionKLPreventionInterventionsFSIIIAndKLPreventionInterventionsFSIII",
+  "title" : "Intersection of KLForebyggelseIndsatserFSIII And KLForebyggelseIndsatserFSIII",
+  "status" : "active",
+  "date" : "2025-08-21T08:43:24+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "102ea764-d2cf-4a24-979d-68c2e8d638cf"
+      }]
+    }]
+  }
+}

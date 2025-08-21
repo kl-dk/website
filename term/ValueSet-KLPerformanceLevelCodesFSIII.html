@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>KLUdførelsesKoderFSIII - KL Terminologi v2.2.0</title>
+    <title>KLUdførelsesKoderFSIII - KL Terminologi v2.3.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -18,6 +18,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
     <link href="assets/css/kl-dk.css" rel="stylesheet"/>
 
@@ -30,10 +31,10 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
-    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
@@ -45,6 +46,7 @@
     h3,h4,h5,h6{--heading-prefix:"2.54"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
         <div id="hl7-nav">
@@ -59,7 +61,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">KL Terminologi</span>
             <br/>
-            <span style="display:inline-block;">2.2.0 - Release
+            <span style="display:inline-block;">2.3.0 - Release
 
 
             </span>
@@ -117,7 +119,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the KLTerm (v2.2.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="http://fhir.kl.dk/term/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the KLTerm (v2.3.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="http://fhir.kl.dk/term/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -169,7 +171,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://fhir.kl.dk/term/ValueSet/KLPerformanceLevelCodesFSIII<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/term/ValueSet/KLPerformanceLevelCodesFSIII"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">2.2.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/term/ValueSet/KLPerformanceLevelCodesFSIII|2.2.0"/></span>
+      <span class="copy-text">2.3.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/term/ValueSet/KLPerformanceLevelCodesFSIII|2.3.0"/></span>
       </td>
     </tr>
 
@@ -185,7 +187,7 @@
         
           Active
           
-            as of 2024-10-31
+            as of 2025-08-21
           
         
       </td>
@@ -224,7 +226,7 @@
 
 <!-- Content Logical Definition heading in the fragment -->
   <h3>Logical Definition (CLD)</h3>
-<div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet KLPerformanceLevelCodesFSIII</b></p><a name="KLPerformanceLevelCodesFSIII"> </a><a name="hcKLPerformanceLevelCodesFSIII"> </a><a name="KLPerformanceLevelCodesFSIII-en-US"> </a><p>This value set includes codes based on the following rules:</p>
+<div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"></p><a name="KLPerformanceLevelCodesFSIII"> </a><a name="hcKLPerformanceLevelCodesFSIII"> </a><p>This value set includes codes based on the following rules:</p>
 <ul><li>Include codes from<a href="CodeSystem-FSIII.html"><code>urn:oid:1.2.208.176.2.21</code></a> where concept  descends from <a href="CodeSystem-FSIII.html#FSIII-d6d48a71-b96f-4b88-86f9-b13bd3c03560">d6d48a71-b96f-4b88-86f9-b13bd3c03560</a></li>
 <li>Include codes from<a href="CodeSystem-FSIII.html"><code>urn:oid:1.2.208.176.2.21</code></a> where concept  descends from <a href="CodeSystem-FSIII.html#FSIII-C">C</a></li></ul></div>
 
@@ -232,7 +234,7 @@
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet </b></p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-FSIII.html">codesystem FSIII v2.2.0 (CodeSystem)</a></p><p>This value set contains 8 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-urn:oid:1.2.208.176.2.21-0c87bff2-3b24-4a6e-a9df-193f268ae7b8"> </a>  <a href="CodeSystem-FSIII.html#FSIII-0c87bff2-3b24-4a6e-a9df-193f268ae7b8">0c87bff2-3b24-4a6e-a9df-193f268ae7b8</a></td><td>urn:oid:1.2.208.176.2.21</td><td>Udfører selv</td><td><div><p>Udfører selv</p>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"/><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on <a href="CodeSystem-FSIII.html">codesystem FSIII v2.3.0 (CodeSystem)</a></p><p>This value set contains 8 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-urn:oid:1.2.208.176.2.21-0c87bff2-3b24-4a6e-a9df-193f268ae7b8"> </a>  <a href="CodeSystem-FSIII.html#FSIII-0c87bff2-3b24-4a6e-a9df-193f268ae7b8">0c87bff2-3b24-4a6e-a9df-193f268ae7b8</a></td><td>urn:oid:1.2.208.176.2.21</td><td>Udfører selv</td><td><div><p>Udfører selv</p>
 </div></td></tr><tr><td style="white-space:nowrap"><a name="x-urn:oid:1.2.208.176.2.21-86c7db25-59bb-4bef-bfe3-c73b3031b9f2"> </a>  <a href="CodeSystem-FSIII.html#FSIII-86c7db25-59bb-4bef-bfe3-c73b3031b9f2">86c7db25-59bb-4bef-bfe3-c73b3031b9f2</a></td><td>urn:oid:1.2.208.176.2.21</td><td>Udfører dele af</td><td><div><p>Udfører dele af</p>
 </div></td></tr><tr><td style="white-space:nowrap"><a name="x-urn:oid:1.2.208.176.2.21-9e6c7ef6-9539-4f87-a82a-1eea50a1ec2a"> </a>  <a href="CodeSystem-FSIII.html#FSIII-9e6c7ef6-9539-4f87-a82a-1eea50a1ec2a">9e6c7ef6-9539-4f87-a82a-1eea50a1ec2a</a></td><td>urn:oid:1.2.208.176.2.21</td><td>Udfører ikke selv</td><td><div><p>Udfører ikke selv</p>
 </div></td></tr><tr><td style="white-space:nowrap"><a name="x-urn:oid:1.2.208.176.2.21-f5a558db-e3cd-4b66-bf69-34cd86df05e4"> </a>  <a href="CodeSystem-FSIII.html#FSIII-f5a558db-e3cd-4b66-bf69-34cd86df05e4">f5a558db-e3cd-4b66-bf69-34cd86df05e4</a></td><td>urn:oid:1.2.208.176.2.21</td><td>Ikke relevant</td><td><div><p>Ikke relevant</p>
@@ -299,7 +301,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://kl.dk">Kommunernes Landsforening</a>.  Package kl.dk.fhir.term#2.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 31, 2024 13:18+0100">2024-10-31</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://kl.dk">Kommunernes Landsforening</a>.  Package kl.dk.fhir.term#2.3.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 21, 2025 08:46+0200">2025-08-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

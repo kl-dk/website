@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>CareSocialCodes - KL Terminologi v2.2.0</title>
+    <title>CareSocialCodes - KL Terminologi v2.3.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -18,6 +18,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
     <link href="assets/css/kl-dk.css" rel="stylesheet"/>
 
@@ -30,10 +31,10 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
-    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
@@ -45,6 +46,7 @@
     h3,h4,h5,h6{--heading-prefix:"2.58"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
         <div id="hl7-nav">
@@ -59,7 +61,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">KL Terminologi</span>
             <br/>
-            <span style="display:inline-block;">2.2.0 - Release
+            <span style="display:inline-block;">2.3.0 - Release
 
 
             </span>
@@ -117,7 +119,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the KLTerm (v2.2.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="http://fhir.kl.dk/term/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the KLTerm (v2.3.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="http://fhir.kl.dk/term/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -170,7 +172,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://fhir.kl.dk/term/CodeSystem/CareSocialCodes<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/term/CodeSystem/CareSocialCodes"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">2.2.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/term/CodeSystem/CareSocialCodes|2.2.0"/></span>
+      <span class="copy-text">2.3.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/term/CodeSystem/CareSocialCodes|2.3.0"/></span>
       </td>
     </tr>
 
@@ -186,7 +188,7 @@
         
           Active
           
-            as of 2024-10-31
+            as of 2025-08-21
           
         
       </td>
@@ -230,7 +232,7 @@
 </ul>
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem CareSocialCodes</b></p><a name="CareSocialCodes"> </a><a name="hcCareSocialCodes"> </a><a name="CareSocialCodes-en-US"> </a><p>This case-sensitive code system <code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code> defines the following codes in a Is-A hierarchy:</p>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"></p><a name="CareSocialCodes"> </a><a name="hcCareSocialCodes"> </a><p>This case-sensitive code system <code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code> defines the following codes in a Is-A hierarchy:</p>
 <table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr>
 <tr><td>1</td>
 <td style="white-space:nowrap">95ec4535-8fe8-4296-867c-35de421794cf<a name="CareSocialCodes-95ec4535-8fe8-4296-867c-35de421794cf"> </a></td>
@@ -256,11 +258,6 @@
 <td style="white-space:nowrap">&nbsp;&nbsp;f52887de-023f-4193-b6b0-4b0a37b1cffc<a name="CareSocialCodes-f52887de-023f-4193-b6b0-4b0a37b1cffc"> </a></td>
 <td>VUM Borgerens ressourcer i forhold til indsatsen</td>
 <td><div><p>VUM Borgerens ressourcer i forhold til indsatsen</p>
-</div></td></tr>
-<tr><td>2</td>
-<td style="white-space:nowrap">&nbsp;&nbsp;54c4ffea-7caf-4edc-8aa9-ef6e0be26c4c<a name="CareSocialCodes-54c4ffea-7caf-4edc-8aa9-ef6e0be26c4c"> </a></td>
-<td>FSIII helhedsvurdering</td>
-<td><div><p>Sagsvurdering, der sammenholder resultaterne af en myndighedsudredning og den øvrige sagsoplysning med henblik på at træffe en afgørelse</p>
 </div></td></tr>
 <tr><td>1</td>
 <td style="white-space:nowrap">7b41185e-eeb4-437d-8120-5d51bbd27a79<a name="CareSocialCodes-7b41185e-eeb4-437d-8120-5d51bbd27a79"> </a></td>
@@ -467,11 +464,6 @@
 <td>terapeutfaglig udredning, FSIII</td>
 <td><div><p>udførelse af terapeutfaglig udredning jævnfør FSIII</p>
 </div></td></tr>
-<tr><td>2</td>
-<td style="white-space:nowrap">&nbsp;&nbsp;e70c66c0-a939-493b-8ea8-5b7e7b48ba1a<a name="CareSocialCodes-e70c66c0-a939-493b-8ea8-5b7e7b48ba1a"> </a></td>
-<td>generelle oplysninger, FSIII</td>
-<td><div><p>indhentning af generelle oplysninger jævnfør FSIII</p>
-</div></td></tr>
 <tr><td>1</td>
 <td style="white-space:nowrap">10deb210-e7e1-4d56-9531-b9ff2102126e<a name="CareSocialCodes-10deb210-e7e1-4d56-9531-b9ff2102126e"> </a></td>
 <td>Planlagt indsatsforløb</td>
@@ -481,6 +473,11 @@
 <td style="white-space:nowrap">&nbsp;&nbsp;e459386d-1474-4c31-89c5-c8bc7a25e3d4<a name="CareSocialCodes-e459386d-1474-4c31-89c5-c8bc7a25e3d4"> </a></td>
 <td>Social indsats</td>
 <td><div><p>Det planlagte indsatsforløb er en social indsats, som defineret af FFB, med tilhørende ydelser, målgruppe og tilbud</p>
+</div></td></tr>
+<tr><td>2</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;01302bcb-c7f3-42c4-8ded-68e33da064eb<a name="CareSocialCodes-01302bcb-c7f3-42c4-8ded-68e33da064eb"> </a></td>
+<td>Lettilgængelige tilbud til børn og unge i psykisk mistrivsel</td>
+<td><div><p>Forløbskode for lettilgængelige tilbud til børn og unge i psykisk mistrivsel.</p>
 </div></td></tr>
 <tr><td>2</td>
 <td style="white-space:nowrap">&nbsp;&nbsp;4fd6c23a-6ff3-4251-ac37-3ca095027b5b<a name="CareSocialCodes-4fd6c23a-6ff3-4251-ac37-3ca095027b5b"> </a></td>
@@ -677,6 +674,21 @@
 <td style="white-space:nowrap">&nbsp;&nbsp;&nbsp;&nbsp;f8436c2e-af1c-44fe-939d-473b518dd01d<a name="CareSocialCodes-f8436c2e-af1c-44fe-939d-473b518dd01d"> </a></td>
 <td>Aktivt fravalg pga. økonomi ifm. transport</td>
 <td><div><p>Borger har behov, men har foretaget et aktivt fravalg pga. den omkostning der er forbundet med transport til det sted indsatsen tilbydes</p>
+</div></td></tr>
+<tr><td>1</td>
+<td style="white-space:nowrap">880028ec-5f16-4242-ba53-57a902094d5b<a name="CareSocialCodes-880028ec-5f16-4242-ba53-57a902094d5b"> </a></td>
+<td>Deltagere i kontakt</td>
+<td><div><p>Deltagere i kontakt</p>
+</div></td></tr>
+<tr><td>2</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;ca228a58-bd0e-4b0e-81ce-3866adc26535<a name="CareSocialCodes-ca228a58-bd0e-4b0e-81ce-3866adc26535"> </a></td>
+<td>Barn/ung deltager</td>
+<td><div><p>Behandler og barn/ung i målgruppen (5-17år) og evt. forældre, værger el.lign. er til stede. Barnet/den unge er genstand for journaloptagelsen.</p>
+</div></td></tr>
+<tr><td>2</td>
+<td style="white-space:nowrap">&nbsp;&nbsp;d3578249-10df-4051-851d-3986b1570bee<a name="CareSocialCodes-d3578249-10df-4051-851d-3986b1570bee"> </a></td>
+<td>Omsorgsperson uden barn/ung</td>
+<td><div><p>Behandling hvor kun behandler og forældre, værger el.lign. til barn/ung er til stede. Barnet/den unge er genstand for journalen.</p>
 </div></td></tr></table></div>
 
   
@@ -704,7 +716,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://kl.dk">Kommunernes Landsforening</a>.  Package kl.dk.fhir.term#2.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 31, 2024 13:18+0100">2024-10-31</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://kl.dk">Kommunernes Landsforening</a>.  Package kl.dk.fhir.term#2.3.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 21, 2025 08:46+0200">2025-08-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="FSIII"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem FSIII</b></p><a name="FSIII"> </a><a name="hcFSIII"> </a><a name="FSIII-en-US"> </a><p>This case-sensitive code system <code>urn:oid:1.2.208.176.2.21</code> defines the following codes in a Is-A hierarchy:</p><table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>1</td><td style="white-space:nowrap">370e6178-9a5d-45f9-a2c9-f658186059c9<a name="FSIII-370e6178-9a5d-45f9-a2c9-f658186059c9"> </a></td><td>Generelle oplysninger</td><td><div><p>Generelle oplysninger</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem FSIII</b></p><a name="FSIII"> </a><a name="hcFSIII"> </a><p>This case-sensitive code system <code>urn:oid:1.2.208.176.2.21</code> defines the following codes in a Is-A hierarchy:</p><table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>1</td><td style="white-space:nowrap">370e6178-9a5d-45f9-a2c9-f658186059c9<a name="FSIII-370e6178-9a5d-45f9-a2c9-f658186059c9"> </a></td><td>Generelle oplysninger</td><td><div><p>Generelle oplysninger</p>
 </div></td></tr><tr><td>2</td><td style="white-space:nowrap">  041a8348-e77d-4d6d-a464-a46b4fd036d0<a name="FSIII-041a8348-e77d-4d6d-a464-a46b4fd036d0"> </a></td><td>Ressourcer</td><td><div><p>Fysiske som psykiske kræfter eksempelvis i form af fysiske sundhed og styrke samt psykiske sundhed og styrke, herunder tanker, måder at forholde sig til situationer og andre mennesker på.</p>
 </div></td></tr><tr><td>2</td><td style="white-space:nowrap">  18eb83fc-a4fb-46ac-9d98-73ce76946c43<a name="FSIII-18eb83fc-a4fb-46ac-9d98-73ce76946c43"> </a></td><td>Motivation</td><td><div><p>Beskriver den drivkraft, der får mennesker til at handle, som de gør. Motivation er en proces, hvor en målrettet aktivitet initieres og fastholdes.</p>
 </div></td></tr><tr><td>2</td><td style="white-space:nowrap">  3769072e-79aa-466a-9385-baaba53b5b41<a name="FSIII-3769072e-79aa-466a-9385-baaba53b5b41"> </a></td><td>Mestring</td><td><div><p>De strategier og den adfærd, hvor en person bevidst eller ubevidst mindsker sin sandsynlighed for at blive udsat for sygdom, funktionsnedsættelse, sociale problemer eller ulykker. (Også gældende i forhold til familie og netværk).</p>
@@ -1188,12 +1188,12 @@ Koordinering med civilsamfund og foreningsliv omkring afhjælpelse af ensomhed m
     <system value="urn:oid"/>
     <value value="urn:oid:1.2.208.176.2.21"/>
   </identifier>
-  <version value="2.2.0"/>
+  <version value="2.3.0"/>
   <name value="FSIII"/>
   <title value="FSIII"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-10-31T13:18:46+01:00"/>
+  <date value="2025-08-21T08:46:07+02:00"/>
   <publisher value="Kommunernes Landsforening"/>
   <contact>
     <name value="Kommunernes Landsforening"/>

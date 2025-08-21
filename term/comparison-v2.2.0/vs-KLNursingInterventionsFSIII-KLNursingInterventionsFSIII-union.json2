@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "4fbe26cd-bd23-436e-80b6-e79c73ebee4b-143",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4fbe26cd-bd23-436e-80b6-e79c73ebee4b-143",
+  "name" : "UnionKLNursingInterventionsFSIIIAndKLNursingInterventionsFSIII",
+  "title" : "Union of KLSygeplejeIndsatserFSIII And KLSygeplejeIndsatserFSIII",
+  "status" : "active",
+  "date" : "2025-08-21T08:47:01+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "993d8f7b-fbed-4a78-90d9-6efbfa835114"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "ff47f955-3179-446f-b211-dc29de9456e3"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "G1"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "G2"
+      }]
+    }]
+  }
+}

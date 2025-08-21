@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>CareSocialCodes - XML Representation - KL Terminologi v2.2.0</title>
+    <title>CareSocialCodes - XML Representation - KL Terminologi v2.3.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -20,6 +20,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
     <link href="assets/css/kl-dk.css" rel="stylesheet"/>
 
@@ -32,10 +33,10 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
-    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
@@ -47,6 +48,7 @@
     h3,h4,h5,h6{--heading-prefix:"2.58"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
         <div id="hl7-nav">
@@ -61,7 +63,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">KL Terminologi</span>
             <br/>
-            <span style="display:inline-block;">2.2.0 - Release
+            <span style="display:inline-block;">2.3.0 - Release
 
 
             </span>
@@ -119,7 +121,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">This page is part of the KLTerm (v2.2.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="http://fhir.kl.dk/term/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">This page is part of the KLTerm (v2.3.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="http://fhir.kl.dk/term/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -174,7 +176,7 @@
         
           Active
           
-            as of 2024-10-31
+            as of 2025-08-21
           
         
       </td>
@@ -195,12 +197,11 @@
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CareSocialCodes&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: CodeSystem CareSocialCodes&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;CareSocialCodes&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcCareSocialCodes&quot;&gt; &lt;/a&gt;&lt;a name=&quot;CareSocialCodes-en-US&quot;&gt; &lt;/a&gt;&lt;p&gt;This case-sensitive code system &lt;code&gt;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&lt;/code&gt; defines the following codes in a Is-A hierarchy:&lt;/p&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Lvl&lt;/b&gt;&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;95ec4535-8fe8-4296-867c-35de421794cf&lt;a name=&quot;CareSocialCodes-95ec4535-8fe8-4296-867c-35de421794cf&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;evaluering&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;evaluering&lt;/p&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: CodeSystem CareSocialCodes&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;CareSocialCodes&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcCareSocialCodes&quot;&gt; &lt;/a&gt;&lt;p&gt;This case-sensitive code system &lt;code&gt;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&lt;/code&gt; defines the following codes in a Is-A hierarchy:&lt;/p&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Lvl&lt;/b&gt;&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;95ec4535-8fe8-4296-867c-35de421794cf&lt;a name=&quot;CareSocialCodes-95ec4535-8fe8-4296-867c-35de421794cf&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;evaluering&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;evaluering&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  effe55c7-572c-4a99-8fb4-2a9dda2f6572&lt;a name=&quot;CareSocialCodes-effe55c7-572c-4a99-8fb4-2a9dda2f6572&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FFB støttebehovsvurdering&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Angiver, hvor stort et behov borgeren har for hjælp og støtte.&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  053a301d-1bb8-4cc4-b781-87825ecf0ef8&lt;a name=&quot;CareSocialCodes-053a301d-1bb8-4cc4-b781-87825ecf0ef8&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FFB vurdering af borgers situation&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Vurdering der sammenholder oplysninger fra udredning mhp en samlet faglig analyse og konklusion.&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  3f7a8ca0-afca-4b0d-8773-a99b5f2f8aaf&lt;a name=&quot;CareSocialCodes-3f7a8ca0-afca-4b0d-8773-a99b5f2f8aaf&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;VUM Borgerens perspektiv på indsatsen&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;VUM Borgerens perspektiv på indsatsen&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  f52887de-023f-4193-b6b0-4b0a37b1cffc&lt;a name=&quot;CareSocialCodes-f52887de-023f-4193-b6b0-4b0a37b1cffc&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;VUM Borgerens ressourcer i forhold til indsatsen&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;VUM Borgerens ressourcer i forhold til indsatsen&lt;/p&gt;
-&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  54c4ffea-7caf-4edc-8aa9-ef6e0be26c4c&lt;a name=&quot;CareSocialCodes-54c4ffea-7caf-4edc-8aa9-ef6e0be26c4c&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;FSIII helhedsvurdering&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Sagsvurdering, der sammenholder resultaterne af en myndighedsudredning og den øvrige sagsoplysning med henblik på at træffe en afgørelse&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;7b41185e-eeb4-437d-8120-5d51bbd27a79&lt;a name=&quot;CareSocialCodes-7b41185e-eeb4-437d-8120-5d51bbd27a79&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Indsats/ydelses-anmodning&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Indsats/ydelses-anmodning&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  4a297733-4d66-4726-a933-590d55cf91e0&lt;a name=&quot;CareSocialCodes-4a297733-4d66-4726-a933-590d55cf91e0&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Social indsats&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Der anmodes om en social indsats&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  ad865929-7363-4b2d-a271-01993181fbaf&lt;a name=&quot;CareSocialCodes-ad865929-7363-4b2d-a271-01993181fbaf&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kommunal pleje og omsorg&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Der anmodes om kommunal pleje og omsorg fx hjemmepleje til ældre borger.&lt;/p&gt;
@@ -242,9 +243,9 @@
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  f8ebd11a-04f3-4aa0-9786-406e8896c84d&lt;a name=&quot;CareSocialCodes-f8ebd11a-04f3-4aa0-9786-406e8896c84d&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;socialfaglig udredning, VUM/FFB&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;udførelse af socialfaglig udredning som specificeret af VUM og FFB&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  47fd1468-89da-4803-9d7a-ecc039a30d92&lt;a name=&quot;CareSocialCodes-47fd1468-89da-4803-9d7a-ecc039a30d92&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;sygeplejefaglig udredning, FSIII&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;udførelse af sygeplejefaglig udredning jævnfør FSIII&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  0f0f223c-abe3-4720-aab8-c257679a0a4e&lt;a name=&quot;CareSocialCodes-0f0f223c-abe3-4720-aab8-c257679a0a4e&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;terapeutfaglig udredning, FSIII&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;udførelse af terapeutfaglig udredning jævnfør FSIII&lt;/p&gt;
-&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  e70c66c0-a939-493b-8ea8-5b7e7b48ba1a&lt;a name=&quot;CareSocialCodes-e70c66c0-a939-493b-8ea8-5b7e7b48ba1a&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;generelle oplysninger, FSIII&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;indhentning af generelle oplysninger jævnfør FSIII&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;10deb210-e7e1-4d56-9531-b9ff2102126e&lt;a name=&quot;CareSocialCodes-10deb210-e7e1-4d56-9531-b9ff2102126e&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Planlagt indsatsforløb&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Planlagt indsatsforløb&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  e459386d-1474-4c31-89c5-c8bc7a25e3d4&lt;a name=&quot;CareSocialCodes-e459386d-1474-4c31-89c5-c8bc7a25e3d4&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Social indsats&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Det planlagte indsatsforløb er en social indsats, som defineret af FFB, med tilhørende ydelser, målgruppe og tilbud&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  01302bcb-c7f3-42c4-8ded-68e33da064eb&lt;a name=&quot;CareSocialCodes-01302bcb-c7f3-42c4-8ded-68e33da064eb&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Lettilgængelige tilbud til børn og unge i psykisk mistrivsel&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Forløbskode for lettilgængelige tilbud til børn og unge i psykisk mistrivsel.&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  4fd6c23a-6ff3-4251-ac37-3ca095027b5b&lt;a name=&quot;CareSocialCodes-4fd6c23a-6ff3-4251-ac37-3ca095027b5b&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Kommunal Sundhedsfremme og forebyggelse&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Det planlagte indsatsforløb vedrører sundhedsfremme og forebyggelse efter §119.&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;    9791e55a-656f-47eb-8fd5-c4a06b0a4662&lt;a name=&quot;CareSocialCodes-9791e55a-656f-47eb-8fd5-c4a06b0a4662&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Opfølgningsforløb efter §119&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Planlagt indsatsforløb der består af opfølgningsindsatser. Anvendes hvis der i forvejen planlægges opfølgning ved flere forskellige lejligheder fx efter 2,4 og 6 måneder.&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;    5c160c02-e858-4c1f-925a-71ed64844749&lt;a name=&quot;CareSocialCodes-5c160c02-e858-4c1f-925a-71ed64844749&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Interventionsforløb efter §119&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Et planlagt §119 indsatsforløb, som udelukkende indeholder interventioner, og som leveres samlet. Med interventioner menes indsatser, der søger at forbedre borgers tilstand. For §119 kunne et interventionsforløb fx være et KOL-træningshold der indeholder indsatserne fysisk træning og funktionstræning.&lt;/p&gt;
@@ -285,23 +286,26 @@
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;    a3f2bd01-078b-486e-81be-797d192ad7bd&lt;a name=&quot;CareSocialCodes-a3f2bd01-078b-486e-81be-797d192ad7bd&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Aktivt fravalg pga. anden træning&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Borger har behov, men har foretaget et aktivt fravalg fordi han/hun er påbegyndt træning i andet regi fx fitnesscenter&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;    0cd5734d-b663-47c6-a3da-6b14a937d144&lt;a name=&quot;CareSocialCodes-0cd5734d-b663-47c6-a3da-6b14a937d144&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Aktivt fravalg pga. anden sygdom&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Borger har behov, men har foretaget et aktivt fravalg pga. anden sygdom&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;    f8436c2e-af1c-44fe-939d-473b518dd01d&lt;a name=&quot;CareSocialCodes-f8436c2e-af1c-44fe-939d-473b518dd01d&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Aktivt fravalg pga. økonomi ifm. transport&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Borger har behov, men har foretaget et aktivt fravalg pga. den omkostning der er forbundet med transport til det sted indsatsen tilbydes&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;880028ec-5f16-4242-ba53-57a902094d5b&lt;a name=&quot;CareSocialCodes-880028ec-5f16-4242-ba53-57a902094d5b&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Deltagere i kontakt&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Deltagere i kontakt&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  ca228a58-bd0e-4b0e-81ce-3866adc26535&lt;a name=&quot;CareSocialCodes-ca228a58-bd0e-4b0e-81ce-3866adc26535&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Barn/ung deltager&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Behandler og barn/ung i målgruppen (5-17år) og evt. forældre, værger el.lign. er til stede. Barnet/den unge er genstand for journaloptagelsen.&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  d3578249-10df-4051-851d-3986b1570bee&lt;a name=&quot;CareSocialCodes-d3578249-10df-4051-851d-3986b1570bee&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Omsorgsperson uden barn/ung&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Behandling hvor kun behandler og forældre, værger el.lign. til barn/ung er til stede. Barnet/den unge er genstand for journalen.&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
-  &lt;/text&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.2.0&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.3.0&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CareSocialCodes&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CareSocialCodes&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2024-10-31T13:18:46+01:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2025-08-21T08:46:07+02:00&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kommunernes Landsforening&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kommunernes Landsforening&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;url&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;http://kl.dk&quot;/&gt;
-    &lt;/telecom&gt;
-  &lt;/contact&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>
                <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Administrative/technical codes in Local Govenment Denmark (KL), associated with common use cases across areas or kl-core&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">caseSensitive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -316,30 +320,24 @@
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FFB støttebehovsvurdering&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Angiver, hvor stort et behov borgeren har for hjælp og støtte.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;053a301d-1bb8-4cc4-b781-87825ecf0ef8&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FFB vurdering af borgers situation&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Vurdering der sammenholder oplysninger fra udredning mhp en samlet faglig analyse og konklusion.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;3f7a8ca0-afca-4b0d-8773-a99b5f2f8aaf&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;VUM Borgerens perspektiv på indsatsen&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;VUM Borgerens perspektiv på indsatsen&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;f52887de-023f-4193-b6b0-4b0a37b1cffc&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;VUM Borgerens ressourcer i forhold til indsatsen&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;VUM Borgerens ressourcer i forhold til indsatsen&quot;/&gt;
-    &lt;/concept&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;54c4ffea-7caf-4edc-8aa9-ef6e0be26c4c&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FSIII helhedsvurdering&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
-                  <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sagsvurdering, der sammenholder resultaterne af en myndighedsudredning og den øvrige sagsoplysning med henblik på at træffe en afgørelse&quot;/&gt;
-    &lt;/concept&gt;
-  &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;7b41185e-eeb4-437d-8120-5d51bbd27a79&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Indsats/ydelses-anmodning&quot;/&gt;
@@ -348,37 +346,37 @@
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;4a297733-4d66-4726-a933-590d55cf91e0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Social indsats&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Der anmodes om en social indsats&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ad865929-7363-4b2d-a271-01993181fbaf&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kommunal pleje og omsorg&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Der anmodes om kommunal pleje og omsorg fx hjemmepleje til ældre borger.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;490ab7be-ddb1-4a54-baf1-009fe6e8a83b&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kommunal sygepleje&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Der anmodes om kommunal sygepleje.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;a71921ea-fe83-441d-933b-cc21d0b3c8c3&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kommunal Sundhedsfremme og forebyggelse&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Der anmodes om kommunal sundhedsfremme og forebyggelse efter SUL §119.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;7fc66c15-0cb3-4c89-9e18-f3a01e6a6592&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kommunal genoptræning efter sygehusophold&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Der anmodes om kommunal genoptræning efter sygehusophold efter SUL §140.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;d267ac44-8d7f-43e9-8535-ab3da350649f&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kommunalt hjælpemiddelområde&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Der anmodes om hjælpemidler og lignende, der ligger indenfor det kommunale hjælpemiddelområde dvs § 112, § 113, § 114, § 116 i Serviceloven.&quot;/&gt;
-    &lt;/concept&gt;
-  &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;b5731132-f6b9-4a47-995d-681d2b755d4f&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kilde&quot;/&gt;
@@ -387,43 +385,43 @@
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;25b4e705-2e9a-47a2-b11a-c829316b9d3a&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borger&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borger er kilde til oplysning eller vurdering&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;f6ea2920-7dde-491e-a489-6b99a3904069&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sagsbehandler&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sagsbehandler er kilde til oplysning eller vurdering&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;166d2437-4e47-4a52-bd94-cdbe91086ca6&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Pårørende alene&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Pårørende er alene, uden input fra borger, kilde til oplysninger eller vuderderinger. Fx WHO 5 spørgeskema for svækket ældre borger udfyldt af datter.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;329774f9-7700-47cf-9c00-63765d9e8078&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Medarbejder og pårørende alene&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;En medarbejder og pårørende er sammen, men uden input fra borger, kilde til oplysning eller vurdering. Fx PUF spørgeskema i sundhedsplejen.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;12428e48-7df8-441f-9a89-d92bb7874066&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borger støttet af medarbejder&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borger fik hjælp af en medarbejder til at komme med oplysninger eller vurderinger. Fx ældre borger der får hjælp til at udfylde WHO5 spørgeskema.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;8fe80acb-2c2a-4f10-b2b8-ddb77d2f69dc&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Medarbejder alene&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Medarbejderen er alene kilde til oplysning eller vurdering. Fx AIMS skema i sundhedsplejen.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;b66dc78a-a673-43fc-8ac0-1e859ba626e0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borger støttet af pårørende&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borger fik hjælp af en pårørende til at komme med oplysninger eller vurderinger. Fx ældre borger der får hjælp til at udfylde WHO5 spørgeskema.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;63338442-7b2e-405b-acc0-142361ef19f1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Andre&quot;/&gt;
@@ -433,9 +431,9 @@
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;f00a6844-1005-401d-965d-1c5859df7beb&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Udfører&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Udfører er kilde til oplysning eller vurdering&quot;/&gt;
-      &lt;/concept&gt;
-    &lt;/concept&gt;
-  &lt;/concept&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;25303acd-dcaf-4a8e-a8a3-3961a43858aa&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;kontaktaktivitet&quot;/&gt;
@@ -444,41 +442,41 @@
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;bb6fc544-7f4f-4b50-8868-1431e0df2381&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;observation&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;observation foretaget ved kontakt&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;9f03dfbb-7a97-45a5-94db-d4c3501714a9&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;opfølgning&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;opfølgning foretaget ved kontakt&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;829ac647-c7fc-4964-836b-f708d886e0e3&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;oplysning&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;oplysning er foretaget ved kontakt&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;15775b0a-7ec6-469e-9d3c-a81fbc9a1b45&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;udførelse af akutindsats&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Akutindsats, bevilget af læge eller akutteam, udført ved kontakt&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;c03b426a-4348-407f-b343-f4baa9759c72&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;udførelse af ikke-bevilget indsats&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Indsats, der ikke i forvejen var bevilget, udført ved kontakt&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;784275f1-6822-4a88-b361-d958007d5253&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;udførelse af planlagt indsats&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Planlagt indsats udført ved kontakt&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;9269c9a2-8220-447b-a127-811275b41062&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;vurdering/bevilling&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;vurdering og/eller bevilling er foretaget ved kontakt&quot;/&gt;
-    &lt;/concept&gt;
-  &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;3762dd32-4123-43a8-815d-ec40d3697652&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;indforståelse ifm henvendelse&quot;/&gt;
@@ -487,13 +485,13 @@
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;54aeeba6-6aa2-4165-a5a8-bbd6f2f3b1eb&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ikke indforstået&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borger ikke indforstået med henvendelse&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;e67035da-9179-466b-99ad-ea86835d38c9&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;indforstået&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borger indforstået med henvendelse&quot;/&gt;
-    &lt;/concept&gt;
-  &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;253bbdc0-c4ca-4e77-9d3e-3a9e51281636&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Mål/formål&quot;/&gt;
@@ -503,37 +501,37 @@
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FFB borgers mål og ønsker&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borgers mål og ønsker som specificeret af FFB. Det er overordnet og er som udtrykt af borger&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;6746d4af-145a-4bfd-a672-05c0cf11b53b&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FFB delmål&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Delmål i FFB, ligger under indsatsmål, og er som udtrykt af udfører&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;0bb3daef-538d-45dc-b444-abdbcb63f6bc&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FFB indsatsmål&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Indsatsmål i FFB - er de konkrete faglige mål der arbejdes med, og som er knyttet til tilstande og opfølgninger&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ca552020-6ed1-4cdc-b0d4-32697f1f27ad&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FSIII tilstandsmål&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Tilstandsmål som defineret af FSIII - ofte i form af en forventet tilstand&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;424827b1-23aa-4848-962b-56ee47def560&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Indsatsformål&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Det overordnede formål med hele indsatsen (Defineret af FFB men bruges også for FSIII)&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ffb9886b-d04e-46b1-9165-a400f91f822b&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borgers ønsker og mål&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borgers ønsker og mål&quot;/&gt;
-    &lt;/concept&gt;
-  &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;940f37e6-8a3d-483b-adac-be8af3268a5b&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;oplysningsaktivitet&quot;/&gt;
@@ -543,37 +541,32 @@
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;afklarende samtale §119, FSIII&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;udførelse af afklarende samtale vedr. sundhedsfremme og forebyggelse jævnfør FSIII&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;e5a73b0e-a5d2-430e-931f-6156306ab00f&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;funktionsevnevurdering hjemmepleje, FSIII&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;udførelse af funktionsevnevurdering i hjemmeplejen jævnfør FSIII&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;f8ebd11a-04f3-4aa0-9786-406e8896c84d&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;socialfaglig udredning, VUM/FFB&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;udførelse af socialfaglig udredning som specificeret af VUM og FFB&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;47fd1468-89da-4803-9d7a-ecc039a30d92&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;sygeplejefaglig udredning, FSIII&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;udførelse af sygeplejefaglig udredning jævnfør FSIII&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;0f0f223c-abe3-4720-aab8-c257679a0a4e&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;terapeutfaglig udredning, FSIII&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;udførelse af terapeutfaglig udredning jævnfør FSIII&quot;/&gt;
-    &lt;/concept&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;e70c66c0-a939-493b-8ea8-5b7e7b48ba1a&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;generelle oplysninger, FSIII&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;indhentning af generelle oplysninger jævnfør FSIII&quot;/&gt;
-    &lt;/concept&gt;
-  &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;10deb210-e7e1-4d56-9531-b9ff2102126e&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Planlagt indsatsforløb&quot;/&gt;
@@ -583,7 +576,14 @@
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Social indsats&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Det planlagte indsatsforløb er en social indsats, som defineret af FFB, med tilhørende ydelser, målgruppe og tilbud&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;01302bcb-c7f3-42c4-8ded-68e33da064eb&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Lettilgængelige tilbud til børn og unge i psykisk mistrivsel&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                  <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Forløbskode for lettilgængelige tilbud til børn og unge i psykisk mistrivsel.&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;4fd6c23a-6ff3-4251-ac37-3ca095027b5b&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kommunal Sundhedsfremme og forebyggelse&quot;/&gt;
@@ -594,14 +594,14 @@
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Opfølgningsforløb efter §119&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Planlagt indsatsforløb der består af opfølgningsindsatser. Anvendes hvis der i forvejen planlægges opfølgning ved flere forskellige lejligheder fx efter 2,4 og 6 måneder.&quot;/&gt;
-      &lt;/concept&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;5c160c02-e858-4c1f-925a-71ed64844749&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Interventionsforløb efter §119&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Et planlagt §119 indsatsforløb, som udelukkende indeholder interventioner, og som leveres samlet. Med interventioner menes indsatser, der søger at forbedre borgers tilstand. For §119 kunne et interventionsforløb fx være et KOL-træningshold der indeholder indsatserne fysisk træning og funktionstræning.&quot;/&gt;
-      &lt;/concept&gt;
-    &lt;/concept&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ddd2f670-5ec7-4f9c-9a2c-aee25cb133bf&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kommunal genoptræning efter sygehusophold&quot;/&gt;
@@ -612,15 +612,15 @@
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Opfølgningsforløb efter §140&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Planlagt indsatsforløb efter §140 der består af opfølgningsindsatser. Anvendes hvis der i forvejen planlægges opfølgning ved flere forskellige lejligheder fx efter 2,4 og 6 måneder.&quot;/&gt;
-      &lt;/concept&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;f15b2663-94d9-4d0c-a5de-d8bd8e1e4ebb&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Interventionsforløb efter §140&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Et planlagt §140 indsatsforløb, som udelukkende indeholder interventioner, og som leveres samlet. Med interventioner menes indsatser, der søger at forbedre borgers tilstand. For §140 kunne et interventionsforløb fx være et Knæ-genoptræningshold der indeholder indsatserne fysisk træning, funktionstræning og vejledning og undervisning.&quot;/&gt;
-      &lt;/concept&gt;
-    &lt;/concept&gt;
-  &lt;/concept&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;bf469e95-f9e3-45c7-bf15-ab7e8a85236f&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kontaktklasse&quot;/&gt;
@@ -630,13 +630,13 @@
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Skærmbesøg&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kontakten er foregået via skærm med mulighed for tændt kamera, så parterne har haft mulighed for at interagere ansigt til ansigt, og fremvise ting.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;1b55a4b0-1156-4f58-b2df-b5c6014d9048&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Telefonisk&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kontakten er foregået per telefon.&quot;/&gt;
-    &lt;/concept&gt;
-  &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;11266a8f-5795-42ab-88ec-4fe5c6c28e80&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Målfokus&quot;/&gt;
@@ -646,14 +646,14 @@
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;funktionsevneniveau&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;målet udtrykkes i form af et funktionsevneniveau, som kan være et FFB funktionsevneniveau eller FSIII tilstandsniveau&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;90c48f03-f194-4b2f-ad7d-6cba1069ae48&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;måltype&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;målet udtrykkes i form af en måltype, måltypen er den forventede ændring i tilstanden givet indsatsen&quot;/&gt;
-    &lt;/concept&gt;
-  &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;6b29554d-0261-4ec4-bb16-022d81c7dfb7&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Type genoptræningsplan&quot;/&gt;
@@ -663,30 +663,30 @@
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Specialiseret&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Midlertidig kopi af MedComs kode for genoptræning på specialieret niveau, som specificeret af den gode genoptræningsplan, https://svn.medcom.dk/svn/releases/Standarder/National%20Sygehus-Kommunesamarbejde/GGOP/Dokumentation/GGOP.pdf&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;8b962281-2ab6-4b10-9c91-4bac592d6d49&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Basal&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Almen genoptræning på basalt niveau&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ffd81f78-352e-4589-a195-5350dd1df2a4&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Almen&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Midlertidig kopi af MedComs kode for genoptræning på alment niveau, som specificeret af den gode genoptræningsplan, https://svn.medcom.dk/svn/releases/Standarder/National%20Sygehus-Kommunesamarbejde/GGOP/Dokumentation/GGOP.pdf&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;b679c454-2da2-46dd-9425-0e52d4aa2bf3&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Avanceret&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Almen genoptræning på avanceret niveau&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;83c89857-8fb8-4163-97b1-eb1a56345c29&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Rehabilitering&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Midlertidig kopi af MedComs kode for rehabilitering på specialiseret niveau, som specificeret af den gode genoptræningsplan, https://svn.medcom.dk/svn/releases/Standarder/National%20Sygehus-Kommunesamarbejde/GGOP/Dokumentation/GGOP.pdf&quot;/&gt;
-    &lt;/concept&gt;
-  &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;3f79cee2-b148-4f2c-9cbd-387820e74685&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Leveringstype&quot;/&gt;
@@ -696,13 +696,13 @@
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Gruppebaseret indsats&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Indsats leveres af en medarbejder, der interagerer med en gruppe som borgeren er del af.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;8d12d74c-17da-47a7-a4fe-e69dbaec0a8c&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Individuel indsats&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Indsats leveres af en medarbejder i en-til-en interaktion.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;34cdd6ab-3da9-49e8-84dc-1cbf683d4fcf&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Robot leverer indsats&quot;/&gt;
@@ -710,14 +710,14 @@
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;En robot leverer indsatsen.
 
 Eksempler: Robotstøvsugning&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;284857a4-5e91-499a-a001-64d7f0b7038a&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Digital levering af indsats&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;En applikation med fokus på adfærdsændring eller træning leverer indsatsen.&quot;/&gt;
-    &lt;/concept&gt;
-  &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;bb233864-6d4c-4ab4-a4a3-567e61b3dfb0&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Begrundelse for manglende aktivitet&quot;/&gt;
@@ -727,31 +727,31 @@ Eksempler: Robotstøvsugning&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Udskudt&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Udskudt opstart påkrævet fordi det er specificeret sådan i den anmodning kommunen har modtaget. Fx kan udskudt opstart af træning fordi sår skal ophele være beskrives i en genoptræningsplan (GGOP).&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;f64b8f5e-8ced-4a8b-ab73-8994fb524915&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Anden kommmune&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Overgivet til anden kommune, på borgers anmodning&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;3796fa11-305f-47d6-b164-45b05489afb2&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Frit valg&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borger er overgået til frit valg af service. Fx frit valg af privat genoptræning som borger har ret til, hvis kommunen ikke kan levere inden 7 dage.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;8ac7be88-5d16-4dbd-a61a-ab02673f4b34&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Fejl&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Fejlafsendt anmodning. Fx fejlafsendt genoptræningsplan.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;46a6bc1f-bfe8-4390-a71f-44ad4a384b9d&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Frit valg afslået&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borgeren er tilbudt frit valg af leverandør af service, men vil hellere vente.&quot;/&gt;
-    &lt;/concept&gt;
-  &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;2c059407-fed5-4852-92d8-6bb5ad63d7bb&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Begrundelse for indsatsophør&quot;/&gt;
@@ -761,24 +761,24 @@ Eksempler: Robotstøvsugning&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hændelse medfører ophør&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hændelse, som ikke er et aktivt fravalg eller en behovsvurdering medfører ophør. Det kan fx være en længere hospitalsindlæggelse, eller at borger flytter.&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;4bbf6d6a-a1c6-41c2-b8c1-7352b7378adf&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Ikke yderligere behov (borger-vurderet)&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borger vurderer, at han/hun ikke har yderligere behov og afslutter derfor før tid&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;a63b6aa6-7d56-4e67-a5b3-d73f6d262af5&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Ikke yderligere behov (fagperson-vurderet)&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Fagperson vurderer, at borger ikke har yderligere behov og afslutter derfor før tid&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ef491570-7884-4acd-bcf7-43d6b2c64762&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borger har ikke henvendt sig eller er udeblevet&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borger har ikke henvendt sig eller er udeblevet&quot;/&gt;
-    &lt;/concept&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;3a5a72b7-addf-4857-b80c-04e4246e3072&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Aktivt fravalg&quot;/&gt;
@@ -789,28 +789,45 @@ Eksempler: Robotstøvsugning&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Aktivt fravalg pga. logistik ifm. transport&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borger har behov, men har foretaget et aktivt fravalg pga. den logistiske udfordring det er mht. transport, at nå frem til det sted indsatsen tilbydes&quot;/&gt;
-      &lt;/concept&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;a3f2bd01-078b-486e-81be-797d192ad7bd&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Aktivt fravalg pga. anden træning&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borger har behov, men har foretaget et aktivt fravalg fordi han/hun er påbegyndt træning i andet regi fx fitnesscenter&quot;/&gt;
-      &lt;/concept&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;0cd5734d-b663-47c6-a3da-6b14a937d144&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Aktivt fravalg pga. anden sygdom&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borger har behov, men har foretaget et aktivt fravalg pga. anden sygdom&quot;/&gt;
-      &lt;/concept&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;f8436c2e-af1c-44fe-939d-473b518dd01d&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Aktivt fravalg pga. økonomi ifm. transport&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
                     <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Borger har behov, men har foretaget et aktivt fravalg pga. den omkostning der er forbundet med transport til det sted indsatsen tilbydes&quot;/&gt;
-      &lt;/concept&gt;
-    &lt;/concept&gt;
-  &lt;/concept&gt;
-&lt;/CodeSystem&gt;</code></pre>
+      &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;880028ec-5f16-4242-ba53-57a902094d5b&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Deltagere i kontakt&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Deltagere i kontakt&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ca228a58-bd0e-4b0e-81ce-3866adc26535&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Barn/ung deltager&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                  <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Behandler og barn/ung i målgruppen (5-17år) og evt. forældre, værger el.lign. er til stede. Barnet/den unge er genstand for journaloptagelsen.&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;d3578249-10df-4051-851d-3986b1570bee&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Omsorgsperson uden barn/ung&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                  <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Behandling hvor kun behandler og forældre, værger el.lign. til barn/ung er til stede. Barnet/den unge er genstand for journalen.&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">concept</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+&lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">CodeSystem</a>&gt;</code></pre>
 
 
   <!-- insert notes if present -->
@@ -834,7 +851,7 @@ Eksempler: Robotstøvsugning&quot;/&gt;
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://kl.dk">Kommunernes Landsforening</a>.  Package kl.dk.fhir.term#2.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 31, 2024 13:18+0100">2024-10-31</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://kl.dk">Kommunernes Landsforening</a>.  Package kl.dk.fhir.term#2.3.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 21, 2025 08:46+0200">2025-08-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

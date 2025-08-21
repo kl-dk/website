@@ -1,0 +1,17 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b9566db0-f450-4eab-a77e-2caa6af756e3-90",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b9566db0-f450-4eab-a77e-2caa6af756e3-90",
+  "name" : "IntersectionKLFollowUpCodesAndKLFollowUpCodes",
+  "title" : "Intersection of KLOpfølgningKodes And KLOpfølgningKodes",
+  "status" : "active",
+  "date" : "2025-08-21T08:43:24+02:00",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLFollowUpCodesFFB"]
+    },
+    {
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLFollowUpCodesFSIII"]
+    }]
+  }
+}

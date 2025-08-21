@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b9566db0-f450-4eab-a77e-2caa6af756e3-189",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b9566db0-f450-4eab-a77e-2caa6af756e3-189",
+  "name" : "IntersectionKLTrainingInterventionsFSIIIAndKLTrainingInterventionsFSIII",
+  "title" : "Intersection of KLTræningIndsatserFSIII And KLTræningIndsatserFSIII",
+  "status" : "active",
+  "date" : "2025-08-21T08:43:24+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "7deb81de-12c0-4a49-bd5b-72ea6fe89d83"
+      }]
+    }]
+  }
+}
