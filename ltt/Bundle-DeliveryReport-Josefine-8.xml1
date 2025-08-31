@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="DeliveryReport-Josefine-8"/>
+  <meta>
+    <profile value="http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report"/>
+  </meta>
+  <type value="collection"/>
+  <timestamp value="2025-11-06T23:45:51Z"/>
+  <entry>
+    <fullUrl value="https://test.fhir.dk/Patient/407ceb16-acb4-43ea-a4f5-d415c17faded"/>
+    <resource>
+      <Patient>
+        <id value="407ceb16-acb4-43ea-a4f5-d415c17faded"/>
+        <meta>
+          <profile value="http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-citizen"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Patient_407ceb16-acb4-43ea-a4f5-d415c17faded"> </a><p class="res-header-id"><b>Generated Narrative: Patient 407ceb16-acb4-43ea-a4f5-d415c17faded</b></p><a name="407ceb16-acb4-43ea-a4f5-d415c17faded"> </a><a name="hc407ceb16-acb4-43ea-a4f5-d415c17faded"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-klgateway-ltt-citizen.html">KLGatewayLTTCitizen</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Record is active">Active:</td><td colspan="3">true</td></tr><tr><td style="background-color: #f3f5da" title="Patient Links">Links:</td><td colspan="3"><ul><li>Managing Organization: Identifier: <code>urn:oid:1.2.208.176.1.1</code>/451000016003 (use: official, )</li></ul></td></tr></table></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="urn:oid:1.2.208.176.1.2"/>
+          <value value="0505149996"/>
+        </identifier>
+        <active value="true"/>
+        <managingOrganization>
+          <identifier>
+            <use value="official"/>
+            <system value="urn:oid:1.2.208.176.1.1"/>
+            <value value="451000016003"/>
+          </identifier>
+        </managingOrganization>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://test.fhir.dk/CarePlan/857ea1d6-c212-4c89-a2f4-9e2bfa8c288d"/>
+    <resource>
+      <CarePlan>
+        <id value="857ea1d6-c212-4c89-a2f4-9e2bfa8c288d"/>
+        <meta>
+          <profile value="http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-care-plan"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="CarePlan_857ea1d6-c212-4c89-a2f4-9e2bfa8c288d"> </a><p class="res-header-id"><b>Generated Narrative: CarePlan 857ea1d6-c212-4c89-a2f4-9e2bfa8c288d</b></p><a name="857ea1d6-c212-4c89-a2f4-9e2bfa8c288d"> </a><a name="hc857ea1d6-c212-4c89-a2f4-9e2bfa8c288d"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-klgateway-ltt-care-plan.html">KLGatewayLTTCarePlan</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Plan</p><p><b>subject</b>: <a href="Bundle-DeliveryReport-Josefine-1.html#Patient_407ceb16-acb4-43ea-a4f5-d415c17faded">Bundle: type = collection; timestamp = 2025-05-14 23:45:51+0000</a></p><p><b>period</b>: 2025-05-14 09:12:05+0000 --&gt; (ongoing)</p><blockquote><p><b>activity</b></p><blockquote><p><b>detail</b></p><p><b>code</b>: <span title="Codes:{http://fhir.kl.dk/term/CodeSystem/CareSocialCodes 01302bcb-c7f3-42c4-8ded-68e33da064eb}">Lettilgængelige tilbud til børn og unge i psykisk mistrivsel</span></p><p><b>reasonCode</b>: <span title="Codes:{http://fhir.kl.dk/term/CodeSystem/LTT bf4df811-805a-4309-8394-7d9ea31b8af7}">Krop og mad</span>, <span title="Codes:{http://fhir.kl.dk/term/CodeSystem/LTT 95c5e9fc-33b7-4d85-9417-64fc3164eb4c}">Bekymring</span></p><p><b>status</b>: In Progress</p></blockquote></blockquote></div>
+        </text>
+        <status value="active"/>
+        <intent value="plan"/>
+        <subject>
+          <reference value="Patient/407ceb16-acb4-43ea-a4f5-d415c17faded"/>
+        </subject>
+        <period>
+          <start value="2025-05-14T09:12:05Z"/>
+        </period>
+        <activity>
+          <detail>
+            <code>
+              <coding>
+                <system value="http://fhir.kl.dk/term/CodeSystem/CareSocialCodes"/>
+                <code value="01302bcb-c7f3-42c4-8ded-68e33da064eb"/>
+                <display value="Lettilgængelige tilbud til børn og unge i psykisk mistrivsel"/>
+              </coding>
+            </code>
+            <reasonCode>
+              <coding>
+                <system value="http://fhir.kl.dk/term/CodeSystem/LTT"/>
+                <code value="bf4df811-805a-4309-8394-7d9ea31b8af7"/>
+                <display value="Krop og mad"/>
+              </coding>
+            </reasonCode>
+            <reasonCode>
+              <coding>
+                <system value="http://fhir.kl.dk/term/CodeSystem/LTT"/>
+                <code value="95c5e9fc-33b7-4d85-9417-64fc3164eb4c"/>
+                <display value="Bekymring"/>
+              </coding>
+            </reasonCode>
+            <status value="in-progress"/>
+          </detail>
+        </activity>
+      </CarePlan>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://test.fhir.dk/Encounter/d0d9e7a8-f71c-4a9e-9969-79f9b5a1bcdf"/>
+    <resource>
+      <Encounter>
+        <id value="d0d9e7a8-f71c-4a9e-9969-79f9b5a1bcdf"/>
+        <meta>
+          <profile value="http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Encounter_d0d9e7a8-f71c-4a9e-9969-79f9b5a1bcdf"> </a><p class="res-header-id"><b>Generated Narrative: Encounter d0d9e7a8-f71c-4a9e-9969-79f9b5a1bcdf</b></p><a name="d0d9e7a8-f71c-4a9e-9969-79f9b5a1bcdf"> </a><a name="hcd0d9e7a8-f71c-4a9e-9969-79f9b5a1bcdf"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-klgateway-ltt-encounter.html">KLGatewayLTTEncounter</a></p></div><p><b>BasedOnCarePlan</b>: <a href="Bundle-DeliveryReport-Josefine-1.html#CarePlan_857ea1d6-c212-4c89-a2f4-9e2bfa8c288d">Bundle: type = collection; timestamp = 2025-05-14 23:45:51+0000</a></p><p><b>status</b>: Finished</p><p><b>class</b>: <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-AMB">ActCode AMB</a>: ambulatory</p><p><b>type</b>: <span title="Codes:{http://fhir.kl.dk/term/CodeSystem/LTT afd9445a-7ca5-42f8-8011-c3802db3f30b}">Afsluttende samtale</span></p><p><b>subject</b>: <a href="Bundle-DeliveryReport-Josefine-1.html#Patient_407ceb16-acb4-43ea-a4f5-d415c17faded">Bundle: type = collection; timestamp = 2025-05-14 23:45:51+0000</a></p><p><b>period</b>: 2025-11-06 11:00:05+0000 --&gt; (ongoing)</p></div>
+        </text>
+        <extension url="http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter-based-on-care-plan">
+          <valueReference>
+            <reference value="CarePlan/857ea1d6-c212-4c89-a2f4-9e2bfa8c288d"/>
+          </valueReference>
+        </extension>
+        <status value="finished"/>
+        <class>
+          <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+          <code value="AMB"/>
+          <display value="ambulatory"/>
+        </class>
+        <type>
+          <coding>
+            <system value="http://fhir.kl.dk/term/CodeSystem/LTT"/>
+            <code value="afd9445a-7ca5-42f8-8011-c3802db3f30b"/>
+            <display value="Afsluttende samtale"/>
+          </coding>
+        </type>
+        <subject>
+          <reference value="Patient/407ceb16-acb4-43ea-a4f5-d415c17faded"/>
+        </subject>
+        <period>
+          <start value="2025-11-06T11:00:05Z"/>
+        </period>
+      </Encounter>
+    </resource>
+  </entry>
+</Bundle>

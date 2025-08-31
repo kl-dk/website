@@ -1,0 +1,1208 @@
+{
+  "date" : "Sun, 31 Aug, 2025 13:05:45 +0200",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "\\fsh-generated\\resources\\ImplementationGuide-kl.dk.fhir.ltt.json",
+      "size" : 9362,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 259,
+          "length" : 13
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 259,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 259,
+          "length" : 26
+        },
+        {
+          "activity" : "validate",
+          "start" : 272,
+          "length" : 9881
+        },
+        {
+          "activity" : "generate1",
+          "start" : 283,
+          "length" : 69
+        },
+        {
+          "activity" : "generate2",
+          "start" : 288,
+          "length" : 161
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 348,
+          "length" : 6
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 364,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Bundle-DeliveryReport-Josefine-1.json",
+      "size" : 3462,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 259,
+          "length" : 2372
+        },
+        {
+          "activity" : "validate",
+          "start" : 282,
+          "length" : 69
+        },
+        {
+          "activity" : "generate1",
+          "start" : 283,
+          "length" : 36
+        },
+        {
+          "activity" : "generate2",
+          "start" : 288,
+          "length" : 45
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 347,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Bundle-DeliveryReport-Josefine-2.json",
+      "size" : 3794,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 4
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 259,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 130
+        },
+        {
+          "activity" : "validate",
+          "start" : 282,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 282,
+          "length" : 77
+        },
+        {
+          "activity" : "generate1",
+          "start" : 283,
+          "length" : 37
+        },
+        {
+          "activity" : "generate2",
+          "start" : 288,
+          "length" : 49
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Bundle-DeliveryReport-Josefine-3.json",
+      "size" : 3793,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 259,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 259,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 282,
+          "length" : 63
+        },
+        {
+          "activity" : "generate1",
+          "start" : 283,
+          "length" : 37
+        },
+        {
+          "activity" : "generate2",
+          "start" : 288,
+          "length" : 54
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Bundle-DeliveryReport-Josefine-4.json",
+      "size" : 6147,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 282,
+          "length" : 167
+        },
+        {
+          "activity" : "generate1",
+          "start" : 283,
+          "length" : 45
+        },
+        {
+          "activity" : "generate2",
+          "start" : 288,
+          "length" : 62
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Bundle-DeliveryReport-Josefine-5-6-7.json",
+      "size" : 4987,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 5
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 259,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 282,
+          "length" : 115
+        },
+        {
+          "activity" : "generate1",
+          "start" : 283,
+          "length" : 40
+        },
+        {
+          "activity" : "generate2",
+          "start" : 288,
+          "length" : 49
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Bundle-DeliveryReport-Josefine-8.json",
+      "size" : 4122,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 283,
+          "length" : 91
+        },
+        {
+          "activity" : "generate1",
+          "start" : 283,
+          "length" : 37
+        },
+        {
+          "activity" : "generate2",
+          "start" : 288,
+          "length" : 50
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Bundle-DeliveryReport-Josefine-9.json",
+      "size" : 4189,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 4
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 259,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 283,
+          "length" : 90
+        },
+        {
+          "activity" : "generate1",
+          "start" : 284,
+          "length" : 37
+        },
+        {
+          "activity" : "generate2",
+          "start" : 288,
+          "length" : 54
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Bundle-RapportOmJosefine.json",
+      "size" : 5813,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 3
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 259,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 283,
+          "length" : 158
+        },
+        {
+          "activity" : "generate1",
+          "start" : 284,
+          "length" : 43
+        },
+        {
+          "activity" : "generate2",
+          "start" : 289,
+          "length" : 58
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CarePlan-Forloeb.json",
+      "size" : 1296,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 283,
+          "length" : 27
+        },
+        {
+          "activity" : "generate1",
+          "start" : 284,
+          "length" : 29
+        },
+        {
+          "activity" : "generate2",
+          "start" : 289,
+          "length" : 39
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 348,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CarePlan-Henvisning.json",
+      "size" : 755,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 283,
+          "length" : 14
+        },
+        {
+          "activity" : "generate1",
+          "start" : 284,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 289,
+          "length" : 40
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 347,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Encounter-Behandlingskontakt.json",
+      "size" : 1589,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 5
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 259,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 283,
+          "length" : 39
+        },
+        {
+          "activity" : "generate1",
+          "start" : 284,
+          "length" : 28
+        },
+        {
+          "activity" : "generate2",
+          "start" : 289,
+          "length" : 42
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-Josefine.json",
+      "size" : 470,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 283,
+          "length" : 15
+        },
+        {
+          "activity" : "generate1",
+          "start" : 284,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 289,
+          "length" : 31
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-klgateway-ltt-care-plan.json",
+      "size" : 9574,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 13
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 259,
+          "length" : 142
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 51
+        },
+        {
+          "activity" : "validate",
+          "start" : 263,
+          "length" : 1419
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 282,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 284,
+          "length" : 525
+        },
+        {
+          "activity" : "generate2",
+          "start" : 289,
+          "length" : 722
+        },
+        {
+          "activity" : "generate2",
+          "start" : 293,
+          "length" : 160
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 348,
+          "length" : 15
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-klgateway-ltt-citizen.json",
+      "size" : 4009,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 10
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 259,
+          "length" : 138
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 37
+        },
+        {
+          "activity" : "validate",
+          "start" : 264,
+          "length" : 1251
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 282,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 282,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 284,
+          "length" : 396
+        },
+        {
+          "activity" : "generate2",
+          "start" : 289,
+          "length" : 503
+        },
+        {
+          "activity" : "generate2",
+          "start" : 294,
+          "length" : 176
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 348,
+          "length" : 12
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 364,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-klgateway-ltt-delivery-report.json",
+      "size" : 3637,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 8
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 259,
+          "length" : 246
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 61
+        },
+        {
+          "activity" : "validate",
+          "start" : 266,
+          "length" : 920
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 282,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 285,
+          "length" : 338
+        },
+        {
+          "activity" : "generate2",
+          "start" : 290,
+          "length" : 691
+        },
+        {
+          "activity" : "generate2",
+          "start" : 294,
+          "length" : 130
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 348,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-klgateway-ltt-encounter-based-on-care-plan.json",
+      "size" : 1693,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 259,
+          "length" : 8
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 259,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 13
+        },
+        {
+          "activity" : "validate",
+          "start" : 266,
+          "length" : 3218
+        },
+        {
+          "activity" : "generate1",
+          "start" : 285,
+          "length" : 59
+        },
+        {
+          "activity" : "generate2",
+          "start" : 291,
+          "length" : 305
+        },
+        {
+          "activity" : "generate2",
+          "start" : 294,
+          "length" : 25
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 348,
+          "length" : 5
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-klgateway-ltt-encounter-delivery-type.json",
+      "size" : 1425,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 7
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 259,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 17
+        },
+        {
+          "activity" : "validate",
+          "start" : 270,
+          "length" : 93
+        },
+        {
+          "activity" : "generate1",
+          "start" : 285,
+          "length" : 56
+        },
+        {
+          "activity" : "generate2",
+          "start" : 291,
+          "length" : 265
+        },
+        {
+          "activity" : "generate2",
+          "start" : 294,
+          "length" : 25
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 348,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-klgateway-ltt-encounter.json",
+      "size" : 7887,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 14
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 259,
+          "length" : 27
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 62
+        },
+        {
+          "activity" : "validate",
+          "start" : 270,
+          "length" : 1406
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 282,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 285,
+          "length" : 491
+        },
+        {
+          "activity" : "generate2",
+          "start" : 291,
+          "length" : 787
+        },
+        {
+          "activity" : "generate2",
+          "start" : 294,
+          "length" : 145
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 348,
+          "length" : 18
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 364,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-klgateway-ltt-referral.json",
+      "size" : 8168,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 12
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 259,
+          "length" : 26
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 259,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 34
+        },
+        {
+          "activity" : "validate",
+          "start" : 271,
+          "length" : 1009
+        },
+        {
+          "activity" : "generate1",
+          "start" : 286,
+          "length" : 442
+        },
+        {
+          "activity" : "generate2",
+          "start" : 292,
+          "length" : 772
+        },
+        {
+          "activity" : "generate2",
+          "start" : 294,
+          "length" : 116
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 348,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-fkgateway-ltt-care-plan-activity-types.json",
+      "size" : 694,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 8
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 103
+        },
+        {
+          "activity" : "validate",
+          "start" : 262,
+          "length" : 19
+        },
+        {
+          "activity" : "generate1",
+          "start" : 286,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 293,
+          "length" : 89
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 348,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-fkgateway-ltt-encounter-class-codes.json",
+      "size" : 1044,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 8
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 14
+        },
+        {
+          "activity" : "validate",
+          "start" : 262,
+          "length" : 422
+        },
+        {
+          "activity" : "generate1",
+          "start" : 286,
+          "length" : 26
+        },
+        {
+          "activity" : "generate2",
+          "start" : 293,
+          "length" : 99
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-fkgateway-ltt-encounter-types.json",
+      "size" : 1208,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 13
+        },
+        {
+          "activity" : "validate",
+          "start" : 263,
+          "length" : 12
+        },
+        {
+          "activity" : "generate1",
+          "start" : 286,
+          "length" : 27
+        },
+        {
+          "activity" : "generate2",
+          "start" : 293,
+          "length" : 90
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 348,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-fkgateway-ltt-focus-area.json",
+      "size" : 645,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 9
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 259,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 263,
+          "length" : 14
+        },
+        {
+          "activity" : "generate1",
+          "start" : 286,
+          "length" : 23
+        },
+        {
+          "activity" : "generate2",
+          "start" : 293,
+          "length" : 101
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 348,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-fkgateway-ltt-type-of-delivery.json",
+      "size" : 736,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 8
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 263,
+          "length" : 9
+        },
+        {
+          "activity" : "generate1",
+          "start" : 286,
+          "length" : 24
+        },
+        {
+          "activity" : "generate2",
+          "start" : 293,
+          "length" : 72
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 348,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-fkgateway-ltt-type-of-participants.json",
+      "size" : 644,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 8
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 263,
+          "length" : 8
+        },
+        {
+          "activity" : "generate1",
+          "start" : 286,
+          "length" : 23
+        },
+        {
+          "activity" : "generate2",
+          "start" : 293,
+          "length" : 72
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 348,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-fkgateway-ltt-type-of-referral.json",
+      "size" : 638,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 258,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 258,
+          "length" : 9
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 259,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 262,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 263,
+          "length" : 7
+        },
+        {
+          "activity" : "generate1",
+          "start" : 286,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 293,
+          "length" : 85
+        }
+      ]
+    }
+  ]
+}

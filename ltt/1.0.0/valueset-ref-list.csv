@@ -1,0 +1,8 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-care-plan-activity-types,1.0.0,active,,LTTCarePlanActivityTypes,Lettilgængeligt Tilbud - Forløbskoder,"Types of careplan acitivities in LTT","StructureDefinition/klgateway-ltt-care-plan","kl.dk.fhir.term"
+http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-encounter-class-codes,1.0.0,active,,EncounterClassCodes,KontaktKlasseKoder,"Codes to describe the mode of delivery of an encounter","StructureDefinition/klgateway-ltt-encounter","THO (V3),kl.dk.fhir.term"
+http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-encounter-types,1.0.0,active,,LTTEncounterTypes,Lettilgængeligt Tilbud - Kontakttyper,"Types of encounters in LTT","StructureDefinition/klgateway-ltt-encounter","kl.dk.fhir.term"
+http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-focus-area,1.0.0,active,,LTTFocusArea,Lettilgængeligt Tilbud - Tema,"Focus areas reflect the challenges presented by the child or youth.","StructureDefinition/klgateway-ltt-care-plan","kl.dk.fhir.term"
+http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-delivery,1.0.0,active,,LTTDeliveryTypes,Lettilgængeligt Tilbud - Leveringstype,"Delivery types","StructureDefinition/klgateway-ltt-encounter","kl.dk.fhir.term"
+http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-participants,1.0.0,active,,LTTParticipantTypes,Lettilgængeligt Tilbud - Deltagere i kontakt,"Participants","StructureDefinition/klgateway-ltt-encounter","kl.dk.fhir.term"
+http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-referral,1.0.0,active,,LTTTypeOfReferral,Lettilgængeligt Tilbud - Henvisning,"Referral/Guidance to another service.","StructureDefinition/klgateway-ltt-referral","kl.dk.fhir.term"

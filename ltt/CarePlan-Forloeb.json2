@@ -1,0 +1,45 @@
+{
+  "resourceType" : "CarePlan",
+  "id" : "Forloeb",
+  "meta" : {
+    "profile" : ["http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-care-plan"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CarePlan Forloeb</b></p><a name=\"Forloeb\"> </a><a name=\"hcForloeb\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-klgateway-ltt-care-plan.html\">KLGatewayLTTCarePlan</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Plan</p><p><b>subject</b>: <a href=\"Patient-Josefine.html\">Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996\u00a0(use:\u00a0official,\u00a0))</a></p><p><b>period</b>: 2025-05-14 08:17:00+0000 --&gt; (ongoing)</p><blockquote><p><b>activity</b></p><blockquote><p><b>detail</b></p><p><b>code</b>: <span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/CareSocialCodes 01302bcb-c7f3-42c4-8ded-68e33da064eb}\">Lettilgængelige tilbud til børn og unge i psykisk mistrivsel</span></p><p><b>reasonCode</b>: <span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/LTT bf4df811-805a-4309-8394-7d9ea31b8af7}\">Krop og mad</span>, <span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/LTT 5cea8eb2-5374-45f7-a985-cef1f577f0a1}\">Selvskade</span></p><p><b>status</b>: In Progress</p></blockquote></blockquote></div>"
+  },
+  "status" : "active",
+  "intent" : "plan",
+  "subject" : {
+    "reference" : "Patient/Josefine"
+  },
+  "period" : {
+    "start" : "2025-05-14T08:17:00Z"
+  },
+  "activity" : [{
+    "detail" : {
+      "code" : {
+        "coding" : [{
+          "system" : "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes",
+          "code" : "01302bcb-c7f3-42c4-8ded-68e33da064eb",
+          "display" : "Lettilgængelige tilbud til børn og unge i psykisk mistrivsel"
+        }]
+      },
+      "reasonCode" : [{
+        "coding" : [{
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "bf4df811-805a-4309-8394-7d9ea31b8af7",
+          "display" : "Krop og mad"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "5cea8eb2-5374-45f7-a985-cef1f577f0a1",
+          "display" : "Selvskade"
+        }]
+      }],
+      "status" : "in-progress"
+    }
+  }]
+}

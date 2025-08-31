@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="RapportOmJosefine"/>
+  <meta>
+    <profile value="http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report"/>
+  </meta>
+  <type value="collection"/>
+  <timestamp value="2025-07-08T03:00:00Z"/>
+  <entry>
+    <fullUrl value="http://fhir.kl.dk/ltt/Patient/Josefine"/>
+    <resource>
+      <Patient>
+        <id value="Josefine"/>
+        <meta>
+          <profile value="http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-citizen"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Patient_Josefine"> </a><p class="res-header-id"><b>Generated Narrative: Patient Josefine</b></p><a name="Josefine"> </a><a name="hcJosefine"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-klgateway-ltt-citizen.html">KLGatewayLTTCitizen</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Record is active">Active:</td><td colspan="3">true</td></tr><tr><td style="background-color: #f3f5da" title="Patient Links">Links:</td><td colspan="3"><ul><li>Managing Organization: Identifier: <code>urn:oid:1.2.208.176.1.1</code>/451000016003 (use: official, )</li></ul></td></tr></table></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="urn:oid:1.2.208.176.1.2"/>
+          <value value="0505149996"/>
+        </identifier>
+        <active value="true"/>
+        <managingOrganization>
+          <identifier>
+            <use value="official"/>
+            <system value="urn:oid:1.2.208.176.1.1"/>
+            <value value="451000016003"/>
+          </identifier>
+        </managingOrganization>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.kl.dk/ltt/CarePlan/Forloeb"/>
+    <resource>
+      <CarePlan>
+        <id value="Forloeb"/>
+        <meta>
+          <profile value="http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-care-plan"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="CarePlan_Forloeb"> </a><p class="res-header-id"><b>Generated Narrative: CarePlan Forloeb</b></p><a name="Forloeb"> </a><a name="hcForloeb"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-klgateway-ltt-care-plan.html">KLGatewayLTTCarePlan</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Plan</p><p><b>subject</b>: <a href="Patient-Josefine.html">Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))</a></p><p><b>period</b>: 2025-05-14 08:17:00+0000 --&gt; (ongoing)</p><blockquote><p><b>activity</b></p><blockquote><p><b>detail</b></p><p><b>code</b>: <span title="Codes:{http://fhir.kl.dk/term/CodeSystem/CareSocialCodes 01302bcb-c7f3-42c4-8ded-68e33da064eb}">Lettilgængelige tilbud til børn og unge i psykisk mistrivsel</span></p><p><b>reasonCode</b>: <span title="Codes:{http://fhir.kl.dk/term/CodeSystem/LTT bf4df811-805a-4309-8394-7d9ea31b8af7}">Krop og mad</span>, <span title="Codes:{http://fhir.kl.dk/term/CodeSystem/LTT 5cea8eb2-5374-45f7-a985-cef1f577f0a1}">Selvskade</span></p><p><b>status</b>: In Progress</p></blockquote></blockquote></div>
+        </text>
+        <status value="active"/>
+        <intent value="plan"/>
+        <subject>
+          <reference value="Patient/Josefine"/>
+        </subject>
+        <period>
+          <start value="2025-05-14T08:17:00Z"/>
+        </period>
+        <activity>
+          <detail>
+            <code>
+              <coding>
+                <system value="http://fhir.kl.dk/term/CodeSystem/CareSocialCodes"/>
+                <code value="01302bcb-c7f3-42c4-8ded-68e33da064eb"/>
+                <display value="Lettilgængelige tilbud til børn og unge i psykisk mistrivsel"/>
+              </coding>
+            </code>
+            <reasonCode>
+              <coding>
+                <system value="http://fhir.kl.dk/term/CodeSystem/LTT"/>
+                <code value="bf4df811-805a-4309-8394-7d9ea31b8af7"/>
+                <display value="Krop og mad"/>
+              </coding>
+            </reasonCode>
+            <reasonCode>
+              <coding>
+                <system value="http://fhir.kl.dk/term/CodeSystem/LTT"/>
+                <code value="5cea8eb2-5374-45f7-a985-cef1f577f0a1"/>
+                <display value="Selvskade"/>
+              </coding>
+            </reasonCode>
+            <status value="in-progress"/>
+          </detail>
+        </activity>
+      </CarePlan>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.kl.dk/ltt/Encounter/Behandlingskontakt"/>
+    <resource>
+      <Encounter>
+        <id value="Behandlingskontakt"/>
+        <meta>
+          <profile value="http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Encounter_Behandlingskontakt"> </a><p class="res-header-id"><b>Generated Narrative: Encounter Behandlingskontakt</b></p><a name="Behandlingskontakt"> </a><a name="hcBehandlingskontakt"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-klgateway-ltt-encounter.html">KLGatewayLTTEncounter</a></p></div><p><b>BasedOnCarePlan</b>: <a href="CarePlan-Forloeb.html">CarePlan: status = active; intent = plan; period = 2025-05-14 08:17:00+0000 --&gt; (ongoing)</a></p><p><b>DeliveryType</b>: <span title="Codes:{http://fhir.kl.dk/term/CodeSystem/CareSocialCodes 8d12d74c-17da-47a7-a4fe-e69dbaec0a8c}">Individuel indsats</span></p><p><b>status</b>: Finished</p><p><b>class</b>: <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-AMB">ActCode AMB</a>: ambulatory</p><p><b>type</b>: <span title="Codes:{http://fhir.kl.dk/term/CodeSystem/LTT b7f9217c-2315-4d6f-bba5-5117e202302c}">Behandling</span></p><p><b>subject</b>: <a href="Patient-Josefine.html">Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))</a></p><h3>Participants</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Type</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://fhir.kl.dk/term/CodeSystem/CareSocialCodes ca228a58-bd0e-4b0e-81ce-3866adc26535}">Barn/ung deltager</span></td></tr></table><p><b>period</b>: 2025-07-07 13:28:17+0000 --&gt; (ongoing)</p></div>
+        </text>
+        <extension url="http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter-based-on-care-plan">
+          <valueReference>
+            <reference value="CarePlan/Forloeb"/>
+          </valueReference>
+        </extension>
+        <extension url="http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter-delivery-type">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://fhir.kl.dk/term/CodeSystem/CareSocialCodes"/>
+              <code value="8d12d74c-17da-47a7-a4fe-e69dbaec0a8c"/>
+              <display value="Individuel indsats"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <status value="finished"/>
+        <class>
+          <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+          <code value="AMB"/>
+          <display value="ambulatory"/>
+        </class>
+        <type>
+          <coding>
+            <system value="http://fhir.kl.dk/term/CodeSystem/LTT"/>
+            <code value="b7f9217c-2315-4d6f-bba5-5117e202302c"/>
+            <display value="Behandling"/>
+          </coding>
+        </type>
+        <subject>
+          <reference value="Patient/Josefine"/>
+        </subject>
+        <participant>
+          <type>
+            <coding>
+              <system value="http://fhir.kl.dk/term/CodeSystem/CareSocialCodes"/>
+              <code value="ca228a58-bd0e-4b0e-81ce-3866adc26535"/>
+              <display value="Barn/ung deltager"/>
+            </coding>
+          </type>
+        </participant>
+        <period>
+          <start value="2025-07-07T13:28:17Z"/>
+        </period>
+      </Encounter>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.kl.dk/ltt/CarePlan/Henvisning"/>
+    <resource>
+      <CarePlan>
+        <id value="Henvisning"/>
+        <meta>
+          <profile value="http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-referral"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="CarePlan_Henvisning"> </a><p class="res-header-id"><b>Generated Narrative: CarePlan Henvisning</b></p><a name="Henvisning"> </a><a name="hcHenvisning"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-klgateway-ltt-referral.html">KLGatewayLTTReferral</a></p></div><p><b>basedOn</b>: <a href="CarePlan-Forloeb.html">CarePlan: status = active; intent = plan; period = 2025-05-14 08:17:00+0000 --&gt; (ongoing)</a></p><p><b>status</b>: Completed</p><p><b>intent</b>: Plan</p><p><b>subject</b>: <a href="Patient-Josefine.html">Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))</a></p><p><b>period</b>: 2025-07-07 14:28:17+0000 --&gt; (ongoing)</p><blockquote><p><b>activity</b></p><h3>Details</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Status</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://fhir.kl.dk/term/CodeSystem/LTT 59721d6a-71c7-4cae-954c-5997cbebd387}">Andet tilbud i hjemkommune</span></td><td>Completed</td></tr></table></blockquote></div>
+        </text>
+        <basedOn>
+          <reference value="CarePlan/Forloeb"/>
+        </basedOn>
+        <status value="completed"/>
+        <intent value="plan"/>
+        <subject>
+          <reference value="Patient/Josefine"/>
+        </subject>
+        <period>
+          <start value="2025-07-07T14:28:17Z"/>
+        </period>
+        <activity>
+          <detail>
+            <code>
+              <coding>
+                <system value="http://fhir.kl.dk/term/CodeSystem/LTT"/>
+                <code value="59721d6a-71c7-4cae-954c-5997cbebd387"/>
+                <display value="Andet tilbud i hjemkommune"/>
+              </coding>
+            </code>
+            <status value="completed"/>
+          </detail>
+        </activity>
+      </CarePlan>
+    </resource>
+  </entry>
+</Bundle>

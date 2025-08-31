@@ -1,0 +1,107 @@
+[
+  {
+    "id" : "kl.dk.fhir.ltt",
+    "type" : "ImplementationGuide",
+    "url" : "http://fhir.kl.dk/ltt/ImplementationGuide/kl.dk.fhir.ltt",
+    "version" : "1.0.0",
+    "name" : "LTT"
+  },
+  {
+    "id" : "klgateway-ltt-care-plan",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-care-plan",
+    "version" : "1.0.0",
+    "name" : "KLGatewayLTTCarePlan"
+  },
+  {
+    "id" : "klgateway-ltt-citizen",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-citizen",
+    "version" : "1.0.0",
+    "name" : "KLGatewayLTTCitizen"
+  },
+  {
+    "id" : "klgateway-ltt-delivery-report",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report",
+    "version" : "1.0.0",
+    "name" : "KLGatewayLTTDeliveryReport"
+  },
+  {
+    "id" : "klgateway-ltt-encounter",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter",
+    "version" : "1.0.0",
+    "name" : "KLGatewayLTTEncounter"
+  },
+  {
+    "id" : "klgateway-ltt-encounter-based-on-care-plan",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter-based-on-care-plan",
+    "version" : "1.0.0",
+    "name" : "BasedOnCarePlan"
+  },
+  {
+    "id" : "klgateway-ltt-encounter-delivery-type",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter-delivery-type",
+    "version" : "1.0.0",
+    "name" : "DeliveryType"
+  },
+  {
+    "id" : "klgateway-ltt-referral",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-referral",
+    "version" : "1.0.0",
+    "name" : "KLGatewayLTTReferral"
+  },
+  {
+    "id" : "fkgateway-ltt-care-plan-activity-types",
+    "type" : "ValueSet",
+    "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-care-plan-activity-types",
+    "version" : "1.0.0",
+    "name" : "LTTCarePlanActivityTypes"
+  },
+  {
+    "id" : "fkgateway-ltt-encounter-class-codes",
+    "type" : "ValueSet",
+    "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-encounter-class-codes",
+    "version" : "1.0.0",
+    "name" : "EncounterClassCodes"
+  },
+  {
+    "id" : "fkgateway-ltt-encounter-types",
+    "type" : "ValueSet",
+    "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-encounter-types",
+    "version" : "1.0.0",
+    "name" : "LTTEncounterTypes"
+  },
+  {
+    "id" : "fkgateway-ltt-focus-area",
+    "type" : "ValueSet",
+    "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-focus-area",
+    "version" : "1.0.0",
+    "name" : "LTTFocusArea"
+  },
+  {
+    "id" : "fkgateway-ltt-type-of-delivery",
+    "type" : "ValueSet",
+    "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-delivery",
+    "version" : "1.0.0",
+    "name" : "LTTDeliveryTypes"
+  },
+  {
+    "id" : "fkgateway-ltt-type-of-participants",
+    "type" : "ValueSet",
+    "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-participants",
+    "version" : "1.0.0",
+    "name" : "LTTParticipantTypes"
+  },
+  {
+    "id" : "fkgateway-ltt-type-of-referral",
+    "type" : "ValueSet",
+    "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-referral",
+    "version" : "1.0.0",
+    "name" : "LTTTypeOfReferral"
+  }
+]

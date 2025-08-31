@@ -1,0 +1,71 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.kl.dk/ltt/Encounter/Behandlingskontakt> a fhir:Encounter ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Behandlingskontakt"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter"^^xsd:anyURI ;
+       fhir:link <http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Encounter Behandlingskontakt</b></p><a name=\"Behandlingskontakt\"> </a><a name=\"hcBehandlingskontakt\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-klgateway-ltt-encounter.html\">KLGatewayLTTEncounter</a></p></div><p><b>BasedOnCarePlan</b>: <a href=\"CarePlan-Forloeb.html\">CarePlan: status = active; intent = plan; period = 2025-05-14 08:17:00+0000 --&gt; (ongoing)</a></p><p><b>DeliveryType</b>: <span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/CareSocialCodes 8d12d74c-17da-47a7-a4fe-e69dbaec0a8c}\">Individuel indsats</span></p><p><b>status</b>: Finished</p><p><b>class</b>: <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-AMB\">ActCode AMB</a>: ambulatory</p><p><b>type</b>: <span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/LTT b7f9217c-2315-4d6f-bba5-5117e202302c}\">Behandling</span></p><p><b>subject</b>: <a href=\"Patient-Josefine.html\">Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))</a></p><h3>Participants</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/CareSocialCodes ca228a58-bd0e-4b0e-81ce-3866adc26535}\">Barn/ung deltager</span></td></tr></table><p><b>period</b>: 2025-07-07 13:28:17+0000 --&gt; (ongoing)</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter-based-on-care-plan"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Reference ;
+       fhir:link <http://fhir.kl.dk/ltt/CarePlan/Forloeb> ;
+       fhir:reference [ fhir:v "CarePlan/Forloeb" ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter-delivery-type"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "8d12d74c-17da-47a7-a4fe-e69dbaec0a8c" ] ;
+         fhir:display [ fhir:v "Individuel indsats" ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:status [ fhir:v "finished"] ; # 
+  fhir:class [
+     fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "AMB" ] ;
+     fhir:display [ fhir:v "ambulatory" ]
+  ] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://fhir.kl.dk/term/CodeSystem/LTT"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "b7f9217c-2315-4d6f-bba5-5117e202302c" ] ;
+       fhir:display [ fhir:v "Behandling" ]
+     ] )
+  ] ) ; # 
+  fhir:subject [
+     fhir:link <http://fhir.kl.dk/ltt/Patient/Josefine> ;
+     fhir:reference [ fhir:v "Patient/Josefine" ]
+  ] ; # 
+  fhir:participant ( [
+     fhir:type ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "ca228a58-bd0e-4b0e-81ce-3866adc26535" ] ;
+         fhir:display [ fhir:v "Barn/ung deltager" ]
+       ] )
+     ] )
+  ] ) ; # 
+  fhir:period [
+     fhir:start [ fhir:v "2025-07-07T13:28:17Z"^^xsd:dateTime ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CarePlan xmlns="http://hl7.org/fhir">
+  <id value="Forloeb"/>
+  <meta>
+    <profile value="http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-care-plan"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CarePlan Forloeb</b></p><a name="Forloeb"> </a><a name="hcForloeb"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-klgateway-ltt-care-plan.html">KLGatewayLTTCarePlan</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Plan</p><p><b>subject</b>: <a href="Patient-Josefine.html">Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))</a></p><p><b>period</b>: 2025-05-14 08:17:00+0000 --&gt; (ongoing)</p><blockquote><p><b>activity</b></p><blockquote><p><b>detail</b></p><p><b>code</b>: <span title="Codes:{http://fhir.kl.dk/term/CodeSystem/CareSocialCodes 01302bcb-c7f3-42c4-8ded-68e33da064eb}">Lettilgængelige tilbud til børn og unge i psykisk mistrivsel</span></p><p><b>reasonCode</b>: <span title="Codes:{http://fhir.kl.dk/term/CodeSystem/LTT bf4df811-805a-4309-8394-7d9ea31b8af7}">Krop og mad</span>, <span title="Codes:{http://fhir.kl.dk/term/CodeSystem/LTT 5cea8eb2-5374-45f7-a985-cef1f577f0a1}">Selvskade</span></p><p><b>status</b>: In Progress</p></blockquote></blockquote></div>
+  </text>
+  <status value="active"/>
+  <intent value="plan"/>
+  <subject>
+    <reference value="Patient/Josefine"/>
+  </subject>
+  <period>
+    <start value="2025-05-14T08:17:00Z"/>
+  </period>
+  <activity>
+    <detail>
+      <code>
+        <coding>
+          <system value="http://fhir.kl.dk/term/CodeSystem/CareSocialCodes"/>
+          <code value="01302bcb-c7f3-42c4-8ded-68e33da064eb"/>
+          <display value="Lettilgængelige tilbud til børn og unge i psykisk mistrivsel"/>
+        </coding>
+      </code>
+      <reasonCode>
+        <coding>
+          <system value="http://fhir.kl.dk/term/CodeSystem/LTT"/>
+          <code value="bf4df811-805a-4309-8394-7d9ea31b8af7"/>
+          <display value="Krop og mad"/>
+        </coding>
+      </reasonCode>
+      <reasonCode>
+        <coding>
+          <system value="http://fhir.kl.dk/term/CodeSystem/LTT"/>
+          <code value="5cea8eb2-5374-45f7-a985-cef1f577f0a1"/>
+          <display value="Selvskade"/>
+        </coding>
+      </reasonCode>
+      <status value="in-progress"/>
+    </detail>
+  </activity>
+</CarePlan>

@@ -1,0 +1,70 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-care-plan-activity-types",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "LTTCarePlanActivityTypes",
+      "title" : "Lettilgængeligt Tilbud - Forløbskoder",
+      "description" : "Types of careplan acitivities in LTT",
+      "systems" : ["http://fhir.kl.dk/term/CodeSystem/CareSocialCodes"]
+    },
+    {
+      "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-encounter-class-codes",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "EncounterClassCodes",
+      "title" : "KontaktKlasseKoder",
+      "description" : "Codes to describe the mode of delivery of an encounter",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes"
+      ]
+    },
+    {
+      "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-encounter-types",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "LTTEncounterTypes",
+      "title" : "Lettilgængeligt Tilbud - Kontakttyper",
+      "description" : "Types of encounters in LTT",
+      "systems" : ["http://fhir.kl.dk/term/CodeSystem/LTT"]
+    },
+    {
+      "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-focus-area",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "LTTFocusArea",
+      "title" : "Lettilgængeligt Tilbud - Tema",
+      "description" : "Focus areas reflect the challenges presented by the child or youth.",
+      "systems" : ["http://fhir.kl.dk/term/CodeSystem/LTT"]
+    },
+    {
+      "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-delivery",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "LTTDeliveryTypes",
+      "title" : "Lettilgængeligt Tilbud - Leveringstype",
+      "description" : "Delivery types",
+      "systems" : ["http://fhir.kl.dk/term/CodeSystem/CareSocialCodes"]
+    },
+    {
+      "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-participants",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "LTTParticipantTypes",
+      "title" : "Lettilgængeligt Tilbud - Deltagere i kontakt",
+      "description" : "Participants",
+      "systems" : ["http://fhir.kl.dk/term/CodeSystem/CareSocialCodes"]
+    },
+    {
+      "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-referral",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "LTTTypeOfReferral",
+      "title" : "Lettilgængeligt Tilbud - Henvisning",
+      "description" : "Referral/Guidance to another service.",
+      "systems" : ["http://fhir.kl.dk/term/CodeSystem/LTT"]
+    }
+  ]
+}
