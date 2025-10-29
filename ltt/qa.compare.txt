@@ -1,73 +1,81 @@
 LTT : Validation Results
 =========================================
 
-err = 0, warn = 14, info = 19
+err = 0, warn = 17, info = 22
 $--
 Generated $--. FHIR version $-- for kl.dk.fhir.ltt#$-- (canonical = http://fhir.kl.dk/ltt)
  Build Errors : 0 / 0 / 0
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\Bundle-DeliveryReport-Josefine-1 : 0 / 1 / 5
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\Bundle-DeliveryReport-Josefine-2 : 0 / 1 / 5
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\Bundle-DeliveryReport-Josefine-3 : 0 / 1 / 5
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\Bundle-DeliveryReport-Josefine-4 : 0 / 1 / 6
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\Bundle-DeliveryReport-Josefine-5-6-7 : 0 / 1 / 5
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\Bundle-DeliveryReport-Josefine-8 : 0 / 1 / 5
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\Bundle-DeliveryReport-Josefine-9 : 0 / 1 / 5
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\Bundle-RapportOmJosefine : 0 / 1 / 6
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\CarePlan-Forloeb : 0 / 0 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\CarePlan-Henvisning : 0 / 0 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\Encounter-Behandlingskontakt : 0 / 0 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\ImplementationGuide-kl.dk.fhir.ltt : 0 / 0 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\Patient-Josefine : 0 / 1 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\StructureDefinition-klgateway-ltt-care-plan : 0 / 0 / 2
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\StructureDefinition-klgateway-ltt-citizen : 0 / 1 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\StructureDefinition-klgateway-ltt-delivery-report : 0 / 0 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\StructureDefinition-klgateway-ltt-encounter : 0 / 3 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\StructureDefinition-klgateway-ltt-encounter-based-on-care-plan : 0 / 0 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\StructureDefinition-klgateway-ltt-encounter-delivery-type : 0 / 0 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\StructureDefinition-klgateway-ltt-referral : 0 / 0 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\ValueSet-fkgateway-ltt-care-plan-activity-types : 0 / 0 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\ValueSet-fkgateway-ltt-encounter-class-codes : 0 / 1 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\ValueSet-fkgateway-ltt-encounter-types : 0 / 0 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\ValueSet-fkgateway-ltt-focus-area : 0 / 0 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\ValueSet-fkgateway-ltt-type-of-delivery : 0 / 0 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\ValueSet-fkgateway-ltt-type-of-participants : 0 / 0 / 1
- C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.0-milestone\fsh-generated\resources\ValueSet-fkgateway-ltt-type-of-referral : 0 / 0 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\Bundle-DeliveryReport-Josefine-1 : 0 / 1 / 5
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\Bundle-DeliveryReport-Josefine-2 : 0 / 1 / 5
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\Bundle-DeliveryReport-Josefine-3 : 0 / 1 / 5
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\Bundle-DeliveryReport-Josefine-4 : 0 / 1 / 6
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\Bundle-DeliveryReport-Josefine-5-6-7 : 0 / 1 / 5
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\Bundle-DeliveryReport-Josefine-8 : 0 / 1 / 5
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\Bundle-DeliveryReport-Josefine-9 : 0 / 1 / 5
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\Bundle-RapportOmJosefine : 0 / 1 / 6
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\Bundle-TestIncrementalDelivery : 0 / 3 / 7
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\CarePlan-Forloeb : 0 / 0 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\CarePlan-Henvisning : 0 / 0 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\Encounter-Behandlingskontakt : 0 / 0 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\ImplementationGuide-kl.dk.fhir.ltt : 0 / 0 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\Patient-Josefine : 0 / 1 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\StructureDefinition-klgateway-ltt-care-plan : 0 / 0 / 2
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\StructureDefinition-klgateway-ltt-citizen : 0 / 1 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\StructureDefinition-klgateway-ltt-delivery-report : 0 / 0 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\StructureDefinition-klgateway-ltt-encounter : 0 / 4 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\StructureDefinition-klgateway-ltt-encounter-based-on-care-plan : 0 / 0 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\StructureDefinition-klgateway-ltt-encounter-delivery-type : 0 / 0 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\StructureDefinition-klgateway-ltt-incremental-delivery : 0 / 0 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\StructureDefinition-klgateway-ltt-referral : 0 / 0 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\ValueSet-fkgateway-ltt-care-plan-activity-types : 0 / 0 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\ValueSet-fkgateway-ltt-encounter-types : 0 / 0 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\ValueSet-fkgateway-ltt-focus-area : 0 / 0 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\ValueSet-fkgateway-ltt-type-of-delivery : 0 / 0 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\ValueSet-fkgateway-ltt-type-of-participants : 0 / 0 / 1
+ C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.ltt#1.0.1-milestone\fsh-generated\resources\ValueSet-fkgateway-ltt-type-of-referral : 0 / 0 / 1
 </table>
 == n/a ==
 == fsh-generated\resources\Bundle-DeliveryReport-Josefine-1.json ==
-INFORMATION: Bundle/DeliveryReport-Josefine-1: Bundle.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Bundle/DeliveryReport-Josefine-1: Bundle.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/DeliveryReport-Josefine-1: Bundle.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/DeliveryReport-Josefine-1: Bundle.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Bundle/DeliveryReport-Josefine-1: Bundle.entry[0].resource.managingOrganization.identifier.system: No definition could be found for URL value 'urn:oid:1.2.208.176.1.1'
 == fsh-generated\resources\Bundle-DeliveryReport-Josefine-2.json ==
-INFORMATION: Bundle/DeliveryReport-Josefine-2: Bundle.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Bundle/DeliveryReport-Josefine-2: Bundle.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/DeliveryReport-Josefine-2: Bundle.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/DeliveryReport-Josefine-2: Bundle.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Bundle/DeliveryReport-Josefine-2: Bundle.entry[0].resource.managingOrganization.identifier.system: No definition could be found for URL value 'urn:oid:1.2.208.176.1.1'
 == fsh-generated\resources\Bundle-DeliveryReport-Josefine-3.json ==
-INFORMATION: Bundle/DeliveryReport-Josefine-3: Bundle.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Bundle/DeliveryReport-Josefine-3: Bundle.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/DeliveryReport-Josefine-3: Bundle.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/DeliveryReport-Josefine-3: Bundle.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Bundle/DeliveryReport-Josefine-3: Bundle.entry[0].resource.managingOrganization.identifier.system: No definition could be found for URL value 'urn:oid:1.2.208.176.1.1'
 == fsh-generated\resources\Bundle-DeliveryReport-Josefine-4.json ==
-INFORMATION: Bundle/DeliveryReport-Josefine-4: Bundle.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Bundle/DeliveryReport-Josefine-4: Bundle.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Bundle/DeliveryReport-Josefine-4: Bundle.entry[3]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/DeliveryReport-Josefine-4: Bundle.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/DeliveryReport-Josefine-4: Bundle.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/DeliveryReport-Josefine-4: Bundle.entry[3]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Bundle/DeliveryReport-Josefine-4: Bundle.entry[0].resource.managingOrganization.identifier.system: No definition could be found for URL value 'urn:oid:1.2.208.176.1.1'
 == fsh-generated\resources\Bundle-DeliveryReport-Josefine-5-6-7.json ==
-INFORMATION: Bundle/DeliveryReport-Josefine-5-6-7: Bundle.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Bundle/DeliveryReport-Josefine-5-6-7: Bundle.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/DeliveryReport-Josefine-5-6-7: Bundle.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/DeliveryReport-Josefine-5-6-7: Bundle.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Bundle/DeliveryReport-Josefine-5-6-7: Bundle.entry[0].resource.managingOrganization.identifier.system: No definition could be found for URL value 'urn:oid:1.2.208.176.1.1'
 == fsh-generated\resources\Bundle-DeliveryReport-Josefine-8.json ==
-INFORMATION: Bundle/DeliveryReport-Josefine-8: Bundle.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Bundle/DeliveryReport-Josefine-8: Bundle.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/DeliveryReport-Josefine-8: Bundle.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/DeliveryReport-Josefine-8: Bundle.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Bundle/DeliveryReport-Josefine-8: Bundle.entry[0].resource.managingOrganization.identifier.system: No definition could be found for URL value 'urn:oid:1.2.208.176.1.1'
 == fsh-generated\resources\Bundle-DeliveryReport-Josefine-9.json ==
-INFORMATION: Bundle/DeliveryReport-Josefine-9: Bundle.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Bundle/DeliveryReport-Josefine-9: Bundle.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/DeliveryReport-Josefine-9: Bundle.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/DeliveryReport-Josefine-9: Bundle.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Bundle/DeliveryReport-Josefine-9: Bundle.entry[0].resource.managingOrganization.identifier.system: No definition could be found for URL value 'urn:oid:1.2.208.176.1.1'
 == fsh-generated\resources\Bundle-RapportOmJosefine.json ==
-INFORMATION: Bundle/RapportOmJosefine: Bundle.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Bundle/RapportOmJosefine: Bundle.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Bundle/RapportOmJosefine: Bundle.entry[3]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/RapportOmJosefine: Bundle.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/RapportOmJosefine: Bundle.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/RapportOmJosefine: Bundle.entry[3]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Bundle/RapportOmJosefine: Bundle.entry[0].resource.managingOrganization.identifier.system: No definition could be found for URL value 'urn:oid:1.2.208.176.1.1'
+== fsh-generated\resources\Bundle-TestIncrementalDelivery.json ==
+INFORMATION: Bundle/TestIncrementalDelivery: Bundle.entry[0].resource/*Bundle/RapportOmJosefine*/.entry[1]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/TestIncrementalDelivery: Bundle.entry[0].resource/*Bundle/RapportOmJosefine*/.entry[2]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Bundle/TestIncrementalDelivery: Bundle.entry[0].resource/*Bundle/RapportOmJosefine*/.entry[3]: This element does not match any known slice defined in the profile http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report|1.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+WARNING: Bundle/TestIncrementalDelivery: Bundle.entry[0].resource/*Bundle/RapportOmJosefine*/.entry[0].resource.managingOrganization.identifier.system: No definition could be found for URL value 'urn:oid:1.2.208.176.1.1'
+WARNING: Bundle/TestIncrementalDelivery: Bundle.entry[0].resource/*Bundle/RapportOmJosefine*/.entry[0].resource: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+WARNING: Bundle/TestIncrementalDelivery: Bundle.entry[0].resource/*Bundle/RapportOmJosefine*/.entry[2].resource/*Encounter/Behandlingskontakt*/: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated\resources\CarePlan-Forloeb.json ==
 == fsh-generated\resources\CarePlan-Henvisning.json ==
 == fsh-generated\resources\Encounter-Behandlingskontakt.json ==
@@ -80,15 +88,15 @@ INFORMATION: StructureDefinition/klgateway-ltt-care-plan: StructureDefinition.sn
 WARNING: StructureDefinition/klgateway-ltt-citizen: StructureDefinition.snapshot.element[34].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/address-official'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 5.1.0, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/address-official' to 'http://hl7.org/fhir/StructureDefinition/address-official|5.2.0'
 == fsh-generated\resources\StructureDefinition-klgateway-ltt-delivery-report.json ==
 == fsh-generated\resources\StructureDefinition-klgateway-ltt-encounter.json ==
+WARNING: StructureDefinition/klgateway-ltt-encounter: StructureDefinition.snapshot.element[27].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ActEncounterCode'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-ActEncounterCode' to 'http://terminology.hl7.org/ValueSet/v3-ActEncounterCode|3.0.0'
 WARNING: StructureDefinition/klgateway-ltt-encounter: StructureDefinition.snapshot.element[39].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ActEncounterCode'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-ActEncounterCode' to 'http://terminology.hl7.org/ValueSet/v3-ActEncounterCode|3.0.0'
 WARNING: StructureDefinition/klgateway-ltt-encounter: StructureDefinition.snapshot.element[54].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ActPriority'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-ActPriority' to 'http://terminology.hl7.org/ValueSet/v3-ActPriority|3.0.0'
 WARNING: StructureDefinition/klgateway-ltt-encounter: StructureDefinition.snapshot.element[0].constraint[5]: klgateway-ltt-encounter-participants-and-deliveryType: The left side is inherently a collection, and so the expression 'type.coding.code = 'b7f9217c-2315-4d6f-bba5-5117e202302c'' may fail or return false if there is more than one item in the content being evaluated
 == fsh-generated\resources\StructureDefinition-klgateway-ltt-encounter-based-on-care-plan.json ==
 == fsh-generated\resources\StructureDefinition-klgateway-ltt-encounter-delivery-type.json ==
+== fsh-generated\resources\StructureDefinition-klgateway-ltt-incremental-delivery.json ==
 == fsh-generated\resources\StructureDefinition-klgateway-ltt-referral.json ==
 == fsh-generated\resources\ValueSet-fkgateway-ltt-care-plan-activity-types.json ==
-== fsh-generated\resources\ValueSet-fkgateway-ltt-encounter-class-codes.json ==
-WARNING: ValueSet/fkgateway-ltt-encounter-class-codes: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ActCode'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '9.0.0', found versions: 7.0.0, 9.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/CodeSystem/v3-ActCode' to 'http://terminology.hl7.org/CodeSystem/v3-ActCode|9.0.0'
 == fsh-generated\resources\ValueSet-fkgateway-ltt-encounter-types.json ==
 == fsh-generated\resources\ValueSet-fkgateway-ltt-focus-area.json ==
 == fsh-generated\resources\ValueSet-fkgateway-ltt-type-of-delivery.json ==

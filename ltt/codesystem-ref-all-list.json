@@ -11,7 +11,6 @@
       },
       "ValueSet-fkgateway-ltt-care-plan-activity-types.html" : "Lettilgængeligt Tilbud - Forløbskoder",
       "ValueSet-fkgateway-ltt-type-of-participants.html" : "Lettilgængeligt Tilbud - Deltagere i kontakt",
-      "ValueSet-fkgateway-ltt-encounter-class-codes.html" : "KontaktKlasseKoder",
       "ValueSet-fkgateway-ltt-type-of-delivery.html" : "Lettilgængeligt Tilbud - Leveringstype"
     },
     {
@@ -23,8 +22,8 @@
       "description" : "Concepts used for standardizing documentation for Danish children/teenagers with mental challenges whom are helped in readily available treatment offers in the Danish municipalities.",
       "uses" : {
       },
-      "ValueSet-fkgateway-ltt-focus-area.html" : "Lettilgængeligt Tilbud - Tema",
       "ValueSet-fkgateway-ltt-type-of-referral.html" : "Lettilgængeligt Tilbud - Henvisning",
+      "ValueSet-fkgateway-ltt-focus-area.html" : "Lettilgængeligt Tilbud - Tema",
       "ValueSet-fkgateway-ltt-encounter-types.html" : "Lettilgængeligt Tilbud - Kontakttyper"
     },
     {
@@ -191,8 +190,8 @@
       "description" : "One of the resource types defined as part of this version of FHIR.",
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-resource-types.html" : "ResourceType",
-      "http://hl7.org/fhir/R4/valueset-care-plan-activity-kind.html" : "Care Plan Activity Kind"
+      "http://hl7.org/fhir/R4/valueset-care-plan-activity-kind.html" : "Care Plan Activity Kind",
+      "http://hl7.org/fhir/R4/valueset-resource-types.html" : "ResourceType"
     },
     {
       "url" : "http://hl7.org/fhir/search-entry-mode",
@@ -216,11 +215,11 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
-      "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
       "http://hl7.org/fhir/R4/valueset-care-plan-activity-outcome.html" : "Care Plan Activity Outcome",
+      "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
+      "http://hl7.org/fhir/R4/valueset-care-plan-category.html" : "Care Plan Category",
       "http://hl7.org/fhir/R4/valueset-encounter-reason.html" : "Encounter Reason Codes",
-      "http://hl7.org/fhir/R4/valueset-care-plan-category.html" : "Care Plan Category"
+      "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/admit-source",
@@ -328,8 +327,7 @@
       "oids" : ["2.16.840.1.113883.5.4"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.5.0/ValueSet-v3-ActEncounterCode.html" : "ActEncounterCode",
-      "ValueSet-fkgateway-ltt-encounter-class-codes.html" : "KontaktKlasseKoder"
+      "http://terminology.hl7.org/6.5.0/ValueSet-v3-ActEncounterCode.html" : "ActEncounterCode"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActPriority",

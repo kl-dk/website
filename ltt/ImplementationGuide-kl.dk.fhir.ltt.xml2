@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="http://fhir.kl.dk/ltt/ImplementationGuide/kl.dk.fhir.ltt"/>
-  <version value="1.0.0"/>
+  <version value="1.0.1"/>
   <name value="LTT"/>
   <title value="LTT Implementation Guide"/>
   <status value="active"/>
-  <date value="2025-08-31T13:04:54+02:00"/>
+  <date value="2025-10-29T22:49:04+01:00"/>
   <publisher value="Kommunernes Landsforening"/>
   <contact>
     <name value="Kommunernes Landsforening"/>
@@ -252,7 +252,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.7.1"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.8.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -646,21 +646,21 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/klgateway-ltt-referral"/>
+        <reference value="StructureDefinition/klgateway-ltt-incremental-delivery"/>
       </reference>
-      <name value="KLGatewayLTTReferral"/>
-      <description value="Referral of the child or youth to other services."/>
+      <name value="KLGAtewayLTTIncrementalDelivery"/>
+      <description value="Delivery for all delivery reports made since last update (unordered)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="ValueSet/fkgateway-ltt-encounter-class-codes"/>
+        <reference value="StructureDefinition/klgateway-ltt-referral"/>
       </reference>
-      <name value="KontaktKlasseKoder"/>
-      <description value="Codes to describe the mode of delivery of an encounter"/>
+      <name value="KLGatewayLTTReferral"/>
+      <description value="Referral of the child or youth to other services."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -739,6 +739,17 @@
       <name value="RapportOmJosefine"/>
       <description value="Rapport om Josefine."/>
       <exampleCanonical value="http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/TestIncrementalDelivery"/>
+      </reference>
+      <name value="TestIncrementalDelivery"/>
+      <description value="Example of an incremental delivery with one delivery report"/>
+      <exampleCanonical value="http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-incremental-delivery"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

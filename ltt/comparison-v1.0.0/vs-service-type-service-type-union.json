@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "a56c864d-394c-4edc-9f80-d3093dbb095a-35",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/a56c864d-394c-4edc-9f80-d3093dbb095a-35",
+  "name" : "UnionServiceTypeAndServiceType",
+  "title" : "Union of Service type And Service type",
+  "status" : "draft",
+  "date" : "2025-10-29T22:52:24+01:00"
+}

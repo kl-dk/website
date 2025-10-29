@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Artifacts Summary - LTT Implementation Guide v1.0.0</title>
+    <title>Artifacts Summary - LTT Implementation Guide v1.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -61,7 +61,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">LTT Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">1.0.0 - ci-build
+            <span style="display:inline-block;">1.0.1 - ci-build
 
 
             </span>
@@ -129,7 +129,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the KLltt (v1.0.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="http://fhir.kl.dk/ltt/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the KLltt (v1.0.1: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="http://fhir.kl.dk/ltt/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -164,6 +164,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <table class="grid">
       <col style="width:20%"/>
       <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-klgateway-ltt-incremental-delivery.html"
+                  title="StructureDefinition/klgateway-ltt-incremental-delivery">KLGAtewayLTTIncrementalDelivery</a>
+            </td>
+            <td>
+<p>Delivery for all delivery reports made since last update (unordered).</p>
+</td>
+         </tr>
          <tr>
             <td style="column-width:30%">
                <a href="StructureDefinition-klgateway-ltt-care-plan.html"
@@ -243,15 +252,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <table class="grid">
       <col style="width:20%"/>
       <tbody>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-fkgateway-ltt-encounter-class-codes.html"
-                  title="ValueSet/fkgateway-ltt-encounter-class-codes">KontaktKlasseKoder</a>
-            </td>
-            <td>
-<p>Codes to describe the mode of delivery of an encounter</p>
-</td>
-         </tr>
          <tr>
             <td style="column-width:30%">
                <a href="ValueSet-fkgateway-ltt-type-of-participants.html"
@@ -418,6 +418,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Rapport om Josefine.</p>
 </td>
          </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Bundle-TestIncrementalDelivery.html"
+                  title="Bundle/TestIncrementalDelivery">TestIncrementalDelivery</a>
+            </td>
+            <td>
+<p>Example of an incremental delivery with one delivery report</p>
+</td>
+         </tr>
       </tbody>
    </table>
 </div>
@@ -438,7 +447,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://kl.dk">Kommunernes Landsforening</a>.  Package kl.dk.fhir.ltt#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Aug 31, 2025 13:05+0200">2025-08-31</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://kl.dk">Kommunernes Landsforening</a>.  Package kl.dk.fhir.ltt#1.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 29, 2025 22:49+0100">2025-10-29</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

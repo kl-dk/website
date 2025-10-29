@@ -16,9 +16,9 @@
   else if (s.indexOf("html") == -1) 
     Response.Redirect("http://fhir.kl.dk/ltt/CarePlan-"+id+".xml");
   else if (id == "Forloeb")
-    Response.Redirect("http://fhir.kl.dk/ltt/1.0.0/CarePlan-Forloeb.html");
+    Response.Redirect("http://fhir.kl.dk/ltt/1.0.1/CarePlan-Forloeb.html");
   else if (id == "Henvisning")
-    Response.Redirect("http://fhir.kl.dk/ltt/1.0.0/CarePlan-Henvisning.html");
+    Response.Redirect("http://fhir.kl.dk/ltt/1.0.1/CarePlan-Henvisning.html");
   else if (id == "index")
     Response.Redirect("http://fhir.kl.dk/ltt/CarePlan.html");
 
@@ -27,6 +27,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-Internal Error - unknown id <%= Request.QueryString("id") %> (from ltt#1.0.0-milestone\output\crcareplan.asp) .
+Internal Error - unknown id <%= Request.QueryString("id") %> (from ltt#1.0.1-milestone\output\crcareplan.asp) .
 </body>
 </html>

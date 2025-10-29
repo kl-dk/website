@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "a56c864d-394c-4edc-9f80-d3093dbb095a-80",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/a56c864d-394c-4edc-9f80-d3093dbb095a-80",
+  "name" : "UnionLTTFocusAreaAndLTTFocusArea",
+  "title" : "Union of Lettilgængeligt Tilbud - Tema And Lettilgængeligt Tilbud - Tema",
+  "status" : "active",
+  "date" : "2025-10-29T22:52:24+01:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "d09ad8c9-7ade-455f-b34a-54c8c6cce266"
+      }]
+    }]
+  }
+}

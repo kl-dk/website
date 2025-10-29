@@ -3,15 +3,15 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="fkgateway-ltt-type-of-participants"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet fkgateway-ltt-type-of-participants</b></p><a name="fkgateway-ltt-type-of-participants"> </a><a name="hcfkgateway-ltt-type-of-participants"> </a><ul><li>Include codes from<a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html"><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></a> where concept  descends from <a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-880028ec-5f16-4242-ba53-57a902094d5b">880028ec-5f16-4242-ba53-57a902094d5b</a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet fkgateway-ltt-type-of-participants</b></p><a name="fkgateway-ltt-type-of-participants"> </a><a name="hcfkgateway-ltt-type-of-participants"> </a><ul><li>Include codes from<a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html"><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></a><span title="Version is not explicitly stated, which means it is fixed to 2.3.0, the version found through the package references"> version &#x1F4E6;2.3.0</span> where concept  descends from <a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-880028ec-5f16-4242-ba53-57a902094d5b">880028ec-5f16-4242-ba53-57a902094d5b</a></li></ul></div>
   </text>
   <url value="http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-participants"/>
-  <version value="1.0.0"/>
+  <version value="1.0.1"/>
   <name value="LTTParticipantTypes"/>
   <title value="Lettilgængeligt Tilbud - Deltagere i kontakt"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-08-31T13:04:54+02:00"/>
+  <date value="2025-10-29T22:49:04+01:00"/>
   <publisher value="Kommunernes Landsforening"/>
   <contact>
     <name value="Kommunernes Landsforening"/>

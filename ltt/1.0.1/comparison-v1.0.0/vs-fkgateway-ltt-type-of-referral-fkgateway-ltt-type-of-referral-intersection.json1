@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cec10ac2-1ab5-4c45-a3da-8217ab675882-90",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cec10ac2-1ab5-4c45-a3da-8217ab675882-90",
+  "name" : "IntersectionLTTTypeOfReferralAndLTTTypeOfReferral",
+  "title" : "Intersection of Lettilgængeligt Tilbud - Henvisning And Lettilgængeligt Tilbud - Henvisning",
+  "status" : "active",
+  "date" : "2025-10-29T22:43:10+01:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "92aa0b05-ed46-4fd6-8009-adf97d0fc187"
+      }]
+    }]
+  }
+}

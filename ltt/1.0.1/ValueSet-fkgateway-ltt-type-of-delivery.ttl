@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-delivery> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "fkgateway-ltt-type-of-delivery"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet fkgateway-ltt-type-of-delivery</b></p><a name=\"fkgateway-ltt-type-of-delivery\"> </a><a name=\"hcfkgateway-ltt-type-of-delivery\"> </a><ul><li>Include these codes as defined in <a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html\"><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 2.3.0, the version found through the package references\"> version ?2.3.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-2865f123-15a7-4a36-a514-32ea37c400ca\">2865f123-15a7-4a36-a514-32ea37c400ca</a></td><td>Gruppebaseret indsats</td><td>Indsats leveres af en medarbejder, der interagerer med en gruppe som borgeren er del af.</td></tr><tr><td><a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-8d12d74c-17da-47a7-a4fe-e69dbaec0a8c\">8d12d74c-17da-47a7-a4fe-e69dbaec0a8c</a></td><td>Individuel indsats</td><td>Indsats leveres af en medarbejder i en-til-en interaktion.</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-delivery"^^xsd:anyURI ;
+     fhir:l <http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-delivery>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.1"] ; # 
+  fhir:name [ fhir:v "LTTDeliveryTypes"] ; # 
+  fhir:title [ fhir:v "Lettilgængeligt Tilbud - Leveringstype"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-10-29T22:39:09+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Kommunernes Landsforening"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Kommunernes Landsforening" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://kl.dk" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Delivery types"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes"^^xsd:anyURI ;
+         fhir:l <http://fhir.kl.dk/term/CodeSystem/CareSocialCodes>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "2865f123-15a7-4a36-a514-32ea37c400ca" ] ;
+         fhir:display [ fhir:v "Gruppebaseret indsats" ]
+       ] [
+         fhir:code [ fhir:v "8d12d74c-17da-47a7-a4fe-e69dbaec0a8c" ] ;
+         fhir:display [ fhir:v "Individuel indsats" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

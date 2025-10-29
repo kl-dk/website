@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cec10ac2-1ab5-4c45-a3da-8217ab675882-87",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cec10ac2-1ab5-4c45-a3da-8217ab675882-87",
+  "name" : "IntersectionLTTParticipantTypesAndLTTParticipantTypes",
+  "title" : "Intersection of Lettilgængeligt Tilbud - Deltagere i kontakt And Lettilgængeligt Tilbud - Deltagere i kontakt",
+  "status" : "active",
+  "date" : "2025-10-29T22:43:10+01:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "880028ec-5f16-4242-ba53-57a902094d5b"
+      }]
+    }]
+  }
+}

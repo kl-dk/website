@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cec10ac2-1ab5-4c45-a3da-8217ab675882-77",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/cec10ac2-1ab5-4c45-a3da-8217ab675882-77",
+  "name" : "UnionLTTEncounterTypesAndLTTEncounterTypes",
+  "title" : "Union of Lettilgængeligt Tilbud - Kontakttyper And Lettilgængeligt Tilbud - Kontakttyper",
+  "status" : "active",
+  "date" : "2025-10-29T22:43:10+01:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "afd9445a-7ca5-42f8-8011-c3802db3f30b",
+        "display" : "Afsluttende samtale"
+      },
+      {
+        "code" : "3b1d8884-5a1d-43cf-aabb-8c1035148c46",
+        "display" : "Afslutning"
+      },
+      {
+        "code" : "ac1057da-a510-4bab-a2b1-d96efa464bdc",
+        "display" : "Henvendelse"
+      },
+      {
+        "code" : "e2eee938-a58c-42d0-a514-dc91779b1243",
+        "display" : "Forsamtale"
+      },
+      {
+        "code" : "404665f4-3488-4225-953e-3f1c5a061829",
+        "display" : "Screening"
+      },
+      {
+        "code" : "b7f9217c-2315-4d6f-bba5-5117e202302c",
+        "display" : "Behandling"
+      }]
+    }]
+  }
+}

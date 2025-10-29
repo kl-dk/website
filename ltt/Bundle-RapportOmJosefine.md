@@ -1,0 +1,301 @@
+# RapportOmJosefine - LTT Implementation Guide v1.0.1
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **RapportOmJosefine**
+
+## Example Bundle: RapportOmJosefine
+
+Profile: [KLGatewayLTTDeliveryReport](StructureDefinition-klgateway-ltt-delivery-report.md)
+
+Bundle RapportOmJosefine of type collection
+
+-------
+
+Entry 1 - fullUrl = http://fhir.kl.dk/ltt/Patient/Josefine
+
+Resource Patient:
+
+> 
+
+Profile: [KLGatewayLTTCitizen](StructureDefinition-klgateway-ltt-citizen.md)
+
+Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))
+-------
+
+-------
+
+Entry 2 - fullUrl = http://fhir.kl.dk/ltt/CarePlan/Forloeb
+
+Resource CarePlan:
+
+> 
+
+Profile: [KLGatewayLTTCarePlan](StructureDefinition-klgateway-ltt-care-plan.md)
+
+**status**: Active**intent**: Plan**subject**:[Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))](Patient-Josefine.md)**period**: 2025-05-14 08:17:00+0000 --> (ongoing)
+> **activity**
+
+-------
+
+Entry 3 - fullUrl = http://fhir.kl.dk/ltt/Encounter/Behandlingskontakt
+
+Resource Encounter:
+
+> 
+
+Profile: [KLGatewayLTTEncounter](StructureDefinition-klgateway-ltt-encounter.md)
+
+**BasedOnCarePlan**:[CarePlan: status = active; intent = plan; period = 2025-05-14 08:17:00+0000 --> (ongoing)](CarePlan-Forloeb.md)**DeliveryType**:Individuel indsats**status**: completed**class**:ambulatory**type**:Behandling**subject**:[Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))](Patient-Josefine.md)
+
+### Participants
+
+| | |
+| :--- | :--- |
+| - | **Type** |
+| * | Barn/ung deltager |
+
+
+-------
+
+Entry 4 - fullUrl = http://fhir.kl.dk/ltt/CarePlan/Henvisning
+
+Resource CarePlan:
+
+> 
+
+Profile: [KLGatewayLTTReferral](StructureDefinition-klgateway-ltt-referral.md)
+
+**basedOn**:[CarePlan: status = active; intent = plan; period = 2025-05-14 08:17:00+0000 --> (ongoing)](CarePlan-Forloeb.md)**status**: Completed**intent**: Plan**subject**:[Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))](Patient-Josefine.md)**period**: 2025-07-07 14:28:17+0000 --> (ongoing)
+> **activity**
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Bundle",
+  "id" : "RapportOmJosefine",
+  "meta" : {
+    "profile" : [
+      "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report"
+    ]
+  },
+  "type" : "collection",
+  "timestamp" : "2025-07-08T03:00:00Z",
+  "entry" : [
+    {
+      "fullUrl" : "http://fhir.kl.dk/ltt/Patient/Josefine",
+      "resource" : {
+        "resourceType" : "Patient",
+        "id" : "Josefine",
+        "meta" : {
+          "profile" : [
+            "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-citizen"
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Patient_Josefine\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Patient Josefine</b></p><a name=\"Josefine\"> </a><a name=\"hcJosefine\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-klgateway-ltt-citizen.html\">KLGatewayLTTCitizen</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>Managing Organization: Identifier: <code>urn:oid:1.2.208.176.1.1</code>/451000016003 (use: official, )</li></ul></td></tr></table></div>"
+        },
+        "identifier" : [
+          {
+            "use" : "official",
+            "system" : "urn:oid:1.2.208.176.1.2",
+            "value" : "0505149996"
+          }
+        ],
+        "active" : true,
+        "managingOrganization" : {
+          "identifier" : {
+            "use" : "official",
+            "system" : "urn:oid:1.2.208.176.1.1",
+            "value" : "451000016003"
+          }
+        }
+      }
+    },
+    {
+      "fullUrl" : "http://fhir.kl.dk/ltt/CarePlan/Forloeb",
+      "resource" : {
+        "resourceType" : "CarePlan",
+        "id" : "Forloeb",
+        "meta" : {
+          "profile" : [
+            "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-care-plan"
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"CarePlan_Forloeb\"> </a><p class=\"res-header-id\"><b>Generated Narrative: CarePlan Forloeb</b></p><a name=\"Forloeb\"> </a><a name=\"hcForloeb\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-klgateway-ltt-care-plan.html\">KLGatewayLTTCarePlan</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Plan</p><p><b>subject</b>: <a href=\"Patient-Josefine.html\">Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))</a></p><p><b>period</b>: 2025-05-14 08:17:00+0000 --&gt; (ongoing)</p><blockquote><p><b>activity</b></p><blockquote><p><b>detail</b></p><p><b>code</b>: <span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/CareSocialCodes 01302bcb-c7f3-42c4-8ded-68e33da064eb}\">Lettilgængelige tilbud til børn og unge i psykisk mistrivsel</span></p><p><b>reasonCode</b>: <span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/LTT bf4df811-805a-4309-8394-7d9ea31b8af7}\">Krop og mad</span>, <span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/LTT 5cea8eb2-5374-45f7-a985-cef1f577f0a1}\">Selvskade</span></p><p><b>status</b>: In Progress</p></blockquote></blockquote></div>"
+        },
+        "status" : "active",
+        "intent" : "plan",
+        "subject" : {
+          "reference" : "Patient/Josefine"
+        },
+        "period" : {
+          "start" : "2025-05-14T08:17:00Z"
+        },
+        "activity" : [
+          {
+            "detail" : {
+              "code" : {
+                "coding" : [
+                  {
+                    "system" : "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes",
+                    "code" : "01302bcb-c7f3-42c4-8ded-68e33da064eb",
+                    "display" : "Lettilgængelige tilbud til børn og unge i psykisk mistrivsel"
+                  }
+                ]
+              },
+              "reasonCode" : [
+                {
+                  "coding" : [
+                    {
+                      "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+                      "code" : "bf4df811-805a-4309-8394-7d9ea31b8af7",
+                      "display" : "Krop og mad"
+                    }
+                  ]
+                },
+                {
+                  "coding" : [
+                    {
+                      "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+                      "code" : "5cea8eb2-5374-45f7-a985-cef1f577f0a1",
+                      "display" : "Selvskade"
+                    }
+                  ]
+                }
+              ],
+              "status" : "in-progress"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl" : "http://fhir.kl.dk/ltt/Encounter/Behandlingskontakt",
+      "resource" : {
+        "resourceType" : "Encounter",
+        "id" : "Behandlingskontakt",
+        "meta" : {
+          "profile" : [
+            "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter"
+          ]
+        },
+        "text" : {
+          "status" : "extensions",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_Behandlingskontakt\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Encounter Behandlingskontakt</b></p><a name=\"Behandlingskontakt\"> </a><a name=\"hcBehandlingskontakt\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-klgateway-ltt-encounter.html\">KLGatewayLTTEncounter</a></p></div><p><b>BasedOnCarePlan</b>: <a href=\"CarePlan-Forloeb.html\">CarePlan: status = active; intent = plan; period = 2025-05-14 08:17:00+0000 --&gt; (ongoing)</a></p><p><b>DeliveryType</b>: <span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/CareSocialCodes 8d12d74c-17da-47a7-a4fe-e69dbaec0a8c}\">Individuel indsats</span></p><p><b>status</b>: Finished</p><p><b>class</b>: <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-AMB\">ActCode AMB</a>: ambulatory</p><p><b>type</b>: <span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/LTT b7f9217c-2315-4d6f-bba5-5117e202302c}\">Behandling</span></p><p><b>subject</b>: <a href=\"Patient-Josefine.html\">Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))</a></p><h3>Participants</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/CareSocialCodes ca228a58-bd0e-4b0e-81ce-3866adc26535}\">Barn/ung deltager</span></td></tr></table><p><b>period</b>: 2025-07-07 13:28:17+0000 --&gt; (ongoing)</p></div>"
+        },
+        "extension" : [
+          {
+            "url" : "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter-based-on-care-plan",
+            "valueReference" : {
+              "reference" : "CarePlan/Forloeb"
+            }
+          },
+          {
+            "url" : "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter-delivery-type",
+            "valueCodeableConcept" : {
+              "coding" : [
+                {
+                  "system" : "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes",
+                  "code" : "8d12d74c-17da-47a7-a4fe-e69dbaec0a8c",
+                  "display" : "Individuel indsats"
+                }
+              ]
+            }
+          }
+        ],
+        "status" : "finished",
+        "class" : {
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code" : "AMB",
+          "display" : "ambulatory"
+        },
+        "type" : [
+          {
+            "coding" : [
+              {
+                "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+                "code" : "b7f9217c-2315-4d6f-bba5-5117e202302c",
+                "display" : "Behandling"
+              }
+            ]
+          }
+        ],
+        "subject" : {
+          "reference" : "Patient/Josefine"
+        },
+        "participant" : [
+          {
+            "type" : [
+              {
+                "coding" : [
+                  {
+                    "system" : "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes",
+                    "code" : "ca228a58-bd0e-4b0e-81ce-3866adc26535",
+                    "display" : "Barn/ung deltager"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "period" : {
+          "start" : "2025-07-07T13:28:17Z"
+        }
+      }
+    },
+    {
+      "fullUrl" : "http://fhir.kl.dk/ltt/CarePlan/Henvisning",
+      "resource" : {
+        "resourceType" : "CarePlan",
+        "id" : "Henvisning",
+        "meta" : {
+          "profile" : [
+            "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-referral"
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"CarePlan_Henvisning\"> </a><p class=\"res-header-id\"><b>Generated Narrative: CarePlan Henvisning</b></p><a name=\"Henvisning\"> </a><a name=\"hcHenvisning\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-klgateway-ltt-referral.html\">KLGatewayLTTReferral</a></p></div><p><b>basedOn</b>: <a href=\"CarePlan-Forloeb.html\">CarePlan: status = active; intent = plan; period = 2025-05-14 08:17:00+0000 --&gt; (ongoing)</a></p><p><b>status</b>: Completed</p><p><b>intent</b>: Plan</p><p><b>subject</b>: <a href=\"Patient-Josefine.html\">Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))</a></p><p><b>period</b>: 2025-07-07 14:28:17+0000 --&gt; (ongoing)</p><blockquote><p><b>activity</b></p><h3>Details</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Status</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/LTT 59721d6a-71c7-4cae-954c-5997cbebd387}\">Andet tilbud i hjemkommune</span></td><td>Completed</td></tr></table></blockquote></div>"
+        },
+        "basedOn" : [
+          {
+            "reference" : "CarePlan/Forloeb"
+          }
+        ],
+        "status" : "completed",
+        "intent" : "plan",
+        "subject" : {
+          "reference" : "Patient/Josefine"
+        },
+        "period" : {
+          "start" : "2025-07-07T14:28:17Z"
+        },
+        "activity" : [
+          {
+            "detail" : {
+              "code" : {
+                "coding" : [
+                  {
+                    "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+                    "code" : "59721d6a-71c7-4cae-954c-5997cbebd387",
+                    "display" : "Andet tilbud i hjemkommune"
+                  }
+                ]
+              },
+              "status" : "completed"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+
+```

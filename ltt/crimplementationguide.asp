@@ -16,7 +16,7 @@
   else if (s.indexOf("html") == -1) 
     Response.Redirect("http://fhir.kl.dk/ltt/ImplementationGuide-"+id+".xml");
   else if (id == "kl.dk.fhir.ltt")
-    Response.Redirect("http://fhir.kl.dk/ltt/1.0.0/index.html");
+    Response.Redirect("http://fhir.kl.dk/ltt/1.0.1/index.html");
   else if (id == "index")
     Response.Redirect("http://fhir.kl.dk/ltt/ImplementationGuide.html");
 
@@ -25,6 +25,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-Internal Error - unknown id <%= Request.QueryString("id") %> (from ltt#1.0.0-milestone\output\crimplementationguide.asp) .
+Internal Error - unknown id <%= Request.QueryString("id") %> (from ltt#1.0.1-milestone\output\crimplementationguide.asp) .
 </body>
 </html>

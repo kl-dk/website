@@ -1,0 +1,64 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-encounter-types> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "fkgateway-ltt-encounter-types"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet fkgateway-ltt-encounter-types</b></p><a name=\"fkgateway-ltt-encounter-types\"> </a><a name=\"hcfkgateway-ltt-encounter-types\"> </a><ul><li>Include these codes as defined in <a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html\"><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 2.3.0, the version found through the package references\"> version ?2.3.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-afd9445a-7ca5-42f8-8011-c3802db3f30b\">afd9445a-7ca5-42f8-8011-c3802db3f30b</a></td><td>Afsluttende samtale</td><td>Afsluttende samtale med fokus på opfølgning på behandlingsforløbet</td></tr><tr><td><a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-3b1d8884-5a1d-43cf-aabb-8c1035148c46\">3b1d8884-5a1d-43cf-aabb-8c1035148c46</a></td><td>Afslutning</td><td>Oplysning om at forløbet er afsluttet på en given dato</td></tr><tr><td><a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-ac1057da-a510-4bab-a2b1-d96efa464bdc\">ac1057da-a510-4bab-a2b1-d96efa464bdc</a></td><td>Henvendelse</td><td>Henvendelse fra barn/ung eller forældre vedrørende hjælp fra kommunen som kan høre ind under det lettilgængelige tilbud</td></tr><tr><td><a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-e2eee938-a58c-42d0-a514-dc91779b1243\">e2eee938-a58c-42d0-a514-dc91779b1243</a></td><td>Forsamtale</td><td>Forsamtale med henblik på vurdering om barnet/den unge er i målgruppen for en behandlingsindsats i det lettilgængelige tilbud</td></tr><tr><td><a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-404665f4-3488-4225-953e-3f1c5a061829\">404665f4-3488-4225-953e-3f1c5a061829</a></td><td>Screening</td><td>Screening som skal afklare barnets/den unges behov og hvilket behandlingsforløb barnet/den unge har behov for. Vurderingen af behandlingsbehovet beror på en klinisk vurdering understøttet af forskellige evidensbaserede spørgeskemaer</td></tr><tr><td><a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-b7f9217c-2315-4d6f-bba5-5117e202302c\">b7f9217c-2315-4d6f-bba5-5117e202302c</a></td><td>Behandling</td><td>Behandlingskontakter baseret på evidensbaserede/dokumenterede indsatser og manualer med specifikation af fremgangsmåde, antal sessioner og indhold i de enkelte indsatser</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-encounter-types"^^xsd:anyURI ;
+     fhir:l <http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-encounter-types>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.1"] ; # 
+  fhir:name [ fhir:v "LTTEncounterTypes"] ; # 
+  fhir:title [ fhir:v "Lettilgængeligt Tilbud - Kontakttyper"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-10-29T22:39:09+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Kommunernes Landsforening"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Kommunernes Landsforening" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://kl.dk" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Types of encounters in LTT"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://fhir.kl.dk/term/CodeSystem/LTT"^^xsd:anyURI ;
+         fhir:l <http://fhir.kl.dk/term/CodeSystem/LTT>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "afd9445a-7ca5-42f8-8011-c3802db3f30b" ] ;
+         fhir:display [ fhir:v "Afsluttende samtale" ]
+       ] [
+         fhir:code [ fhir:v "3b1d8884-5a1d-43cf-aabb-8c1035148c46" ] ;
+         fhir:display [ fhir:v "Afslutning" ]
+       ] [
+         fhir:code [ fhir:v "ac1057da-a510-4bab-a2b1-d96efa464bdc" ] ;
+         fhir:display [ fhir:v "Henvendelse" ]
+       ] [
+         fhir:code [ fhir:v "e2eee938-a58c-42d0-a514-dc91779b1243" ] ;
+         fhir:display [ fhir:v "Forsamtale" ]
+       ] [
+         fhir:code [ fhir:v "404665f4-3488-4225-953e-3f1c5a061829" ] ;
+         fhir:display [ fhir:v "Screening" ]
+       ] [
+         fhir:code [ fhir:v "b7f9217c-2315-4d6f-bba5-5117e202302c" ] ;
+         fhir:display [ fhir:v "Behandling" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

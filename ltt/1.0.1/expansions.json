@@ -1,0 +1,391 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "54b6dd8d-7de0-4705-a03d-e1bcb31aa6f5",
+  "meta" : {
+    "lastUpdated" : "2025-10-29T22:39:09.306+01:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-care-plan-activity-types",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html\">codesystem CareSocialCodes v2.3.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://fhir.kl.dk/term/CodeSystem/CareSocialCodes|2.3.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 1 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/CareSocialCodes-01302bcb-c7f3-42c4-8ded-68e33da064eb\"> </a><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-01302bcb-c7f3-42c4-8ded-68e33da064eb\">01302bcb-c7f3-42c4-8ded-68e33da064eb</a></td><td>Lettilgængelige tilbud til børn og unge i psykisk mistrivsel</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;01302bcb-c7f3-42c4-8ded-68e33da064eb&quot;, &quot;display&quot;: &quot;Lettilgængelige tilbud til børn og unge i psykisk mistrivsel&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;01302bcb-c7f3-42c4-8ded-68e33da064eb&quot;&gt;&lt;display value=&quot;Lettilgængelige tilbud til børn og unge i psykisk mistrivsel&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-care-plan-activity-types",
+      "version" : "1.0.1",
+      "name" : "LTTCarePlanActivityTypes",
+      "title" : "Lettilgængeligt Tilbud - Forløbskoder",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2025-10-29T22:39:09+01:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:612232b1-4f38-43c1-8f9d-d0dbba2294ea",
+        "timestamp" : "2025-10-29T22:43:59+01:00",
+        "total" : 1,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes|2.3.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes",
+          "code" : "01302bcb-c7f3-42c4-8ded-68e33da064eb",
+          "display" : "Lettilgængelige tilbud til børn og unge i psykisk mistrivsel"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-encounter-types",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html\">codesystem LTT v2.3.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://fhir.kl.dk/term/CodeSystem/LTT|2.3.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-afd9445a-7ca5-42f8-8011-c3802db3f30b\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-afd9445a-7ca5-42f8-8011-c3802db3f30b\">afd9445a-7ca5-42f8-8011-c3802db3f30b</a></td><td>Afsluttende samtale</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;afd9445a-7ca5-42f8-8011-c3802db3f30b&quot;, &quot;display&quot;: &quot;Afsluttende samtale&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;afd9445a-7ca5-42f8-8011-c3802db3f30b&quot;&gt;&lt;display value=&quot;Afsluttende samtale&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-3b1d8884-5a1d-43cf-aabb-8c1035148c46\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-3b1d8884-5a1d-43cf-aabb-8c1035148c46\">3b1d8884-5a1d-43cf-aabb-8c1035148c46</a></td><td>Afslutning</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;3b1d8884-5a1d-43cf-aabb-8c1035148c46&quot;, &quot;display&quot;: &quot;Afslutning&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;3b1d8884-5a1d-43cf-aabb-8c1035148c46&quot;&gt;&lt;display value=&quot;Afslutning&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-ac1057da-a510-4bab-a2b1-d96efa464bdc\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-ac1057da-a510-4bab-a2b1-d96efa464bdc\">ac1057da-a510-4bab-a2b1-d96efa464bdc</a></td><td>Henvendelse</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;ac1057da-a510-4bab-a2b1-d96efa464bdc&quot;, &quot;display&quot;: &quot;Henvendelse&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;ac1057da-a510-4bab-a2b1-d96efa464bdc&quot;&gt;&lt;display value=&quot;Henvendelse&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-e2eee938-a58c-42d0-a514-dc91779b1243\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-e2eee938-a58c-42d0-a514-dc91779b1243\">e2eee938-a58c-42d0-a514-dc91779b1243</a></td><td>Forsamtale</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;e2eee938-a58c-42d0-a514-dc91779b1243&quot;, &quot;display&quot;: &quot;Forsamtale&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;e2eee938-a58c-42d0-a514-dc91779b1243&quot;&gt;&lt;display value=&quot;Forsamtale&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-404665f4-3488-4225-953e-3f1c5a061829\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-404665f4-3488-4225-953e-3f1c5a061829\">404665f4-3488-4225-953e-3f1c5a061829</a></td><td>Screening</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;404665f4-3488-4225-953e-3f1c5a061829&quot;, &quot;display&quot;: &quot;Screening&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;404665f4-3488-4225-953e-3f1c5a061829&quot;&gt;&lt;display value=&quot;Screening&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-b7f9217c-2315-4d6f-bba5-5117e202302c\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-b7f9217c-2315-4d6f-bba5-5117e202302c\">b7f9217c-2315-4d6f-bba5-5117e202302c</a></td><td>Behandling</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;b7f9217c-2315-4d6f-bba5-5117e202302c&quot;, &quot;display&quot;: &quot;Behandling&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;b7f9217c-2315-4d6f-bba5-5117e202302c&quot;&gt;&lt;display value=&quot;Behandling&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-encounter-types",
+      "version" : "1.0.1",
+      "name" : "LTTEncounterTypes",
+      "title" : "Lettilgængeligt Tilbud - Kontakttyper",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2025-10-29T22:39:09+01:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:52c8b3c1-4f26-4084-a7c8-fced34c8ec67",
+        "timestamp" : "2025-10-29T22:44:01+01:00",
+        "total" : 6,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://fhir.kl.dk/term/CodeSystem/LTT|2.3.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "afd9445a-7ca5-42f8-8011-c3802db3f30b",
+          "display" : "Afsluttende samtale"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "3b1d8884-5a1d-43cf-aabb-8c1035148c46",
+          "display" : "Afslutning"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "ac1057da-a510-4bab-a2b1-d96efa464bdc",
+          "display" : "Henvendelse"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "e2eee938-a58c-42d0-a514-dc91779b1243",
+          "display" : "Forsamtale"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "404665f4-3488-4225-953e-3f1c5a061829",
+          "display" : "Screening"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "b7f9217c-2315-4d6f-bba5-5117e202302c",
+          "display" : "Behandling"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-focus-area",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html\">codesystem LTT v2.3.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://fhir.kl.dk/term/CodeSystem/LTT|2.3.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 8 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-dcf2c302-09b9-4bf1-9865-d08a5876700c\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-dcf2c302-09b9-4bf1-9865-d08a5876700c\">dcf2c302-09b9-4bf1-9865-d08a5876700c</a></td><td>Adfærd</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;dcf2c302-09b9-4bf1-9865-d08a5876700c&quot;, &quot;display&quot;: &quot;Adfærd&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;dcf2c302-09b9-4bf1-9865-d08a5876700c&quot;&gt;&lt;display value=&quot;Adfærd&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-95c5e9fc-33b7-4d85-9417-64fc3164eb4c\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-95c5e9fc-33b7-4d85-9417-64fc3164eb4c\">95c5e9fc-33b7-4d85-9417-64fc3164eb4c</a></td><td>Bekymring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;95c5e9fc-33b7-4d85-9417-64fc3164eb4c&quot;, &quot;display&quot;: &quot;Bekymring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;95c5e9fc-33b7-4d85-9417-64fc3164eb4c&quot;&gt;&lt;display value=&quot;Bekymring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-bf4df811-805a-4309-8394-7d9ea31b8af7\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-bf4df811-805a-4309-8394-7d9ea31b8af7\">bf4df811-805a-4309-8394-7d9ea31b8af7</a></td><td>Krop og mad</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;bf4df811-805a-4309-8394-7d9ea31b8af7&quot;, &quot;display&quot;: &quot;Krop og mad&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;bf4df811-805a-4309-8394-7d9ea31b8af7&quot;&gt;&lt;display value=&quot;Krop og mad&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-5cea8eb2-5374-45f7-a985-cef1f577f0a1\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-5cea8eb2-5374-45f7-a985-cef1f577f0a1\">5cea8eb2-5374-45f7-a985-cef1f577f0a1</a></td><td>Selvskade</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;5cea8eb2-5374-45f7-a985-cef1f577f0a1&quot;, &quot;display&quot;: &quot;Selvskade&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;5cea8eb2-5374-45f7-a985-cef1f577f0a1&quot;&gt;&lt;display value=&quot;Selvskade&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-9b82f4cd-bc63-4187-a2f0-ff2d74f63bd8\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-9b82f4cd-bc63-4187-a2f0-ff2d74f63bd8\">9b82f4cd-bc63-4187-a2f0-ff2d74f63bd8</a></td><td>Tristhed</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;9b82f4cd-bc63-4187-a2f0-ff2d74f63bd8&quot;, &quot;display&quot;: &quot;Tristhed&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;9b82f4cd-bc63-4187-a2f0-ff2d74f63bd8&quot;&gt;&lt;display value=&quot;Tristhed&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-c8887ec0-e529-48d9-914c-317e000c2036\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-c8887ec0-e529-48d9-914c-317e000c2036\">c8887ec0-e529-48d9-914c-317e000c2036</a></td><td>Tvangstanker og -handlinger</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;c8887ec0-e529-48d9-914c-317e000c2036&quot;, &quot;display&quot;: &quot;Tvangstanker og -handlinger&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;c8887ec0-e529-48d9-914c-317e000c2036&quot;&gt;&lt;display value=&quot;Tvangstanker og -handlinger&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-2644b5af-73cc-41a5-b588-f244b813179d\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-2644b5af-73cc-41a5-b588-f244b813179d\">2644b5af-73cc-41a5-b588-f244b813179d</a></td><td>Uro og uopmærksomhed</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;2644b5af-73cc-41a5-b588-f244b813179d&quot;, &quot;display&quot;: &quot;Uro og uopmærksomhed&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;2644b5af-73cc-41a5-b588-f244b813179d&quot;&gt;&lt;display value=&quot;Uro og uopmærksomhed&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-cc829c98-5904-45da-b777-2af5693e78e9\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-cc829c98-5904-45da-b777-2af5693e78e9\">cc829c98-5904-45da-b777-2af5693e78e9</a></td><td>Andet</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;cc829c98-5904-45da-b777-2af5693e78e9&quot;, &quot;display&quot;: &quot;Andet&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;cc829c98-5904-45da-b777-2af5693e78e9&quot;&gt;&lt;display value=&quot;Andet&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-focus-area",
+      "version" : "1.0.1",
+      "name" : "LTTFocusArea",
+      "title" : "Lettilgængeligt Tilbud - Tema",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2025-10-29T22:39:09+01:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:bf879aed-2b61-4ffd-93cd-156786b122d8",
+        "timestamp" : "2025-10-29T22:44:01+01:00",
+        "total" : 8,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://fhir.kl.dk/term/CodeSystem/LTT|2.3.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "dcf2c302-09b9-4bf1-9865-d08a5876700c",
+          "display" : "Adfærd"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "95c5e9fc-33b7-4d85-9417-64fc3164eb4c",
+          "display" : "Bekymring"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "bf4df811-805a-4309-8394-7d9ea31b8af7",
+          "display" : "Krop og mad"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "5cea8eb2-5374-45f7-a985-cef1f577f0a1",
+          "display" : "Selvskade"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "9b82f4cd-bc63-4187-a2f0-ff2d74f63bd8",
+          "display" : "Tristhed"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "c8887ec0-e529-48d9-914c-317e000c2036",
+          "display" : "Tvangstanker og -handlinger"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "2644b5af-73cc-41a5-b588-f244b813179d",
+          "display" : "Uro og uopmærksomhed"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "cc829c98-5904-45da-b777-2af5693e78e9",
+          "display" : "Andet"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-delivery",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html\">codesystem CareSocialCodes v2.3.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://fhir.kl.dk/term/CodeSystem/CareSocialCodes|2.3.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/CareSocialCodes-2865f123-15a7-4a36-a514-32ea37c400ca\"> </a><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-2865f123-15a7-4a36-a514-32ea37c400ca\">2865f123-15a7-4a36-a514-32ea37c400ca</a></td><td>Gruppebaseret indsats</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;2865f123-15a7-4a36-a514-32ea37c400ca&quot;, &quot;display&quot;: &quot;Gruppebaseret indsats&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;2865f123-15a7-4a36-a514-32ea37c400ca&quot;&gt;&lt;display value=&quot;Gruppebaseret indsats&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/CareSocialCodes-8d12d74c-17da-47a7-a4fe-e69dbaec0a8c\"> </a><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-8d12d74c-17da-47a7-a4fe-e69dbaec0a8c\">8d12d74c-17da-47a7-a4fe-e69dbaec0a8c</a></td><td>Individuel indsats</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;8d12d74c-17da-47a7-a4fe-e69dbaec0a8c&quot;, &quot;display&quot;: &quot;Individuel indsats&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;8d12d74c-17da-47a7-a4fe-e69dbaec0a8c&quot;&gt;&lt;display value=&quot;Individuel indsats&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-delivery",
+      "version" : "1.0.1",
+      "name" : "LTTDeliveryTypes",
+      "title" : "Lettilgængeligt Tilbud - Leveringstype",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2025-10-29T22:39:09+01:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:79397190-948f-47cc-bffc-98b2345a94df",
+        "timestamp" : "2025-10-29T22:44:01+01:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes|2.3.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes",
+          "code" : "2865f123-15a7-4a36-a514-32ea37c400ca",
+          "display" : "Gruppebaseret indsats"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes",
+          "code" : "8d12d74c-17da-47a7-a4fe-e69dbaec0a8c",
+          "display" : "Individuel indsats"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-participants",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html\">codesystem CareSocialCodes v2.3.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://fhir.kl.dk/term/CodeSystem/CareSocialCodes|2.3.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/CareSocialCodes-ca228a58-bd0e-4b0e-81ce-3866adc26535\"> </a><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-ca228a58-bd0e-4b0e-81ce-3866adc26535\">ca228a58-bd0e-4b0e-81ce-3866adc26535</a></td><td>Barn/ung deltager</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;ca228a58-bd0e-4b0e-81ce-3866adc26535&quot;, &quot;display&quot;: &quot;Barn/ung deltager&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;ca228a58-bd0e-4b0e-81ce-3866adc26535&quot;&gt;&lt;display value=&quot;Barn/ung deltager&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/CareSocialCodes-d3578249-10df-4051-851d-3986b1570bee\"> </a><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-d3578249-10df-4051-851d-3986b1570bee\">d3578249-10df-4051-851d-3986b1570bee</a></td><td>Omsorgsperson uden barn/ung</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;d3578249-10df-4051-851d-3986b1570bee&quot;, &quot;display&quot;: &quot;Omsorgsperson uden barn/ung&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;d3578249-10df-4051-851d-3986b1570bee&quot;&gt;&lt;display value=&quot;Omsorgsperson uden barn/ung&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-participants",
+      "version" : "1.0.1",
+      "name" : "LTTParticipantTypes",
+      "title" : "Lettilgængeligt Tilbud - Deltagere i kontakt",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2025-10-29T22:39:09+01:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:c0be431f-d3e3-490e-b483-9e3ea5553789",
+        "timestamp" : "2025-10-29T22:44:01+01:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes|2.3.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes",
+          "code" : "ca228a58-bd0e-4b0e-81ce-3866adc26535",
+          "display" : "Barn/ung deltager"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes",
+          "code" : "d3578249-10df-4051-851d-3986b1570bee",
+          "display" : "Omsorgsperson uden barn/ung"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-referral",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html\">codesystem LTT v2.3.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://fhir.kl.dk/term/CodeSystem/LTT|2.3.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-e961ba32-9e1e-4bfd-82aa-d73c8653d170\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-e961ba32-9e1e-4bfd-82aa-d73c8653d170\">e961ba32-9e1e-4bfd-82aa-d73c8653d170</a></td><td>Andet</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;e961ba32-9e1e-4bfd-82aa-d73c8653d170&quot;, &quot;display&quot;: &quot;Andet&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;e961ba32-9e1e-4bfd-82aa-d73c8653d170&quot;&gt;&lt;display value=&quot;Andet&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-59721d6a-71c7-4cae-954c-5997cbebd387\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-59721d6a-71c7-4cae-954c-5997cbebd387\">59721d6a-71c7-4cae-954c-5997cbebd387</a></td><td>Andet tilbud i hjemkommune</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;59721d6a-71c7-4cae-954c-5997cbebd387&quot;, &quot;display&quot;: &quot;Andet tilbud i hjemkommune&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;59721d6a-71c7-4cae-954c-5997cbebd387&quot;&gt;&lt;display value=&quot;Andet tilbud i hjemkommune&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-e648f06e-8a17-47af-95ff-babeb3e7543c\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-e648f06e-8a17-47af-95ff-babeb3e7543c\">e648f06e-8a17-47af-95ff-babeb3e7543c</a></td><td>§126a-tilbud i anden kommune</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;e648f06e-8a17-47af-95ff-babeb3e7543c&quot;, &quot;display&quot;: &quot;§126a-tilbud i anden kommune&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;e648f06e-8a17-47af-95ff-babeb3e7543c&quot;&gt;&lt;display value=&quot;§126a-tilbud i anden kommune&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-0cdc1b09-f53f-41c4-80d3-a2c59ff98287\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-0cdc1b09-f53f-41c4-80d3-a2c59ff98287\">0cdc1b09-f53f-41c4-80d3-a2c59ff98287</a></td><td>Alment praktiserende læge</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;0cdc1b09-f53f-41c4-80d3-a2c59ff98287&quot;, &quot;display&quot;: &quot;Alment praktiserende læge&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;0cdc1b09-f53f-41c4-80d3-a2c59ff98287&quot;&gt;&lt;display value=&quot;Alment praktiserende læge&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-42b97e5a-7584-4b07-a7c7-d441ccb331b2\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-42b97e5a-7584-4b07-a7c7-d441ccb331b2\">42b97e5a-7584-4b07-a7c7-d441ccb331b2</a></td><td>Børne- og ungdomspsykiatri</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;42b97e5a-7584-4b07-a7c7-d441ccb331b2&quot;, &quot;display&quot;: &quot;Børne- og ungdomspsykiatri&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;42b97e5a-7584-4b07-a7c7-d441ccb331b2&quot;&gt;&lt;display value=&quot;Børne- og ungdomspsykiatri&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.kl.dk/term/CodeSystem/LTT-f3d5cb7b-e059-4fbc-9514-a53299c2e3cf\"> </a><code>http://fhir.kl.dk/term/CodeSystem/LTT</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-LTT.html#LTT-f3d5cb7b-e059-4fbc-9514-a53299c2e3cf\">f3d5cb7b-e059-4fbc-9514-a53299c2e3cf</a></td><td>Civilsamfund</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;f3d5cb7b-e059-4fbc-9514-a53299c2e3cf&quot;, &quot;display&quot;: &quot;Civilsamfund&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/LTT&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;f3d5cb7b-e059-4fbc-9514-a53299c2e3cf&quot;&gt;&lt;display value=&quot;Civilsamfund&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-referral",
+      "version" : "1.0.1",
+      "name" : "LTTTypeOfReferral",
+      "title" : "Lettilgængeligt Tilbud - Henvisning",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2025-10-29T22:39:09+01:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:e26abbcd-3852-4748-894c-9714396a8d5c",
+        "timestamp" : "2025-10-29T22:44:02+01:00",
+        "total" : 6,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://fhir.kl.dk/term/CodeSystem/LTT|2.3.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "e961ba32-9e1e-4bfd-82aa-d73c8653d170",
+          "display" : "Andet"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "59721d6a-71c7-4cae-954c-5997cbebd387",
+          "display" : "Andet tilbud i hjemkommune"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "e648f06e-8a17-47af-95ff-babeb3e7543c",
+          "display" : "§126a-tilbud i anden kommune"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "0cdc1b09-f53f-41c4-80d3-a2c59ff98287",
+          "display" : "Alment praktiserende læge"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "42b97e5a-7584-4b07-a7c7-d441ccb331b2",
+          "display" : "Børne- og ungdomspsykiatri"
+        },
+        {
+          "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+          "code" : "f3d5cb7b-e059-4fbc-9514-a53299c2e3cf",
+          "display" : "Civilsamfund"
+        }]
+      }
+    }
+  }]
+}

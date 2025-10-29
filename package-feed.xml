@@ -4,13 +4,24 @@
     <description>New Packages published by KL</description>
     <link>http://fhir.kl.dk/package-feed.xml</link>
     <generator>HL7, Inc FHIR Publication tooling</generator>
-    <lastBuildDate>Sun, 31 Aug 2025 01:01:26 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 29 Oct 2025 10:39:09 +0100</lastBuildDate>
     <atom:link href="http://fhir.kl.dk/package-feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 Aug 2025 01:01:26 +0200</pubDate>
+    <pubDate>Wed, 29 Oct 2025 10:39:09 +0100</pubDate>
     <language>en</language>
     <ttl>600</ttl>
 
 
+    <item>
+      <title>kl.dk.fhir.ltt#1.0.1</title>
+      <description>Patch release that corrects minor errors in KL ltt</description>
+      <link>http://fhir.kl.dk/ltt/1.0.1/package.tgz</link>
+      <guid isPermaLink="true">http://fhir.kl.dk/ltt/1.0.1/package.tgz</guid>
+      <dc:creator>KL Denmark</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Wed, 29 Oct 2025 10:39:09 +0100</pubDate>
+      <fhir:details>Publication run at 29/10/2025 by LAPTOP-R1C9T9I7 using Version 2.0.24 (Git# f67b3ab6b4f9). Built 2025-10-28T17:45:50.25Z (27 hours old) source id Unknown (todo)</fhir:details>
+    </item>
     <item>
       <title>kl.dk.fhir.ltt#1.0.0</title>
       <description>Initial release of KL ltt</description>

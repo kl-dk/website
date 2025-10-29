@@ -3,15 +3,15 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="fkgateway-ltt-type-of-delivery"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet fkgateway-ltt-type-of-delivery</b></p><a name="fkgateway-ltt-type-of-delivery"> </a><a name="hcfkgateway-ltt-type-of-delivery"> </a><ul><li>Include these codes as defined in <a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html"><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-2865f123-15a7-4a36-a514-32ea37c400ca">2865f123-15a7-4a36-a514-32ea37c400ca</a></td><td>Gruppebaseret indsats</td><td>Indsats leveres af en medarbejder, der interagerer med en gruppe som borgeren er del af.</td></tr><tr><td><a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-8d12d74c-17da-47a7-a4fe-e69dbaec0a8c">8d12d74c-17da-47a7-a4fe-e69dbaec0a8c</a></td><td>Individuel indsats</td><td>Indsats leveres af en medarbejder i en-til-en interaktion.</td></tr></table></li></ul></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet fkgateway-ltt-type-of-delivery</b></p><a name="fkgateway-ltt-type-of-delivery"> </a><a name="hcfkgateway-ltt-type-of-delivery"> </a><ul><li>Include these codes as defined in <a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html"><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></a><span title="Version is not explicitly stated, which means it is fixed to 2.3.0, the version found through the package references"> version &#x1F4E6;2.3.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-2865f123-15a7-4a36-a514-32ea37c400ca">2865f123-15a7-4a36-a514-32ea37c400ca</a></td><td>Gruppebaseret indsats</td><td>Indsats leveres af en medarbejder, der interagerer med en gruppe som borgeren er del af.</td></tr><tr><td><a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-8d12d74c-17da-47a7-a4fe-e69dbaec0a8c">8d12d74c-17da-47a7-a4fe-e69dbaec0a8c</a></td><td>Individuel indsats</td><td>Indsats leveres af en medarbejder i en-til-en interaktion.</td></tr></table></li></ul></div>
   </text>
   <url value="http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-delivery"/>
-  <version value="1.0.0"/>
+  <version value="1.0.1"/>
   <name value="LTTDeliveryTypes"/>
   <title value="Lettilgængeligt Tilbud - Leveringstype"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-08-31T13:04:54+02:00"/>
+  <date value="2025-10-29T22:49:04+01:00"/>
   <publisher value="Kommunernes Landsforening"/>
   <contact>
     <name value="Kommunernes Landsforening"/>

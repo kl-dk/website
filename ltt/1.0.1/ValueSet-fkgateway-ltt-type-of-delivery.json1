@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "fkgateway-ltt-type-of-delivery",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet fkgateway-ltt-type-of-delivery</b></p><a name=\"fkgateway-ltt-type-of-delivery\"> </a><a name=\"hcfkgateway-ltt-type-of-delivery\"> </a><ul><li>Include these codes as defined in <a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html\"><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 2.3.0, the version found through the package references\"> version &#x1F4E6;2.3.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-2865f123-15a7-4a36-a514-32ea37c400ca\">2865f123-15a7-4a36-a514-32ea37c400ca</a></td><td>Gruppebaseret indsats</td><td>Indsats leveres af en medarbejder, der interagerer med en gruppe som borgeren er del af.</td></tr><tr><td><a href=\"http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-8d12d74c-17da-47a7-a4fe-e69dbaec0a8c\">8d12d74c-17da-47a7-a4fe-e69dbaec0a8c</a></td><td>Individuel indsats</td><td>Indsats leveres af en medarbejder i en-til-en interaktion.</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-delivery",
+  "version" : "1.0.1",
+  "name" : "LTTDeliveryTypes",
+  "title" : "Lettilgængeligt Tilbud - Leveringstype",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-10-29T22:39:09+01:00",
+  "publisher" : "Kommunernes Landsforening",
+  "contact" : [{
+    "name" : "Kommunernes Landsforening",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://kl.dk"
+    }]
+  }],
+  "description" : "Delivery types",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes",
+      "concept" : [{
+        "code" : "2865f123-15a7-4a36-a514-32ea37c400ca",
+        "display" : "Gruppebaseret indsats"
+      },
+      {
+        "code" : "8d12d74c-17da-47a7-a4fe-e69dbaec0a8c",
+        "display" : "Individuel indsats"
+      }]
+    }]
+  }
+}

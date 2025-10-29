@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide kl.dk.fhir.ltt</b></p><a name=\"kl.dk.fhir.ltt\"> </a><a name=\"hckl.dk.fhir.ltt\"> </a><h2>LTT</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.kl.dk/ltt/ImplementationGuide/kl.dk.fhir.ltt</pre><div><p>LTT provides the specification for reporting selected data on the use of easily accessible services (lettilgængelige tilbud) offered by municipalities for children and youth experiencing mental distress (SUL §126a). Data is reported to FK Gateway</p>\n</div></div>"
   },
   "url" : "http://fhir.kl.dk/ltt/ImplementationGuide/kl.dk.fhir.ltt",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "name" : "LTT",
   "title" : "LTT Implementation Guide",
   "status" : "active",
-  "date" : "2025-08-31T13:04:54+02:00",
+  "date" : "2025-10-29T22:49:04+01:00",
   "publisher" : "Kommunernes Landsforening",
   "contact" : [{
     "name" : "Kommunernes Landsforening",
@@ -333,7 +333,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.7.1"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.8.0"
     },
     {
       "extension" : [{
@@ -820,22 +820,22 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/klgateway-ltt-referral"
+        "reference" : "StructureDefinition/klgateway-ltt-incremental-delivery"
       },
-      "name" : "KLGatewayLTTReferral",
-      "description" : "Referral of the child or youth to other services.",
+      "name" : "KLGAtewayLTTIncrementalDelivery",
+      "description" : "Delivery for all delivery reports made since last update (unordered).",
       "exampleBoolean" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
+        "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "ValueSet/fkgateway-ltt-encounter-class-codes"
+        "reference" : "StructureDefinition/klgateway-ltt-referral"
       },
-      "name" : "KontaktKlasseKoder",
-      "description" : "Codes to describe the mode of delivery of an encounter",
+      "name" : "KLGatewayLTTReferral",
+      "description" : "Referral of the child or youth to other services.",
       "exampleBoolean" : false
     },
     {
@@ -921,6 +921,18 @@
       "name" : "RapportOmJosefine",
       "description" : "Rapport om Josefine.",
       "exampleCanonical" : "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/TestIncrementalDelivery"
+      },
+      "name" : "TestIncrementalDelivery",
+      "description" : "Example of an incremental delivery with one delivery report",
+      "exampleCanonical" : "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-incremental-delivery"
     }],
     "page" : {
       "extension" : [{

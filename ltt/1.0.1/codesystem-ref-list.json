@@ -1,0 +1,30 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes",
+      "version" : "2.3.0",
+      "status" : "active",
+      "name" : "CareSocialCodes",
+      "title" : "CareSocialCodes",
+      "description" : "Administrative/technical codes in Local Govenment Denmark (KL), associated with common use cases across areas or kl-core",
+      "uses" : {
+      },
+      "ValueSet-fkgateway-ltt-care-plan-activity-types.html" : "Lettilgængeligt Tilbud - Forløbskoder",
+      "ValueSet-fkgateway-ltt-type-of-delivery.html" : "Lettilgængeligt Tilbud - Leveringstype",
+      "ValueSet-fkgateway-ltt-type-of-participants.html" : "Lettilgængeligt Tilbud - Deltagere i kontakt"
+    },
+    {
+      "url" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+      "version" : "2.3.0",
+      "status" : "active",
+      "name" : "LTT",
+      "title" : "LTT",
+      "description" : "Concepts used for standardizing documentation for Danish children/teenagers with mental challenges whom are helped in readily available treatment offers in the Danish municipalities.",
+      "uses" : {
+      },
+      "ValueSet-fkgateway-ltt-focus-area.html" : "Lettilgængeligt Tilbud - Tema",
+      "ValueSet-fkgateway-ltt-encounter-types.html" : "Lettilgængeligt Tilbud - Kontakttyper",
+      "ValueSet-fkgateway-ltt-type-of-referral.html" : "Lettilgængeligt Tilbud - Henvisning"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "a56c864d-394c-4edc-9f80-d3093dbb095a-8",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/a56c864d-394c-4edc-9f80-d3093dbb095a-8",
+  "name" : "UnionCarePlanCategoryAndCarePlanCategory",
+  "title" : "Union of Care Plan Category And Care Plan Category",
+  "status" : "draft",
+  "date" : "2025-10-29T22:52:24+01:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "734163000"
+      }]
+    }]
+  }
+}

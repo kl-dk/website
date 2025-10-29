@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Lettilgængeligt Tilbud - Deltagere i kontakt - LTT Implementation Guide v1.0.0</title>
+    <title>Lettilgængeligt Tilbud - Deltagere i kontakt - LTT Implementation Guide v1.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -61,7 +61,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">LTT Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">1.0.0 - ci-build
+            <span style="display:inline-block;">1.0.1 - ci-build
 
 
             </span>
@@ -122,7 +122,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the KLltt (v1.0.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="http://fhir.kl.dk/ltt/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the KLltt (v1.0.1: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="http://fhir.kl.dk/ltt/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -174,7 +174,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-participants<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-participants"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">1.0.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-participants|1.0.0"/></span>
+      <span class="copy-text">1.0.1<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://fhir.kl.dk/ltt/ValueSet/fkgateway-ltt-type-of-participants|1.0.1"/></span>
       </td>
     </tr>
 
@@ -190,7 +190,7 @@
         
           Active
           
-            as of 2025-08-31
+            as of 2025-10-29
           
         
       </td>
@@ -230,15 +230,13 @@
 <!-- Content Logical Definition heading in the fragment -->
   <h3>Logical Definition (CLD)</h3>
 <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"></p><a name="fkgateway-ltt-type-of-participants"> </a><a name="hcfkgateway-ltt-type-of-participants"> </a>
-<ul><li>Include codes from<a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html"><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></a> where concept  descends from <a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-880028ec-5f16-4242-ba53-57a902094d5b">880028ec-5f16-4242-ba53-57a902094d5b</a></li></ul></div>
+<ul><li>Include codes from<a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html"><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></a><span title="Version is not explicitly stated, which means it is fixed to 2.3.0, the version found through the package references"> version &#x1F4E6;2.3.0</span> where concept  descends from <a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-880028ec-5f16-4242-ba53-57a902094d5b">880028ec-5f16-4242-ba53-57a902094d5b</a></li></ul></div>
 
   <p>&#160;</p>
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"/><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on <a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html">codesystem CareSocialCodes v2.3.0 (CodeSystem)</a></p><p>This value set contains 2 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-http://fhir.kl.dk/term/CodeSystem/CareSocialCodes-ca228a58-bd0e-4b0e-81ce-3866adc26535"> </a>  <a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-ca228a58-bd0e-4b0e-81ce-3866adc26535">ca228a58-bd0e-4b0e-81ce-3866adc26535</a></td><td>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</td><td>Barn/ung deltager</td><td><div><p>Behandler og barn/ung i målgruppen (5-17år) og evt. forældre, værger el.lign. er til stede. Barnet/den unge er genstand for journaloptagelsen.</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="x-http://fhir.kl.dk/term/CodeSystem/CareSocialCodes-d3578249-10df-4051-851d-3986b1570bee"> </a>  <a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-d3578249-10df-4051-851d-3986b1570bee">d3578249-10df-4051-851d-3986b1570bee</a></td><td>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</td><td>Omsorgsperson uden barn/ung</td><td><div><p>Behandling hvor kun behandler og forældre, værger el.lign. til barn/ung er til stede. Barnet/den unge er genstand for journalen.</p>
-</div></td></tr></table></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"/><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on <a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html">codesystem CareSocialCodes v2.3.0 (CodeSystem)</a><span class="copy-text-inline"><button data-clipboard-text="http://fhir.kl.dk/term/CodeSystem/CareSocialCodes|2.3.0" title="Click to Copy URL" class="btn-copy"> </button></span></p><p>This value set contains 2 concepts</p><table class="codes" data-fhir="generated"><tr><td><b>System</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name="x-http://fhir.kl.dk/term/CodeSystem/CareSocialCodes-ca228a58-bd0e-4b0e-81ce-3866adc26535"> </a><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></td><td style="white-space:nowrap">  <a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-ca228a58-bd0e-4b0e-81ce-3866adc26535">ca228a58-bd0e-4b0e-81ce-3866adc26535</a></td><td>Barn/ung deltager</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;ca228a58-bd0e-4b0e-81ce-3866adc26535&quot;, &quot;display&quot;: &quot;Barn/ung deltager&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;ca228a58-bd0e-4b0e-81ce-3866adc26535&quot;&gt;&lt;display value=&quot;Barn/ung deltager&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-http://fhir.kl.dk/term/CodeSystem/CareSocialCodes-d3578249-10df-4051-851d-3986b1570bee"> </a><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></td><td style="white-space:nowrap">  <a href="http://fhir.kl.dk/term/2.3.0/CodeSystem-CareSocialCodes.html#CareSocialCodes-d3578249-10df-4051-851d-3986b1570bee">d3578249-10df-4051-851d-3986b1570bee</a></td><td>Omsorgsperson uden barn/ung</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&quot;, &quot;version&quot;: &quot;2.3.0&quot;, &quot;code&quot;: &quot;d3578249-10df-4051-851d-3986b1570bee&quot;, &quot;display&quot;: &quot;Omsorgsperson uden barn/ung&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.kl.dk/term/CodeSystem/CareSocialCodes&quot;&gt;&lt;version value=&quot;2.3.0&quot;&gt;&lt;code value=&quot;d3578249-10df-4051-851d-3986b1570bee&quot;&gt;&lt;display value=&quot;Omsorgsperson uden barn/ung&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr></table></div>
 
   <hr/>
   <p>
@@ -297,7 +295,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://kl.dk">Kommunernes Landsforening</a>.  Package kl.dk.fhir.ltt#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Aug 31, 2025 13:05+0200">2025-08-31</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://kl.dk">Kommunernes Landsforening</a>.  Package kl.dk.fhir.ltt#1.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 29, 2025 22:49+0100">2025-10-29</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

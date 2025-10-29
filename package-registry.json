@@ -178,16 +178,16 @@
       "canonical" : "http://fhir.kl.dk/ltt",
       "category" : "Clinical Registries",
       "ci-build" : "https://build.fhir.org/ig/hl7dk/kl-ltt",
-      "version-count" : 1,
+      "version-count" : 2,
       "latest" : {
-        "version" : "1.0.0",
-        "date" : "2025-08-31",
-        "path" : "http://fhir.kl.dk/ltt/1.0.0"
+        "version" : "1.0.1",
+        "date" : "2025-10-29",
+        "path" : "http://fhir.kl.dk/ltt/1.0.1"
       },
       "milestone" : {
-        "version" : "1.0.0",
-        "date" : "2025-08-31",
-        "path" : "http://fhir.kl.dk/ltt/1.0.0"
+        "version" : "1.0.1",
+        "date" : "2025-10-29",
+        "path" : "http://fhir.kl.dk/ltt/1.0.1"
       }
     }
   ]

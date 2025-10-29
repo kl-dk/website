@@ -16,21 +16,23 @@
   else if (s.indexOf("html") == -1) 
     Response.Redirect("http://fhir.kl.dk/ltt/Bundle-"+id+".xml");
   else if (id == "RapportOmJosefine")
-    Response.Redirect("http://fhir.kl.dk/ltt/1.0.0/Bundle-RapportOmJosefine.html");
+    Response.Redirect("http://fhir.kl.dk/ltt/1.0.1/Bundle-RapportOmJosefine.html");
   else if (id == "DeliveryReport-Josefine-1")
-    Response.Redirect("http://fhir.kl.dk/ltt/1.0.0/Bundle-DeliveryReport-Josefine-1.html");
+    Response.Redirect("http://fhir.kl.dk/ltt/1.0.1/Bundle-DeliveryReport-Josefine-1.html");
   else if (id == "DeliveryReport-Josefine-2")
-    Response.Redirect("http://fhir.kl.dk/ltt/1.0.0/Bundle-DeliveryReport-Josefine-2.html");
+    Response.Redirect("http://fhir.kl.dk/ltt/1.0.1/Bundle-DeliveryReport-Josefine-2.html");
   else if (id == "DeliveryReport-Josefine-3")
-    Response.Redirect("http://fhir.kl.dk/ltt/1.0.0/Bundle-DeliveryReport-Josefine-3.html");
+    Response.Redirect("http://fhir.kl.dk/ltt/1.0.1/Bundle-DeliveryReport-Josefine-3.html");
   else if (id == "DeliveryReport-Josefine-4")
-    Response.Redirect("http://fhir.kl.dk/ltt/1.0.0/Bundle-DeliveryReport-Josefine-4.html");
+    Response.Redirect("http://fhir.kl.dk/ltt/1.0.1/Bundle-DeliveryReport-Josefine-4.html");
   else if (id == "DeliveryReport-Josefine-5-6-7")
-    Response.Redirect("http://fhir.kl.dk/ltt/1.0.0/Bundle-DeliveryReport-Josefine-5-6-7.html");
+    Response.Redirect("http://fhir.kl.dk/ltt/1.0.1/Bundle-DeliveryReport-Josefine-5-6-7.html");
   else if (id == "DeliveryReport-Josefine-8")
-    Response.Redirect("http://fhir.kl.dk/ltt/1.0.0/Bundle-DeliveryReport-Josefine-8.html");
+    Response.Redirect("http://fhir.kl.dk/ltt/1.0.1/Bundle-DeliveryReport-Josefine-8.html");
   else if (id == "DeliveryReport-Josefine-9")
-    Response.Redirect("http://fhir.kl.dk/ltt/1.0.0/Bundle-DeliveryReport-Josefine-9.html");
+    Response.Redirect("http://fhir.kl.dk/ltt/1.0.1/Bundle-DeliveryReport-Josefine-9.html");
+  else if (id == "TestIncrementalDelivery")
+    Response.Redirect("http://fhir.kl.dk/ltt/1.0.1/Bundle-TestIncrementalDelivery.html");
   else if (id == "index")
     Response.Redirect("http://fhir.kl.dk/ltt/Bundle.html");
 
@@ -39,6 +41,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-Internal Error - unknown id <%= Request.QueryString("id") %> (from ltt#1.0.0-milestone\output\crbundle.asp) .
+Internal Error - unknown id <%= Request.QueryString("id") %> (from ltt#1.0.1-milestone\output\crbundle.asp) .
 </body>
 </html>

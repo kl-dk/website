@@ -1,0 +1,209 @@
+# DeliveryReport-Josefine-9 - LTT Implementation Guide v1.0.1
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **DeliveryReport-Josefine-9**
+
+## Example Bundle: DeliveryReport-Josefine-9
+
+Profile: [KLGatewayLTTDeliveryReport](StructureDefinition-klgateway-ltt-delivery-report.md)
+
+Bundle DeliveryReport-Josefine-9 of type collection
+
+-------
+
+Entry 1 - fullUrl = https://test.fhir.dk/Patient/407ceb16-acb4-43ea-a4f5-d415c17faded
+
+Resource Patient:
+
+> 
+
+Profile: [KLGatewayLTTCitizen](StructureDefinition-klgateway-ltt-citizen.md)
+
+Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))
+-------
+
+-------
+
+Entry 2 - fullUrl = https://test.fhir.dk/CarePlan/857ea1d6-c212-4c89-a2f4-9e2bfa8c288d
+
+Resource CarePlan:
+
+> 
+
+Profile: [KLGatewayLTTCarePlan](StructureDefinition-klgateway-ltt-care-plan.md)
+
+**status**: Completed**intent**: Plan**subject**:[Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))](Bundle-DeliveryReport-Josefine-1.md#Patient_407ceb16-acb4-43ea-a4f5-d415c17faded)**period**: 2025-05-14 09:12:05+0000 --> 2025-11-08 15:36:22+0000
+> **activity**
+
+-------
+
+Entry 3 - fullUrl = https://test.fhir.dk/Encounter/85b9044c-f75b-4159-bb72-8bdec5828b05
+
+Resource Encounter:
+
+> 
+
+Profile: [KLGatewayLTTEncounter](StructureDefinition-klgateway-ltt-encounter.md)
+
+**BasedOnCarePlan**:[CarePlan: status = active; intent = plan; period = 2025-05-14 09:12:05+0000 --> (ongoing)](Bundle-DeliveryReport-Josefine-1.md#CarePlan_857ea1d6-c212-4c89-a2f4-9e2bfa8c288d)**status**: completed**class**:ambulatory**type**:Afslutning**subject**:[Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))](Bundle-DeliveryReport-Josefine-1.md#Patient_407ceb16-acb4-43ea-a4f5-d415c17faded)
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Bundle",
+  "id" : "DeliveryReport-Josefine-9",
+  "meta" : {
+    "profile" : [
+      "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-delivery-report"
+    ]
+  },
+  "type" : "collection",
+  "timestamp" : "2025-11-08T23:45:51Z",
+  "entry" : [
+    {
+      "fullUrl" : "https://test.fhir.dk/Patient/407ceb16-acb4-43ea-a4f5-d415c17faded",
+      "resource" : {
+        "resourceType" : "Patient",
+        "id" : "407ceb16-acb4-43ea-a4f5-d415c17faded",
+        "meta" : {
+          "profile" : [
+            "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-citizen"
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Patient_407ceb16-acb4-43ea-a4f5-d415c17faded\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Patient 407ceb16-acb4-43ea-a4f5-d415c17faded</b></p><a name=\"407ceb16-acb4-43ea-a4f5-d415c17faded\"> </a><a name=\"hc407ceb16-acb4-43ea-a4f5-d415c17faded\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-klgateway-ltt-citizen.html\">KLGatewayLTTCitizen</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>Managing Organization: Identifier: <code>urn:oid:1.2.208.176.1.1</code>/451000016003 (use: official, )</li></ul></td></tr></table></div>"
+        },
+        "identifier" : [
+          {
+            "use" : "official",
+            "system" : "urn:oid:1.2.208.176.1.2",
+            "value" : "0505149996"
+          }
+        ],
+        "active" : true,
+        "managingOrganization" : {
+          "identifier" : {
+            "use" : "official",
+            "system" : "urn:oid:1.2.208.176.1.1",
+            "value" : "451000016003"
+          }
+        }
+      }
+    },
+    {
+      "fullUrl" : "https://test.fhir.dk/CarePlan/857ea1d6-c212-4c89-a2f4-9e2bfa8c288d",
+      "resource" : {
+        "resourceType" : "CarePlan",
+        "id" : "857ea1d6-c212-4c89-a2f4-9e2bfa8c288d",
+        "meta" : {
+          "profile" : [
+            "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-care-plan"
+          ]
+        },
+        "text" : {
+          "status" : "generated",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"CarePlan_857ea1d6-c212-4c89-a2f4-9e2bfa8c288d\"> </a><p class=\"res-header-id\"><b>Generated Narrative: CarePlan 857ea1d6-c212-4c89-a2f4-9e2bfa8c288d</b></p><a name=\"857ea1d6-c212-4c89-a2f4-9e2bfa8c288d\"> </a><a name=\"hc857ea1d6-c212-4c89-a2f4-9e2bfa8c288d\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-klgateway-ltt-care-plan.html\">KLGatewayLTTCarePlan</a></p></div><p><b>status</b>: Completed</p><p><b>intent</b>: Plan</p><p><b>subject</b>: <a href=\"Bundle-DeliveryReport-Josefine-1.html#Patient_407ceb16-acb4-43ea-a4f5-d415c17faded\">Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))</a></p><p><b>period</b>: 2025-05-14 09:12:05+0000 --&gt; 2025-11-08 15:36:22+0000</p><blockquote><p><b>activity</b></p><blockquote><p><b>detail</b></p><p><b>code</b>: <span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/CareSocialCodes 01302bcb-c7f3-42c4-8ded-68e33da064eb}\">Lettilgængelige tilbud til børn og unge i psykisk mistrivsel</span></p><p><b>reasonCode</b>: <span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/LTT bf4df811-805a-4309-8394-7d9ea31b8af7}\">Krop og mad</span>, <span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/LTT 95c5e9fc-33b7-4d85-9417-64fc3164eb4c}\">Bekymring</span></p><p><b>status</b>: Completed</p></blockquote></blockquote></div>"
+        },
+        "status" : "completed",
+        "intent" : "plan",
+        "subject" : {
+          "reference" : "Patient/407ceb16-acb4-43ea-a4f5-d415c17faded"
+        },
+        "period" : {
+          "start" : "2025-05-14T09:12:05Z",
+          "end" : "2025-11-08T15:36:22Z"
+        },
+        "activity" : [
+          {
+            "detail" : {
+              "code" : {
+                "coding" : [
+                  {
+                    "system" : "http://fhir.kl.dk/term/CodeSystem/CareSocialCodes",
+                    "code" : "01302bcb-c7f3-42c4-8ded-68e33da064eb",
+                    "display" : "Lettilgængelige tilbud til børn og unge i psykisk mistrivsel"
+                  }
+                ]
+              },
+              "reasonCode" : [
+                {
+                  "coding" : [
+                    {
+                      "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+                      "code" : "bf4df811-805a-4309-8394-7d9ea31b8af7",
+                      "display" : "Krop og mad"
+                    }
+                  ]
+                },
+                {
+                  "coding" : [
+                    {
+                      "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+                      "code" : "95c5e9fc-33b7-4d85-9417-64fc3164eb4c",
+                      "display" : "Bekymring"
+                    }
+                  ]
+                }
+              ],
+              "status" : "completed"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl" : "https://test.fhir.dk/Encounter/85b9044c-f75b-4159-bb72-8bdec5828b05",
+      "resource" : {
+        "resourceType" : "Encounter",
+        "id" : "85b9044c-f75b-4159-bb72-8bdec5828b05",
+        "meta" : {
+          "profile" : [
+            "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter"
+          ]
+        },
+        "text" : {
+          "status" : "extensions",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_85b9044c-f75b-4159-bb72-8bdec5828b05\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Encounter 85b9044c-f75b-4159-bb72-8bdec5828b05</b></p><a name=\"85b9044c-f75b-4159-bb72-8bdec5828b05\"> </a><a name=\"hc85b9044c-f75b-4159-bb72-8bdec5828b05\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-klgateway-ltt-encounter.html\">KLGatewayLTTEncounter</a></p></div><p><b>BasedOnCarePlan</b>: <a href=\"Bundle-DeliveryReport-Josefine-1.html#CarePlan_857ea1d6-c212-4c89-a2f4-9e2bfa8c288d\">CarePlan: status = active; intent = plan; period = 2025-05-14 09:12:05+0000 --&gt; (ongoing)</a></p><p><b>status</b>: Finished</p><p><b>class</b>: <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-AMB\">ActCode AMB</a>: ambulatory</p><p><b>type</b>: <span title=\"Codes:{http://fhir.kl.dk/term/CodeSystem/LTT 3b1d8884-5a1d-43cf-aabb-8c1035148c46}\">Afslutning</span></p><p><b>subject</b>: <a href=\"Bundle-DeliveryReport-Josefine-1.html#Patient_407ceb16-acb4-43ea-a4f5-d415c17faded\">Anonymous Patient (no stated gender), DoB Unknown ( urn:oid:1.2.208.176.1.2#0505149996 (use: official, ))</a></p><p><b>period</b>: 2025-11-08 15:36:22+0000 --&gt; (ongoing)</p></div>"
+        },
+        "extension" : [
+          {
+            "url" : "http://fhir.kl.dk/ltt/StructureDefinition/klgateway-ltt-encounter-based-on-care-plan",
+            "valueReference" : {
+              "reference" : "CarePlan/857ea1d6-c212-4c89-a2f4-9e2bfa8c288d"
+            }
+          }
+        ],
+        "status" : "finished",
+        "class" : {
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code" : "AMB",
+          "display" : "ambulatory"
+        },
+        "type" : [
+          {
+            "coding" : [
+              {
+                "system" : "http://fhir.kl.dk/term/CodeSystem/LTT",
+                "code" : "3b1d8884-5a1d-43cf-aabb-8c1035148c46",
+                "display" : "Afslutning"
+              }
+            ]
+          }
+        ],
+        "subject" : {
+          "reference" : "Patient/407ceb16-acb4-43ea-a4f5-d415c17faded"
+        },
+        "period" : {
+          "start" : "2025-11-08T15:36:22Z"
+        }
+      }
+    }
+  ]
+}
+
+```

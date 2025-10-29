@@ -1,0 +1,52 @@
+# kl.dk.fhir.ltt#1.0.1: LTT Implementation Guide
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+* [Example](example.md)
+
+## Resources
+
+### ValueSets
+
+* [Lettilgængeligt Tilbud - Forløbskoder](ValueSet-fkgateway-ltt-care-plan-activity-types.md)
+* [Lettilgængeligt Tilbud - Kontakttyper](ValueSet-fkgateway-ltt-encounter-types.md)
+* [Lettilgængeligt Tilbud - Tema](ValueSet-fkgateway-ltt-focus-area.md)
+* [Lettilgængeligt Tilbud - Leveringstype](ValueSet-fkgateway-ltt-type-of-delivery.md)
+* [Lettilgængeligt Tilbud - Deltagere i kontakt](ValueSet-fkgateway-ltt-type-of-participants.md)
+* [Lettilgængeligt Tilbud - Henvisning](ValueSet-fkgateway-ltt-type-of-referral.md)
+
+### Resource Profiles
+
+* [KLGatewayLTTCarePlan](StructureDefinition-klgateway-ltt-care-plan.md)
+* [KLGatewayLTTCitizen](StructureDefinition-klgateway-ltt-citizen.md)
+* [KLGatewayLTTDeliveryReport](StructureDefinition-klgateway-ltt-delivery-report.md)
+* [KLGatewayLTTEncounter](StructureDefinition-klgateway-ltt-encounter.md)
+* [KLGAtewayLTTIncrementalDelivery](StructureDefinition-klgateway-ltt-incremental-delivery.md)
+* [KLGatewayLTTReferral](StructureDefinition-klgateway-ltt-referral.md)
+
+### Extensions
+
+* [BasedOnCarePlan](StructureDefinition-klgateway-ltt-encounter-based-on-care-plan.md)
+* [DeliveryType](StructureDefinition-klgateway-ltt-encounter-delivery-type.md)
+
+### ImplementationGuides
+
+* [LTT Implementation Guide](index.md)
+
+### Examples
+
+* [DeliveryReport-Josefine-1 (Bundle)](Bundle-DeliveryReport-Josefine-1.md)
+* [DeliveryReport-Josefine-2 (Bundle)](Bundle-DeliveryReport-Josefine-2.md)
+* [DeliveryReport-Josefine-3 (Bundle)](Bundle-DeliveryReport-Josefine-3.md)
+* [DeliveryReport-Josefine-4 (Bundle)](Bundle-DeliveryReport-Josefine-4.md)
+* [DeliveryReport-Josefine-5-6-7 (Bundle)](Bundle-DeliveryReport-Josefine-5-6-7.md)
+* [DeliveryReport-Josefine-8 (Bundle)](Bundle-DeliveryReport-Josefine-8.md)
+* [DeliveryReport-Josefine-9 (Bundle)](Bundle-DeliveryReport-Josefine-9.md)
+* [RapportOmJosefine (Bundle)](Bundle-RapportOmJosefine.md)
+* [TestIncrementalDelivery (Bundle)](Bundle-TestIncrementalDelivery.md)
+* [Forloeb (CarePlan)](CarePlan-Forloeb.md)
+* [Henvisning (CarePlan)](CarePlan-Henvisning.md)
+* [Behandlingskontakt (Encounter)](Encounter-Behandlingskontakt.md)
+* [Josefine (Patient)](Patient-Josefine.md)
