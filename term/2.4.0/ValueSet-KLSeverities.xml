@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="KLSeverities"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet KLSeverities</b></p><a name="KLSeverities"> </a><a name="hcKLSeverities"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href="ValueSet-KLSeveritiesFFB.html">KLFunktionsevneniveauFFB</a></li><li>Import all the codes that are contained in <a href="ValueSet-KLSeveritiesFSIII.html">KLFunktionsevneniveauFSIII</a></li></ul></div>
+  </text>
+  <url value="http://fhir.kl.dk/term/ValueSet/KLSeverities"/>
+  <version value="2.4.0"/>
+  <name value="KLSeverities"/>
+  <title value="KLSværhedgrader"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-04-21T22:00:20+02:00"/>
+  <publisher value="Kommunernes Landsforening"/>
+  <contact>
+    <name value="Kommunernes Landsforening"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://kl.dk"/>
+    </telecom>
+  </contact>
+  <description value="Severities related to conditions"/>
+  <compose>
+    <include>
+      <valueSet value="http://fhir.kl.dk/term/ValueSet/KLSeveritiesFFB"/>
+    </include>
+    <include>
+      <valueSet value="http://fhir.kl.dk/term/ValueSet/KLSeveritiesFSIII"/>
+    </include>
+  </compose>
+</ValueSet>

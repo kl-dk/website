@@ -6,12 +6,12 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet KLConditionCodesFFB</b></p><a name="KLConditionCodesFFB"> </a><a name="hcKLConditionCodesFFB"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href="ValueSet-KLConditionFFCodesFFB.html">KLTilstandFFKoderFFB</a></li><li>Import all the codes that are contained in <a href="ValueSet-KLConditionADCodesFFB.html">KLTilstandADKoderFFB</a></li><li>Import all the codes that are contained in <a href="ValueSet-KLConditionOCodesFFB.html">KLTilstandOKoderFFB</a></li></ul></div>
   </text>
   <url value="http://fhir.kl.dk/term/ValueSet/KLConditionCodesFFB"/>
-  <version value="2.3.0"/>
+  <version value="2.4.0"/>
   <name value="KLConditionCodesFFB"/>
   <title value="KLTilstandKoderFFB"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-08-21T08:46:07+02:00"/>
+  <date value="2026-04-21T22:08:40+02:00"/>
   <publisher value="Kommunernes Landsforening"/>
   <contact>
     <name value="Kommunernes Landsforening"/>

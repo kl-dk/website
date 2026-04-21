@@ -6,12 +6,12 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet KLInterventions</b></p><a name=\"KLInterventions\"> </a><a name=\"hcKLInterventions\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-KLNursingInterventionsFSIII.html\">KLSygeplejeIndsatserFSIII</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-KLHomeCareInterventionsFSIII.html\">KLHjemmeplejeIndsatserFSIII</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-KLTrainingInterventionsFSIII.html\">KLTræningIndsatserFSIII</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-KLPreventionInterventionsFSIII.html\">KLForebyggelseIndsatserFSIII</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-KLInterventionsFFB.html\">KLYdelserFFB</a></li></ul></div>"
   },
   "url" : "http://fhir.kl.dk/term/ValueSet/KLInterventions",
-  "version" : "2.3.0",
+  "version" : "2.4.0",
   "name" : "KLInterventions",
   "title" : "KLIndsatser",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-21T08:46:07+02:00",
+  "date" : "2026-04-21T22:08:40+02:00",
   "publisher" : "Kommunernes Landsforening",
   "contact" : [{
     "name" : "Kommunernes Landsforening",

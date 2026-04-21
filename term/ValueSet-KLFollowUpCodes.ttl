@@ -11,15 +11,18 @@
   fhir:id [ fhir:v "KLFollowUpCodes"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet KLFollowUpCodes</b></p><a name=\"KLFollowUpCodes\"> </a><a name=\"hcKLFollowUpCodes\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-KLFollowUpCodesFFB.html\">KLOpfølgningKoderFFB</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-KLFollowUpCodesFSIII.html\">KLOpfølgningKoderFSIII</a></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet KLFollowUpCodes</b></p><a name=\"KLFollowUpCodes\"> </a><a name=\"hcKLFollowUpCodes\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-KLFollowUpCodesFFB.html\">KLOpfølgningKoderFFB</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-KLFollowUpCodesFSIII.html\">KLOpfølgningKoderFSIII</a></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "http://fhir.kl.dk/term/ValueSet/KLFollowUpCodes"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "2.3.0"] ; # 
+  fhir:url [
+     fhir:v "http://fhir.kl.dk/term/ValueSet/KLFollowUpCodes"^^xsd:anyURI ;
+     fhir:l <http://fhir.kl.dk/term/ValueSet/KLFollowUpCodes>
+  ] ; # 
+  fhir:version [ fhir:v "2.4.0"] ; # 
   fhir:name [ fhir:v "KLFollowUpCodes"] ; # 
   fhir:title [ fhir:v "KLOpfølgningKodes"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-08-21T08:46:07+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-04-21T22:08:40+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Kommunernes Landsforening"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Kommunernes Landsforening" ] ;
@@ -33,12 +36,12 @@
      fhir:include ( [
        fhir:valueSet ( [
          fhir:v "http://fhir.kl.dk/term/ValueSet/KLFollowUpCodesFFB"^^xsd:anyURI ;
-         fhir:link <http://fhir.kl.dk/term/ValueSet/KLFollowUpCodesFFB>
+         fhir:l <http://fhir.kl.dk/term/ValueSet/KLFollowUpCodesFFB>
        ] )
      ] [
        fhir:valueSet ( [
          fhir:v "http://fhir.kl.dk/term/ValueSet/KLFollowUpCodesFSIII"^^xsd:anyURI ;
-         fhir:link <http://fhir.kl.dk/term/ValueSet/KLFollowUpCodesFSIII>
+         fhir:l <http://fhir.kl.dk/term/ValueSet/KLFollowUpCodesFSIII>
        ] )
      ] )
   ] . # 

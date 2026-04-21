@@ -3,15 +3,15 @@
   "id" : "KLServicesTypes",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet KLServicesTypes</b></p><a name=\"KLServicesTypes\"> </a><a name=\"hcKLServicesTypes\"> </a><ul><li>Include codes from<a href=\"CodeSystem-CareSocialCodes.html\"><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></a> where concept  descends from <a href=\"CodeSystem-CareSocialCodes.html#CareSocialCodes-7b41185e-eeb4-437d-8120-5d51bbd27a79\">7b41185e-eeb4-437d-8120-5d51bbd27a79</a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet KLServicesTypes</b></p><a name=\"KLServicesTypes\"> </a><a name=\"hcKLServicesTypes\"> </a><ul><li>Include codes from<a href=\"CodeSystem-CareSocialCodes.html\"><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;2.4.0</span> where concept  descends from <a href=\"CodeSystem-CareSocialCodes.html#CareSocialCodes-7b41185e-eeb4-437d-8120-5d51bbd27a79\">7b41185e-eeb4-437d-8120-5d51bbd27a79</a></li></ul></div>"
   },
   "url" : "http://fhir.kl.dk/term/ValueSet/KLServicesTypes",
-  "version" : "2.3.0",
+  "version" : "2.4.0",
   "name" : "KLServicesTypes",
   "title" : "KLServiceTyper",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-21T08:46:07+02:00",
+  "date" : "2026-04-21T22:08:40+02:00",
   "publisher" : "Kommunernes Landsforening",
   "contact" : [{
     "name" : "Kommunernes Landsforening",

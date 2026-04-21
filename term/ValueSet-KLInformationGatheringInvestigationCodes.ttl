@@ -11,15 +11,18 @@
   fhir:id [ fhir:v "KLInformationGatheringInvestigationCodes"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet KLInformationGatheringInvestigationCodes</b></p><a name=\"KLInformationGatheringInvestigationCodes\"> </a><a name=\"hcKLInformationGatheringInvestigationCodes\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-KLEvaluationTypeCodes.html\">KLVurderingTypekoder</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-KLInformationCodes.html\">KLOplysningKoder</a></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet KLInformationGatheringInvestigationCodes</b></p><a name=\"KLInformationGatheringInvestigationCodes\"> </a><a name=\"hcKLInformationGatheringInvestigationCodes\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-KLEvaluationTypeCodes.html\">KLVurderingTypekoder</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-KLInformationCodes.html\">KLOplysningKoder</a></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "http://fhir.kl.dk/term/ValueSet/KLInformationGatheringInvestigationCodes"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "2.3.0"] ; # 
+  fhir:url [
+     fhir:v "http://fhir.kl.dk/term/ValueSet/KLInformationGatheringInvestigationCodes"^^xsd:anyURI ;
+     fhir:l <http://fhir.kl.dk/term/ValueSet/KLInformationGatheringInvestigationCodes>
+  ] ; # 
+  fhir:version [ fhir:v "2.4.0"] ; # 
   fhir:name [ fhir:v "KLInformationGatheringInvestigationCodes"] ; # 
   fhir:title [ fhir:v "KLOplysningsaktivitetsOgVurderingskoder"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-08-21T08:46:07+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-04-21T22:08:40+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Kommunernes Landsforening"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Kommunernes Landsforening" ] ;
@@ -33,12 +36,12 @@
      fhir:include ( [
        fhir:valueSet ( [
          fhir:v "http://fhir.kl.dk/term/ValueSet/KLEvaluationTypeCodes"^^xsd:anyURI ;
-         fhir:link <http://fhir.kl.dk/term/ValueSet/KLEvaluationTypeCodes>
+         fhir:l <http://fhir.kl.dk/term/ValueSet/KLEvaluationTypeCodes>
        ] )
      ] [
        fhir:valueSet ( [
          fhir:v "http://fhir.kl.dk/term/ValueSet/KLInformationCodes"^^xsd:anyURI ;
-         fhir:link <http://fhir.kl.dk/term/ValueSet/KLInformationCodes>
+         fhir:l <http://fhir.kl.dk/term/ValueSet/KLInformationCodes>
        ] )
      ] )
   ] . # 

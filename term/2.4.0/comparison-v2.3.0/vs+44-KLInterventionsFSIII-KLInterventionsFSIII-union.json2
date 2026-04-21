@@ -1,0 +1,23 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "9c152d8b-f504-48ae-915e-792ec3166428-131",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/9c152d8b-f504-48ae-915e-792ec3166428-131",
+  "name" : "UnionKLInterventionsFSIIIAndKLInterventionsFSIII",
+  "title" : "Union of KLIndsatserFSIII And KLIndsatserFSIII",
+  "status" : "active",
+  "date" : "2026-04-21T22:03:07+02:00",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLNursingInterventionsFSIII"]
+    },
+    {
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLHomeCareInterventionsFSIII"]
+    },
+    {
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLTrainingInterventionsFSIII"]
+    },
+    {
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLPreventionInterventionsFSIII"]
+    }]
+  }
+}

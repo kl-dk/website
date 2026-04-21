@@ -1,0 +1,2378 @@
+{
+  "date" : "Tue, 21 Apr, 2026 22:00:20 +0200",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "\\fsh-generated\\resources\\ImplementationGuide-kl.dk.fhir.term.json",
+    "size" : 18771,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 23
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 110,
+      "length" : 27
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 111,
+      "length" : 219
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 17346
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 169,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 172,
+      "length" : 364
+    },
+    {
+      "activity" : "generate2",
+      "start" : 205,
+      "length" : 764
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 13
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 390,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-KLCommonproprietary.json",
+    "size" : 401,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 18
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 23
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 111,
+      "length" : 10
+    },
+    {
+      "activity" : "validate",
+      "start" : 117,
+      "length" : 138
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 144,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 172,
+      "length" : 33
+    },
+    {
+      "activity" : "generate2",
+      "start" : 206,
+      "length" : 267
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-NPU.json",
+    "size" : 1828,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 11
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 111,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 118,
+      "length" : 78
+    },
+    {
+      "activity" : "generate1",
+      "start" : 172,
+      "length" : 53
+    },
+    {
+      "activity" : "generate2",
+      "start" : 206,
+      "length" : 195
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-CancellationTypes.json",
+    "size" : 628,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 8
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 8
+    },
+    {
+      "activity" : "scan",
+      "start" : 110,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 111,
+      "length" : 130
+    },
+    {
+      "activity" : "validate",
+      "start" : 121,
+      "length" : 56
+    },
+    {
+      "activity" : "generate1",
+      "start" : 172,
+      "length" : 35
+    },
+    {
+      "activity" : "generate2",
+      "start" : 206,
+      "length" : 253
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLCarePlanCategoryCodes.json",
+    "size" : 639,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 118,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 121,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 32
+    },
+    {
+      "activity" : "generate2",
+      "start" : 207,
+      "length" : 170
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLChangeValueCodes.json",
+    "size" : 616,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 7
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 110,
+      "length" : 10
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 110,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 111,
+      "length" : 152
+    },
+    {
+      "activity" : "validate",
+      "start" : 121,
+      "length" : 11
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 32
+    },
+    {
+      "activity" : "generate2",
+      "start" : 207,
+      "length" : 154
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLChangeValueCodesFFB.json",
+    "size" : 681,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 12
+    },
+    {
+      "activity" : "validate",
+      "start" : 121,
+      "length" : 11
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 33
+    },
+    {
+      "activity" : "generate2",
+      "start" : 207,
+      "length" : 126
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLChangeValueCodesFSIII.json",
+    "size" : 696,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 111,
+      "length" : 13
+    },
+    {
+      "activity" : "validate",
+      "start" : 121,
+      "length" : 14
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 37
+    },
+    {
+      "activity" : "generate2",
+      "start" : 207,
+      "length" : 157
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLCitizenObservationCodesFSIII.json",
+    "size" : 785,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 10
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 111,
+      "length" : 29
+    },
+    {
+      "activity" : "validate",
+      "start" : 121,
+      "length" : 27
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 46
+    },
+    {
+      "activity" : "generate2",
+      "start" : 207,
+      "length" : 170
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLCitizenObservationResultCodesFSIII.json",
+    "size" : 683,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 111,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 121,
+      "length" : 11
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 169,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 39
+    },
+    {
+      "activity" : "generate2",
+      "start" : 207,
+      "length" : 150
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLComplicationCodesSCT.json",
+    "size" : 534,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 7
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 111,
+      "length" : 1323
+    },
+    {
+      "activity" : "validate",
+      "start" : 121,
+      "length" : 819
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 49
+    },
+    {
+      "activity" : "generate2",
+      "start" : 208,
+      "length" : 962
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLConditionADCodesFFB.json",
+    "size" : 1866,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 112,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 122,
+      "length" : 31
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 56
+    },
+    {
+      "activity" : "generate2",
+      "start" : 208,
+      "length" : 156
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 235,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLConditionCodes.json",
+    "size" : 913,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 112,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 122,
+      "length" : 12
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 40
+    },
+    {
+      "activity" : "generate2",
+      "start" : 209,
+      "length" : 347
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLConditionCodesFFB.json",
+    "size" : 687,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 10
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 112,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 122,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 35
+    },
+    {
+      "activity" : "generate2",
+      "start" : 209,
+      "length" : 161
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLConditionCodesFSIII.json",
+    "size" : 826,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 112,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 122,
+      "length" : 15
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 40
+    },
+    {
+      "activity" : "generate2",
+      "start" : 209,
+      "length" : 286
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLConditionCodesHomeCare.json",
+    "size" : 2698,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 7
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 112,
+      "length" : 10
+    },
+    {
+      "activity" : "validate",
+      "start" : 122,
+      "length" : 51
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 63
+    },
+    {
+      "activity" : "generate2",
+      "start" : 209,
+      "length" : 248
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLConditionCodesNursing.json",
+    "size" : 5889,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 112,
+      "length" : 18
+    },
+    {
+      "activity" : "validate",
+      "start" : 122,
+      "length" : 84
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 119
+    },
+    {
+      "activity" : "generate2",
+      "start" : 210,
+      "length" : 257
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLConditionCodesPrevention.json",
+    "size" : 1368,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 112,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 122,
+      "length" : 27
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 51
+    },
+    {
+      "activity" : "generate2",
+      "start" : 210,
+      "length" : 156
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLConditionCodesTheraphy.json",
+    "size" : 3332,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 10
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 112,
+      "length" : 10
+    },
+    {
+      "activity" : "validate",
+      "start" : 122,
+      "length" : 64
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 85
+    },
+    {
+      "activity" : "generate2",
+      "start" : 210,
+      "length" : 211
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLConditionFFCodesFFB.json",
+    "size" : 1373,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 112,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 122,
+      "length" : 26
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 54
+    },
+    {
+      "activity" : "generate2",
+      "start" : 210,
+      "length" : 144
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLConditionOCodesFFB.json",
+    "size" : 620,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 10
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 110,
+      "length" : 8
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 112,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 122,
+      "length" : 8
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 45
+    },
+    {
+      "activity" : "generate2",
+      "start" : 210,
+      "length" : 129
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLConditionsAndTargetGroupsFFB.json",
+    "size" : 616,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 112,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 122,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 41
+    },
+    {
+      "activity" : "generate2",
+      "start" : 211,
+      "length" : 178
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLConsentToLiasing.json",
+    "size" : 659,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 8
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 112,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 122,
+      "length" : 11
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 43
+    },
+    {
+      "activity" : "generate2",
+      "start" : 211,
+      "length" : 137
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLEncounterTypes.json",
+    "size" : 739,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 112,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 122,
+      "length" : 11
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 36
+    },
+    {
+      "activity" : "generate2",
+      "start" : 211,
+      "length" : 139
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLEvaluationTypeCodes.json",
+    "size" : 640,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 8
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 112,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 122,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 173,
+      "length" : 39
+    },
+    {
+      "activity" : "generate2",
+      "start" : 211,
+      "length" : 132
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLEvaluationTypeCodesSCT.json",
+    "size" : 599,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 7
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 112,
+      "length" : 822
+    },
+    {
+      "activity" : "validate",
+      "start" : 122,
+      "length" : 555
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 41
+    },
+    {
+      "activity" : "generate2",
+      "start" : 211,
+      "length" : 908
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLFollowUpCodes.json",
+    "size" : 563,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 8
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 38
+    },
+    {
+      "activity" : "generate2",
+      "start" : 212,
+      "length" : 121
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLFollowUpCodesFFB.json",
+    "size" : 578,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 8
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 169,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 44
+    },
+    {
+      "activity" : "generate2",
+      "start" : 212,
+      "length" : 126
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLFollowUpCodesFSIII.json",
+    "size" : 800,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 16
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 38
+    },
+    {
+      "activity" : "generate2",
+      "start" : 212,
+      "length" : 116
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLGeneralInformationFSIII.json",
+    "size" : 848,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 10
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 18
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 73
+    },
+    {
+      "activity" : "generate2",
+      "start" : 212,
+      "length" : 128
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLGoalTypeCodes.json",
+    "size" : 615,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 49
+    },
+    {
+      "activity" : "generate2",
+      "start" : 213,
+      "length" : 114
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLHomeCareAreasFSIII.json",
+    "size" : 1144,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 11
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 73
+    },
+    {
+      "activity" : "generate2",
+      "start" : 213,
+      "length" : 124
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLHomeCareInterventionsFSIII.json",
+    "size" : 5640,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 11
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 79
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 137
+    },
+    {
+      "activity" : "generate2",
+      "start" : 213,
+      "length" : 182
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 235,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLImportanceLevelCodesFSIII.json",
+    "size" : 853,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 10
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 53
+    },
+    {
+      "activity" : "generate2",
+      "start" : 213,
+      "length" : 102
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLInformationCodes.json",
+    "size" : 1055,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 6
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 44
+    },
+    {
+      "activity" : "generate2",
+      "start" : 213,
+      "length" : 143
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLInformationGatheringInvestigationCodes.json",
+    "size" : 691,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 38
+    },
+    {
+      "activity" : "generate2",
+      "start" : 213,
+      "length" : 137
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLInformationGatheringTypeCodes.json",
+    "size" : 695,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 13
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 47
+    },
+    {
+      "activity" : "generate2",
+      "start" : 213,
+      "length" : 115
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLInterventions.json",
+    "size" : 929,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 49
+    },
+    {
+      "activity" : "generate2",
+      "start" : 213,
+      "length" : 207
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLInterventionsFFB.json",
+    "size" : 2766,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 26
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 87
+    },
+    {
+      "activity" : "generate2",
+      "start" : 214,
+      "length" : 129
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLInterventionsFSIII.json",
+    "size" : 829,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 5
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 15
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 8
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 44
+    },
+    {
+      "activity" : "generate2",
+      "start" : 214,
+      "length" : 193
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLMatterOfInterestInformerFFB.json",
+    "size" : 686,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 8
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 41
+    },
+    {
+      "activity" : "generate2",
+      "start" : 214,
+      "length" : 107
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLMatterOfInterestValues.json",
+    "size" : 800,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 9
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 11
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 55
+    },
+    {
+      "activity" : "generate2",
+      "start" : 214,
+      "length" : 115
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLNeedsAssessmentCodesFFB.json",
+    "size" : 623,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 8
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 174,
+      "length" : 35
+    },
+    {
+      "activity" : "generate2",
+      "start" : 214,
+      "length" : 92
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLNursingAreasFSIII.json",
+    "size" : 2076,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 14
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 18
+    },
+    {
+      "activity" : "generate1",
+      "start" : 175,
+      "length" : 80
+    },
+    {
+      "activity" : "generate2",
+      "start" : 214,
+      "length" : 114
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLNursingInterventionsFSIII.json",
+    "size" : 1298,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 5
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 175,
+      "length" : 54
+    },
+    {
+      "activity" : "generate2",
+      "start" : 214,
+      "length" : 150
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLObservationCodes.json",
+    "size" : 4681,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 6
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 110,
+      "length" : 8
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 113,
+      "length" : 3284
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 4143
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 169,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 175,
+      "length" : 122
+    },
+    {
+      "activity" : "generate2",
+      "start" : 215,
+      "length" : 3025
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLPerformanceLevelCodesFSIII.json",
+    "size" : 860,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 10
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 8
+    },
+    {
+      "activity" : "generate1",
+      "start" : 175,
+      "length" : 40
+    },
+    {
+      "activity" : "generate2",
+      "start" : 218,
+      "length" : 130
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLPreventionAreasFSIII.json",
+    "size" : 850,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 10
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 117,
+      "length" : 10
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 12
+    },
+    {
+      "activity" : "generate1",
+      "start" : 175,
+      "length" : 46
+    },
+    {
+      "activity" : "generate2",
+      "start" : 218,
+      "length" : 103
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLPreventionInterventionsFSIII.json",
+    "size" : 659,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 117,
+      "length" : 6
+    },
+    {
+      "activity" : "generate1",
+      "start" : 175,
+      "length" : 37
+    },
+    {
+      "activity" : "generate2",
+      "start" : 218,
+      "length" : 106
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLRequestFromFSIII.json",
+    "size" : 819,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 15
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 175,
+      "length" : 40
+    },
+    {
+      "activity" : "generate2",
+      "start" : 218,
+      "length" : 118
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLServiceCodesFFB.json",
+    "size" : 1103,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 117,
+      "length" : 15
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 175,
+      "length" : 66
+    },
+    {
+      "activity" : "generate2",
+      "start" : 218,
+      "length" : 116
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLServicesTypes.json",
+    "size" : 650,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 117,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 175,
+      "length" : 37
+    },
+    {
+      "activity" : "generate2",
+      "start" : 218,
+      "length" : 115
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 390,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLSeverities.json",
+    "size" : 533,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 10
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 6
+    },
+    {
+      "activity" : "generate1",
+      "start" : 175,
+      "length" : 30
+    },
+    {
+      "activity" : "generate2",
+      "start" : 218,
+      "length" : 106
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLSeveritiesFFB.json",
+    "size" : 606,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 7
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 2
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 110,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 175,
+      "length" : 32
+    },
+    {
+      "activity" : "generate2",
+      "start" : 218,
+      "length" : 99
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 235,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLSeveritiesFSIII.json",
+    "size" : 834,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 117,
+      "length" : 10
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 175,
+      "length" : 36
+    },
+    {
+      "activity" : "generate2",
+      "start" : 219,
+      "length" : 115
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLTargetGroupsFFB.json",
+    "size" : 4200,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 8
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 117,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 26
+    },
+    {
+      "activity" : "generate1",
+      "start" : 175,
+      "length" : 199
+    },
+    {
+      "activity" : "generate2",
+      "start" : 219,
+      "length" : 142
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLTargetMeasureCodes.json",
+    "size" : 838,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 117,
+      "length" : 11
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 175,
+      "length" : 45
+    },
+    {
+      "activity" : "generate2",
+      "start" : 219,
+      "length" : 131
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLThemesFFB.json",
+    "size" : 1468,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 5
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 8
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 117,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 175,
+      "length" : 82
+    },
+    {
+      "activity" : "generate2",
+      "start" : 219,
+      "length" : 124
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLTheraphyAreasFSIII.json",
+    "size" : 1583,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 8
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 117,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 175,
+      "length" : 53
+    },
+    {
+      "activity" : "generate2",
+      "start" : 219,
+      "length" : 126
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-KLTrainingInterventionsFSIII.json",
+    "size" : 626,
+    "processes" : [{
+      "activity" : "generate1",
+      "start" : 176,
+      "length" : 32
+    },
+    {
+      "activity" : "generate2",
+      "start" : 219,
+      "length" : 115
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "input/vocabulary/CodeSystem-CareSocialCodes.json",
+    "size" : 20694,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 10
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 24
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 117,
+      "length" : 132
+    },
+    {
+      "activity" : "validate",
+      "start" : 118,
+      "length" : 206
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 144,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 169,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 176,
+      "length" : 333
+    },
+    {
+      "activity" : "generate2",
+      "start" : 219,
+      "length" : 158
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "input/vocabulary/CodeSystem-FBOE.json",
+    "size" : 91680,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 18
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 65
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 110,
+      "length" : 16
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 117,
+      "length" : 157
+    },
+    {
+      "activity" : "validate",
+      "start" : 118,
+      "length" : 473
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 169,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 176,
+      "length" : 1349
+    },
+    {
+      "activity" : "generate2",
+      "start" : 219,
+      "length" : 312
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 28
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 390,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "input/vocabulary/CodeSystem-FFB.json",
+    "size" : 104814,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 16
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 61
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 110,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 117,
+      "length" : 88
+    },
+    {
+      "activity" : "validate",
+      "start" : 118,
+      "length" : 1339
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 144,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 177,
+      "length" : 1394
+    },
+    {
+      "activity" : "generate2",
+      "start" : 220,
+      "length" : 243
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 345,
+      "length" : 54
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 390,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "input/vocabulary/CodeSystem-FSIII.json",
+    "size" : 280302,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 107,
+      "length" : 40
+    },
+    {
+      "activity" : "load",
+      "start" : 108,
+      "length" : 184
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 110,
+      "length" : 34
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 117,
+      "length" : 286
+    },
+    {
+      "activity" : "validate",
+      "start" : 120,
+      "length" : 924
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 144,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 169,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 179,
+      "length" : 3630
+    },
+    {
+      "activity" : "generate2",
+      "start" : 220,
+      "length" : 624
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 346,
+      "length" : 118
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 390,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "input/vocabulary/CodeSystem-LTT.json",
+    "size" : 6582,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 108,
+      "length" : 9
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 110,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 117,
+      "length" : 12
+    },
+    {
+      "activity" : "validate",
+      "start" : 121,
+      "length" : 24
+    },
+    {
+      "activity" : "generate1",
+      "start" : 182,
+      "length" : 138
+    },
+    {
+      "activity" : "generate2",
+      "start" : 221,
+      "length" : 131
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 346,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "\\fsh-generated\\includes\\fsh-link-references.md",
+    "size" : 3805,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 144,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 221,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "\\fsh-generated\\includes\\menu.xml",
+    "size" : 1061,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 221,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "\\input\\pagecontent\\index.md",
+    "size" : 348,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 221,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "\\template\\config",
+    "size" : 0,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 221,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "\\template\\config\\_config.yml",
+    "size" : 140,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 221,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "\\temp\\pages\\_includes\\artifacts.xml",
+    "size" : 25364,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 221,
+      "length" : 8
+    }]
+  }]
+}

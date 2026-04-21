@@ -1,0 +1,17 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "9c152d8b-f504-48ae-915e-792ec3166428-120",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/9c152d8b-f504-48ae-915e-792ec3166428-120",
+  "name" : "IntersectionKLInformationGatheringInvestigationCodesAndKLInformationGatheringInvestigationCodes",
+  "title" : "Intersection of KLOplysningsaktivitetsOgVurderingskoder And KLOplysningsaktivitetsOgVurderingskoder",
+  "status" : "active",
+  "date" : "2026-04-21T22:03:07+02:00",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLEvaluationTypeCodes"]
+    },
+    {
+      "valueSet" : ["http://fhir.kl.dk/term/ValueSet/KLInformationCodes"]
+    }]
+  }
+}

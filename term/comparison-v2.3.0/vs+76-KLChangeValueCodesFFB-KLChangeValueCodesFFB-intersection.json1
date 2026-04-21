@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "a9938b6c-95c3-4529-8e6b-66f42832c19f-33",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/a9938b6c-95c3-4529-8e6b-66f42832c19f-33",
+  "name" : "IntersectionKLChangeValueCodesFFBAndKLChangeValueCodesFFB",
+  "title" : "Intersection of KLMåltypekoderFFB And KLMåltypekoderFFB",
+  "status" : "active",
+  "date" : "2026-04-21T22:10:56+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "b5257b2d-0fbf-4d00-bf38-d298c8568116"
+      }]
+    }]
+  }
+}

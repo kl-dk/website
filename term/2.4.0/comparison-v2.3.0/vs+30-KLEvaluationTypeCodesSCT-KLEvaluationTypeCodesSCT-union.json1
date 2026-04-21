@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "9c152d8b-f504-48ae-915e-792ec3166428-89",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/9c152d8b-f504-48ae-915e-792ec3166428-89",
+  "name" : "UnionKLEvaluationTypeCodesSCTAndKLEvaluationTypeCodesSCT",
+  "title" : "Union of KLVurderingTypekoderSCT And KLVurderingTypekoderSCT",
+  "status" : "active",
+  "date" : "2026-04-21T22:03:07+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "225400002"
+      }]
+    }]
+  }
+}

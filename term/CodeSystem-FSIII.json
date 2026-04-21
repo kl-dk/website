@@ -10,12 +10,12 @@
     "system" : "urn:oid",
     "value" : "urn:oid:1.2.208.176.2.21"
   }],
-  "version" : "2.3.0",
+  "version" : "2.4.0",
   "name" : "FSIII",
   "title" : "FSIII",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-21T08:46:07+02:00",
+  "date" : "2026-04-21T22:08:40+02:00",
   "publisher" : "Kommunernes Landsforening",
   "contact" : [{
     "name" : "Kommunernes Landsforening",

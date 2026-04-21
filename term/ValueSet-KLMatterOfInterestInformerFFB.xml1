@@ -3,15 +3,15 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="KLMatterOfInterestInformerFFB"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet KLMatterOfInterestInformerFFB</b></p><a name="KLMatterOfInterestInformerFFB"> </a><a name="hcKLMatterOfInterestInformerFFB"> </a><ul><li>Include codes from<a href="CodeSystem-CareSocialCodes.html"><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></a> where concept  descends from <a href="CodeSystem-CareSocialCodes.html#CareSocialCodes-b5731132-f6b9-4a47-995d-681d2b755d4f">b5731132-f6b9-4a47-995d-681d2b755d4f</a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet KLMatterOfInterestInformerFFB</b></p><a name="KLMatterOfInterestInformerFFB"> </a><a name="hcKLMatterOfInterestInformerFFB"> </a><ul><li>Include codes from<a href="CodeSystem-CareSocialCodes.html"><code>http://fhir.kl.dk/term/CodeSystem/CareSocialCodes</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;2.4.0</span> where concept  descends from <a href="CodeSystem-CareSocialCodes.html#CareSocialCodes-b5731132-f6b9-4a47-995d-681d2b755d4f">b5731132-f6b9-4a47-995d-681d2b755d4f</a></li></ul></div>
   </text>
   <url value="http://fhir.kl.dk/term/ValueSet/KLMatterOfInterestInformerFFB"/>
-  <version value="2.3.0"/>
+  <version value="2.4.0"/>
   <name value="KLMatterOfInterestInformerFFB"/>
   <title value="KLKildeTilOplysningFFB"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-08-21T08:46:07+02:00"/>
+  <date value="2026-04-21T22:08:40+02:00"/>
   <publisher value="Kommunernes Landsforening"/>
   <contact>
     <name value="Kommunernes Landsforening"/>

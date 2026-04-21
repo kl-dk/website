@@ -1,0 +1,82 @@
+# kl.dk.fhir.term#2.4.0: KL Terminologi
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [CareSocialCodes](CodeSystem-CareSocialCodes.md)
+* [FBOE](CodeSystem-FBOE.md)
+* [FFB](CodeSystem-FFB.md)
+* [FSIII](CodeSystem-FSIII.md)
+* [KLLokaleKoder](CodeSystem-KLCommonproprietary.md)
+* [LTT](CodeSystem-LTT.md)
+* [NPU](CodeSystem-NPU.md)
+
+### ValueSets
+
+* [CancellationTypes](ValueSet-CancellationTypes.md)
+* [KLIndsatsforløbTypekoder](ValueSet-KLCarePlanCategoryCodes.md)
+* [KLMåltypeKoder](ValueSet-KLChangeValueCodes.md)
+* [KLMåltypekoderFFB](ValueSet-KLChangeValueCodesFFB.md)
+* [KLMåltypeKoderFSIII](ValueSet-KLChangeValueCodesFSIII.md)
+* [KLBorgervurderingsObservationskoderFSIII](ValueSet-KLCitizenObservationCodesFSIII.md)
+* [KLBorgervurderingsResultatkoderFSIII](ValueSet-KLCitizenObservationResultCodesFSIII.md)
+* [KLKomplikationskoderSCT](ValueSet-KLComplicationCodesSCT.md)
+* [KLTilstandADKoderFFB](ValueSet-KLConditionADCodesFFB.md)
+* [KLTilstandKoder](ValueSet-KLConditionCodes.md)
+* [KLTilstandKoderFFB](ValueSet-KLConditionCodesFFB.md)
+* [KLTilstandKoderFSIII](ValueSet-KLConditionCodesFSIII.md)
+* [KLTilstandeKoderHjemmepleje](ValueSet-KLConditionCodesHomeCare.md)
+* [KLTilstandeKoderSygepleje](ValueSet-KLConditionCodesNursing.md)
+* [KLTilstandKoderForebyggelse](ValueSet-KLConditionCodesPrevention.md)
+* [KLTilstandKoderTræning](ValueSet-KLConditionCodesTheraphy.md)
+* [KLTilstandFFKoderFFB](ValueSet-KLConditionFFCodesFFB.md)
+* [KLTilstandOKoderFFB](ValueSet-KLConditionOCodesFFB.md)
+* [KLTilstandeOgMålgrupperFFB](ValueSet-KLConditionsAndTargetGroupsFFB.md)
+* [KLBorgerIndforståetMedHenvendelseKoder](ValueSet-KLConsentToLiasing.md)
+* [KLKontaktTyper](ValueSet-KLEncounterTypes.md)
+* [KLVurderingTypekoder](ValueSet-KLEvaluationTypeCodes.md)
+* [KLVurderingTypekoderSCT](ValueSet-KLEvaluationTypeCodesSCT.md)
+* [KLOpfølgningKodes](ValueSet-KLFollowUpCodes.md)
+* [KLOpfølgningKoderFFB](ValueSet-KLFollowUpCodesFFB.md)
+* [KLOpfølgningKoderFSIII](ValueSet-KLFollowUpCodesFSIII.md)
+* [KLGenerelInformationFSIII](ValueSet-KLGeneralInformationFSIII.md)
+* [KLMålKategoriKoder](ValueSet-KLGoalTypeCodes.md)
+* [KLHjemmeplejeOmråderFSIII](ValueSet-KLHomeCareAreasFSIII.md)
+* [KLHjemmeplejeIndsatserFSIII](ValueSet-KLHomeCareInterventionsFSIII.md)
+* [KLBetydningKoderFSIII](ValueSet-KLImportanceLevelCodesFSIII.md)
+* [KLOplysningKoder](ValueSet-KLInformationCodes.md)
+* [KLOplysningsaktivitetsOgVurderingskoder](ValueSet-KLInformationGatheringInvestigationCodes.md)
+* [KLOplysningsaktivitetsTypeKoder](ValueSet-KLInformationGatheringTypeCodes.md)
+* [KLIndsatser](ValueSet-KLInterventions.md)
+* [KLYdelserFFB](ValueSet-KLInterventionsFFB.md)
+* [KLIndsatserFSIII](ValueSet-KLInterventionsFSIII.md)
+* [KLKildeTilOplysningFFB](ValueSet-KLMatterOfInterestInformerFFB.md)
+* [KLIngenOplysningerKoder](ValueSet-KLMatterOfInterestValues.md)
+* [KLStøttebehovsvurderingskoderFFB](ValueSet-KLNeedsAssessmentCodesFFB.md)
+* [KLSygeplejeOmråderFSIII](ValueSet-KLNursingAreasFSIII.md)
+* [KLSygeplejeIndsatserFSIII](ValueSet-KLNursingInterventionsFSIII.md)
+* [KLObservationskoder](ValueSet-KLObservationCodes.md)
+* [KLUdførelsesKoderFSIII](ValueSet-KLPerformanceLevelCodesFSIII.md)
+* [KLForebyggelseOmråderFSIII](ValueSet-KLPreventionAreasFSIII.md)
+* [KLForebyggelseIndsatserFSIII](ValueSet-KLPreventionInterventionsFSIII.md)
+* [KLHenvendelseHenvisningFraFSIII](ValueSet-KLRequestFromFSIII.md)
+* [KLTilbudsKoderFFB](ValueSet-KLServiceCodesFFB.md)
+* [KLServiceTyper](ValueSet-KLServicesTypes.md)
+* [KLSværhedgrader](ValueSet-KLSeverities.md)
+* [KLFunktionsevneniveauFFB](ValueSet-KLSeveritiesFFB.md)
+* [KLFunktionsevneniveauFSIII](ValueSet-KLSeveritiesFSIII.md)
+* [KLMålgrupperFFB](ValueSet-KLTargetGroupsFFB.md)
+* [KLTypeAfObservationPåMål](ValueSet-KLTargetMeasureCodes.md)
+* [KLTemaerFFB](ValueSet-KLThemesFFB.md)
+* [KLTræningOmråderFSIII](ValueSet-KLTheraphyAreasFSIII.md)
+* [KLTræningIndsatserFSIII](ValueSet-KLTrainingInterventionsFSIII.md)
+
+### ImplementationGuides
+
+* [KL Terminologi](index.md)

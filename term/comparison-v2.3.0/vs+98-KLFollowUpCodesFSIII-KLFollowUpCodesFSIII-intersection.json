@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "a9938b6c-95c3-4529-8e6b-66f42832c19f-99",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/a9938b6c-95c3-4529-8e6b-66f42832c19f-99",
+  "name" : "IntersectionKLFollowUpCodesFSIIIAndKLFollowUpCodesFSIII",
+  "title" : "Intersection of KLOpfølgningKoderFSIII And KLOpfølgningKoderFSIII",
+  "status" : "active",
+  "date" : "2026-04-21T22:10:56+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "ad78224f-b339-462c-9f2c-90b3120605cb"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "E"
+      }]
+    }]
+  }
+}

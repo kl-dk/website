@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="LTT"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem LTT</b></p><a name="LTT"> </a><a name="hcLTT"> </a><p>This case-sensitive code system <code>http://fhir.kl.dk/term/CodeSystem/LTT</code> defines the following codes in a Is-A hierarchy:</p><table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>1</td><td style="white-space:nowrap">afd9445a-7ca5-42f8-8011-c3802db3f30b<a name="LTT-afd9445a-7ca5-42f8-8011-c3802db3f30b"> </a></td><td>Afsluttende samtale</td><td>Afsluttende samtale med fokus på opfølgning på behandlingsforløbet</td></tr><tr><td>1</td><td style="white-space:nowrap">3b1d8884-5a1d-43cf-aabb-8c1035148c46<a name="LTT-3b1d8884-5a1d-43cf-aabb-8c1035148c46"> </a></td><td>Afslutning</td><td>Oplysning om at forløbet er afsluttet på en given dato</td></tr><tr><td>1</td><td style="white-space:nowrap">ac1057da-a510-4bab-a2b1-d96efa464bdc<a name="LTT-ac1057da-a510-4bab-a2b1-d96efa464bdc"> </a></td><td>Henvendelse</td><td>Henvendelse fra barn/ung eller forældre vedrørende hjælp fra kommunen som kan høre ind under det lettilgængelige tilbud</td></tr><tr><td>1</td><td style="white-space:nowrap">e2eee938-a58c-42d0-a514-dc91779b1243<a name="LTT-e2eee938-a58c-42d0-a514-dc91779b1243"> </a></td><td>Forsamtale</td><td>Forsamtale med henblik på vurdering om barnet/den unge er i målgruppen for en behandlingsindsats i det lettilgængelige tilbud</td></tr><tr><td>1</td><td style="white-space:nowrap">404665f4-3488-4225-953e-3f1c5a061829<a name="LTT-404665f4-3488-4225-953e-3f1c5a061829"> </a></td><td>Screening</td><td>Screening som skal afklare barnets/den unges behov og hvilket behandlingsforløb barnet/den unge har behov for. Vurderingen af behandlingsbehovet beror på en klinisk vurdering understøttet af forskellige evidensbaserede spørgeskemaer</td></tr><tr><td>1</td><td style="white-space:nowrap">b7f9217c-2315-4d6f-bba5-5117e202302c<a name="LTT-b7f9217c-2315-4d6f-bba5-5117e202302c"> </a></td><td>Behandling</td><td>Behandlingskontakter baseret på evidensbaserede/dokumenterede indsatser og manualer med specifikation af fremgangsmåde, antal sessioner og indhold i de enkelte indsatser</td></tr><tr><td>1</td><td style="white-space:nowrap">d09ad8c9-7ade-455f-b34a-54c8c6cce266<a name="LTT-d09ad8c9-7ade-455f-b34a-54c8c6cce266"> </a></td><td>Tema</td><td>Tema omhandler de udfordringer barnet/den unge kommer med. Temaer kan blive afdækket i forsamtale, i screening eller i behandlingsforløb. Det er muligt at angive flere temaer og løbende opdatere temaer registreret tidligere i forløb</td></tr><tr><td>2</td><td style="white-space:nowrap">  dcf2c302-09b9-4bf1-9865-d08a5876700c<a name="LTT-dcf2c302-09b9-4bf1-9865-d08a5876700c"> </a></td><td>Adfærd</td><td>Udfordringer med emotionel og adfærdsmæssig regulering</td></tr><tr><td>2</td><td style="white-space:nowrap">  95c5e9fc-33b7-4d85-9417-64fc3164eb4c<a name="LTT-95c5e9fc-33b7-4d85-9417-64fc3164eb4c"> </a></td><td>Bekymring</td><td>Ængstelse og bekymringstendens - generelt eller knyttet til specifikke situationer</td></tr><tr><td>2</td><td style="white-space:nowrap">  bf4df811-805a-4309-8394-7d9ea31b8af7<a name="LTT-bf4df811-805a-4309-8394-7d9ea31b8af7"> </a></td><td>Krop og mad</td><td>Svære tanker om krop og spisning</td></tr><tr><td>2</td><td style="white-space:nowrap">  5cea8eb2-5374-45f7-a985-cef1f577f0a1<a name="LTT-5cea8eb2-5374-45f7-a985-cef1f577f0a1"> </a></td><td>Selvskade</td><td>Non-suicidal selvskade</td></tr><tr><td>2</td><td style="white-space:nowrap">  9b82f4cd-bc63-4187-a2f0-ff2d74f63bd8<a name="LTT-9b82f4cd-bc63-4187-a2f0-ff2d74f63bd8"> </a></td><td>Tristhed</td><td>Nedtrykt humør og nedsat energi og aktivitetsniveau</td></tr><tr><td>2</td><td style="white-space:nowrap">  c8887ec0-e529-48d9-914c-317e000c2036<a name="LTT-c8887ec0-e529-48d9-914c-317e000c2036"> </a></td><td>Tvangstanker og -handlinger</td><td>Tilbagevendende og indtrængende tanker og gentagne, forstyrrende handlinger</td></tr><tr><td>2</td><td style="white-space:nowrap">  2644b5af-73cc-41a5-b588-f244b813179d<a name="LTT-2644b5af-73cc-41a5-b588-f244b813179d"> </a></td><td>Uro og uopmærksomhed</td><td>Udfordringer med uro, uopmærksomhed eller impulsivitet</td></tr><tr><td>2</td><td style="white-space:nowrap">  cc829c98-5904-45da-b777-2af5693e78e9<a name="LTT-cc829c98-5904-45da-b777-2af5693e78e9"> </a></td><td>Andet</td><td>Uspecifikke, funktionsnedsættende udfordringer</td></tr><tr><td>1</td><td style="white-space:nowrap">92aa0b05-ed46-4fd6-8009-adf97d0fc187<a name="LTT-92aa0b05-ed46-4fd6-8009-adf97d0fc187"> </a></td><td>Henvisning</td><td>Henvisning til andet relevant tilbud. En henvisning til et andet tilbud kan godt ske sideløbende og samtidig med barnet/den unge gennemfører et lettilgængeligt tilbud</td></tr><tr><td>2</td><td style="white-space:nowrap">  e961ba32-9e1e-4bfd-82aa-d73c8653d170<a name="LTT-e961ba32-9e1e-4bfd-82aa-d73c8653d170"> </a></td><td>Andet</td><td>Tilbud som ikke er rummet i de øvrige henvisningskategorier</td></tr><tr><td>2</td><td style="white-space:nowrap">  59721d6a-71c7-4cae-954c-5997cbebd387<a name="LTT-59721d6a-71c7-4cae-954c-5997cbebd387"> </a></td><td>Andet tilbud i hjemkommune</td><td>Andre tilbud i kommunen som vurderes relevante for barnet/den unge</td></tr><tr><td>2</td><td style="white-space:nowrap">  e648f06e-8a17-47af-95ff-babeb3e7543c<a name="LTT-e648f06e-8a17-47af-95ff-babeb3e7543c"> </a></td><td>§126a-tilbud i anden kommune</td><td>Lettilgængeligt tilbud i anden kommune end barnets/den unges bopælskommune</td></tr><tr><td>2</td><td style="white-space:nowrap">  0cdc1b09-f53f-41c4-80d3-a2c59ff98287<a name="LTT-0cdc1b09-f53f-41c4-80d3-a2c59ff98287"> </a></td><td>Alment praktiserende læge</td><td>Barnets/den unges alment praktiserende læge</td></tr><tr><td>2</td><td style="white-space:nowrap">  42b97e5a-7584-4b07-a7c7-d441ccb331b2<a name="LTT-42b97e5a-7584-4b07-a7c7-d441ccb331b2"> </a></td><td>Børne- og ungdomspsykiatri</td><td>Den regionale børne- og ungdomspsykiatri</td></tr><tr><td>2</td><td style="white-space:nowrap">  f3d5cb7b-e059-4fbc-9514-a53299c2e3cf<a name="LTT-f3d5cb7b-e059-4fbc-9514-a53299c2e3cf"> </a></td><td>Civilsamfund</td><td>Tilbud som er etableret af civilsamfundet og som vurderes relevante for barnet/den unge</td></tr><tr><td>1</td><td style="white-space:nowrap">b13c5a57-2cf4-4bd7-beb4-598442165cd3<a name="LTT-b13c5a57-2cf4-4bd7-beb4-598442165cd3"> </a></td><td>Organisering af behandlingskontakt</td><td>Organisering af behandlingskontakt som enten individuel behandling eller gruppebaseret behandling</td></tr><tr><td>2</td><td style="white-space:nowrap">  8742dc92-2878-4074-b128-b0384c4989c9<a name="LTT-8742dc92-2878-4074-b128-b0384c4989c9"> </a></td><td>Gruppebaseret behandling med barn/ung</td><td>Behandlingskontakter der gennemføres i grupper med deltagelse af flere børn/unge. Forældre/værger/andre omsorgspersoner kan også deltage</td></tr><tr><td>2</td><td style="white-space:nowrap">  dadb1540-9542-46d1-a784-0559d94e0b9a<a name="LTT-dadb1540-9542-46d1-a784-0559d94e0b9a"> </a></td><td>Gruppebaseret behandling uden barn/ung</td><td>Behandlingskontakt der gennemføres i grupper med deltagelse af forældre/værger/andre omsorgspersoner til flere børn/unge, men uden deltagelse af børn/unge</td></tr><tr><td>2</td><td style="white-space:nowrap">  ca52f015-193e-4d31-9471-7385717dfa44<a name="LTT-ca52f015-193e-4d31-9471-7385717dfa44"> </a></td><td>Individuel behandling med barn/ung</td><td>Behandlingskontakt der gennemføres med barnet/den unge og ikke andre børn/unge. Forældre/værger/andre omsorgspersoner kan også deltage</td></tr><tr><td>2</td><td style="white-space:nowrap">  c86b5c04-7e13-488b-87fd-fb1e30309bb8<a name="LTT-c86b5c04-7e13-488b-87fd-fb1e30309bb8"> </a></td><td>Individuel behandling uden barn/ung</td><td>Behandlingskontakt der udelukkende er målrettet et barn/en ung, men uden deltagelse af barn/ung, dvs. behandlingskontakten gennemføres med deltagelse af forældre/værger/andre omsorgspersoner</td></tr></table></div>
+  </text>
+  <url value="http://fhir.kl.dk/term/CodeSystem/LTT"/>
+  <version value="2.4.0"/>
+  <name value="LTT"/>
+  <title value="LTT"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-04-21T22:00:20+02:00"/>
+  <publisher value="Kommunernes Landsforening"/>
+  <contact>
+    <name value="Kommunernes Landsforening"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://kl.dk"/>
+    </telecom>
+  </contact>
+  <description value="Concepts used for standardizing documentation for Danish children/teenagers with mental challenges whom are helped in readily available treatment offers in the Danish municipalities."/>
+  <caseSensitive value="true"/>
+  <hierarchyMeaning value="is-a"/>
+  <content value="complete"/>
+  <concept>
+    <code value="afd9445a-7ca5-42f8-8011-c3802db3f30b"/>
+    <display value="Afsluttende samtale"/>
+    <definition value="Afsluttende samtale med fokus på opfølgning på behandlingsforløbet"/>
+  </concept>
+  <concept>
+    <code value="3b1d8884-5a1d-43cf-aabb-8c1035148c46"/>
+    <display value="Afslutning"/>
+    <definition value="Oplysning om at forløbet er afsluttet på en given dato"/>
+  </concept>
+  <concept>
+    <code value="ac1057da-a510-4bab-a2b1-d96efa464bdc"/>
+    <display value="Henvendelse"/>
+    <definition value="Henvendelse fra barn/ung eller forældre vedrørende hjælp fra kommunen som kan høre ind under det lettilgængelige tilbud"/>
+  </concept>
+  <concept>
+    <code value="e2eee938-a58c-42d0-a514-dc91779b1243"/>
+    <display value="Forsamtale"/>
+    <definition value="Forsamtale med henblik på vurdering om barnet/den unge er i målgruppen for en behandlingsindsats i det lettilgængelige tilbud"/>
+  </concept>
+  <concept>
+    <code value="404665f4-3488-4225-953e-3f1c5a061829"/>
+    <display value="Screening"/>
+    <definition value="Screening som skal afklare barnets/den unges behov og hvilket behandlingsforløb barnet/den unge har behov for. Vurderingen af behandlingsbehovet beror på en klinisk vurdering understøttet af forskellige evidensbaserede spørgeskemaer"/>
+  </concept>
+  <concept>
+    <code value="b7f9217c-2315-4d6f-bba5-5117e202302c"/>
+    <display value="Behandling"/>
+    <definition value="Behandlingskontakter baseret på evidensbaserede/dokumenterede indsatser og manualer med specifikation af fremgangsmåde, antal sessioner og indhold i de enkelte indsatser"/>
+  </concept>
+  <concept>
+    <code value="d09ad8c9-7ade-455f-b34a-54c8c6cce266"/>
+    <display value="Tema"/>
+    <definition value="Tema omhandler de udfordringer barnet/den unge kommer med. Temaer kan blive afdækket i forsamtale, i screening eller i behandlingsforløb. Det er muligt at angive flere temaer og løbende opdatere temaer registreret tidligere i forløb"/>
+    <concept>
+      <code value="dcf2c302-09b9-4bf1-9865-d08a5876700c"/>
+      <display value="Adfærd"/>
+      <definition value="Udfordringer med emotionel og adfærdsmæssig regulering"/>
+    </concept>
+    <concept>
+      <code value="95c5e9fc-33b7-4d85-9417-64fc3164eb4c"/>
+      <display value="Bekymring"/>
+      <definition value="Ængstelse og bekymringstendens - generelt eller knyttet til specifikke situationer"/>
+    </concept>
+    <concept>
+      <code value="bf4df811-805a-4309-8394-7d9ea31b8af7"/>
+      <display value="Krop og mad"/>
+      <definition value="Svære tanker om krop og spisning"/>
+    </concept>
+    <concept>
+      <code value="5cea8eb2-5374-45f7-a985-cef1f577f0a1"/>
+      <display value="Selvskade"/>
+      <definition value="Non-suicidal selvskade"/>
+    </concept>
+    <concept>
+      <code value="9b82f4cd-bc63-4187-a2f0-ff2d74f63bd8"/>
+      <display value="Tristhed"/>
+      <definition value="Nedtrykt humør og nedsat energi og aktivitetsniveau"/>
+    </concept>
+    <concept>
+      <code value="c8887ec0-e529-48d9-914c-317e000c2036"/>
+      <display value="Tvangstanker og -handlinger"/>
+      <definition value="Tilbagevendende og indtrængende tanker og gentagne, forstyrrende handlinger"/>
+    </concept>
+    <concept>
+      <code value="2644b5af-73cc-41a5-b588-f244b813179d"/>
+      <display value="Uro og uopmærksomhed"/>
+      <definition value="Udfordringer med uro, uopmærksomhed eller impulsivitet"/>
+    </concept>
+    <concept>
+      <code value="cc829c98-5904-45da-b777-2af5693e78e9"/>
+      <display value="Andet"/>
+      <definition value="Uspecifikke, funktionsnedsættende udfordringer"/>
+    </concept>
+  </concept>
+  <concept>
+    <code value="92aa0b05-ed46-4fd6-8009-adf97d0fc187"/>
+    <display value="Henvisning"/>
+    <definition value="Henvisning til andet relevant tilbud. En henvisning til et andet tilbud kan godt ske sideløbende og samtidig med barnet/den unge gennemfører et lettilgængeligt tilbud"/>
+    <concept>
+      <code value="e961ba32-9e1e-4bfd-82aa-d73c8653d170"/>
+      <display value="Andet"/>
+      <definition value="Tilbud som ikke er rummet i de øvrige henvisningskategorier"/>
+    </concept>
+    <concept>
+      <code value="59721d6a-71c7-4cae-954c-5997cbebd387"/>
+      <display value="Andet tilbud i hjemkommune"/>
+      <definition value="Andre tilbud i kommunen som vurderes relevante for barnet/den unge"/>
+    </concept>
+    <concept>
+      <code value="e648f06e-8a17-47af-95ff-babeb3e7543c"/>
+      <display value="§126a-tilbud i anden kommune"/>
+      <definition value="Lettilgængeligt tilbud i anden kommune end barnets/den unges bopælskommune"/>
+    </concept>
+    <concept>
+      <code value="0cdc1b09-f53f-41c4-80d3-a2c59ff98287"/>
+      <display value="Alment praktiserende læge"/>
+      <definition value="Barnets/den unges alment praktiserende læge"/>
+    </concept>
+    <concept>
+      <code value="42b97e5a-7584-4b07-a7c7-d441ccb331b2"/>
+      <display value="Børne- og ungdomspsykiatri"/>
+      <definition value="Den regionale børne- og ungdomspsykiatri"/>
+    </concept>
+    <concept>
+      <code value="f3d5cb7b-e059-4fbc-9514-a53299c2e3cf"/>
+      <display value="Civilsamfund"/>
+      <definition value="Tilbud som er etableret af civilsamfundet og som vurderes relevante for barnet/den unge"/>
+    </concept>
+  </concept>
+  <concept>
+    <code value="b13c5a57-2cf4-4bd7-beb4-598442165cd3"/>
+    <display value="Organisering af behandlingskontakt"/>
+    <definition value="Organisering af behandlingskontakt som enten individuel behandling eller gruppebaseret behandling"/>
+    <concept>
+      <code value="8742dc92-2878-4074-b128-b0384c4989c9"/>
+      <display value="Gruppebaseret behandling med barn/ung"/>
+      <definition value="Behandlingskontakter der gennemføres i grupper med deltagelse af flere børn/unge. Forældre/værger/andre omsorgspersoner kan også deltage"/>
+    </concept>
+    <concept>
+      <code value="dadb1540-9542-46d1-a784-0559d94e0b9a"/>
+      <display value="Gruppebaseret behandling uden barn/ung"/>
+      <definition value="Behandlingskontakt der gennemføres i grupper med deltagelse af forældre/værger/andre omsorgspersoner til flere børn/unge, men uden deltagelse af børn/unge"/>
+    </concept>
+    <concept>
+      <code value="ca52f015-193e-4d31-9471-7385717dfa44"/>
+      <display value="Individuel behandling med barn/ung"/>
+      <definition value="Behandlingskontakt der gennemføres med barnet/den unge og ikke andre børn/unge. Forældre/værger/andre omsorgspersoner kan også deltage"/>
+    </concept>
+    <concept>
+      <code value="c86b5c04-7e13-488b-87fd-fb1e30309bb8"/>
+      <display value="Individuel behandling uden barn/ung"/>
+      <definition value="Behandlingskontakt der udelukkende er målrettet et barn/en ung, men uden deltagelse af barn/ung, dvs. behandlingskontakten gennemføres med deltagelse af forældre/værger/andre omsorgspersoner"/>
+    </concept>
+  </concept>
+</CodeSystem>

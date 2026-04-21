@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "9c152d8b-f504-48ae-915e-792ec3166428-176",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/9c152d8b-f504-48ae-915e-792ec3166428-176",
+  "name" : "UnionKLSeveritiesFSIIIAndKLSeveritiesFSIII",
+  "title" : "Union of KLFunktionsevneniveauFSIII And KLFunktionsevneniveauFSIII",
+  "status" : "active",
+  "date" : "2026-04-21T22:03:07+02:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "2c02a704-deee-4878-9378-1167613b3da6"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "B"
+      }]
+    }]
+  }
+}

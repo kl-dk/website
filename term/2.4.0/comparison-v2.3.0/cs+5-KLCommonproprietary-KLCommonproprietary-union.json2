@@ -1,0 +1,9 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "9c152d8b-f504-48ae-915e-792ec3166428-14",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/9c152d8b-f504-48ae-915e-792ec3166428-14",
+  "name" : "UnionKLCommonproprietaryAndKLCommonproprietary",
+  "title" : "Union of KLLokaleKoder And KLLokaleKoder",
+  "status" : "active",
+  "date" : "2026-04-21T22:03:07+02:00"
+}

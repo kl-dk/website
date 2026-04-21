@@ -1,13 +1,16 @@
 KLTerm
 =========================================
 
-C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.3.0-milestone\fsh-generated\resources\ValueSet-KLObservationCodes.json: line 1, col 12376, Info - The value set references CodeSystem 'urn:oid:1.2.208.176.2.1' which has status 'fragment' (INVALID)
-C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.3.0-milestone\input\vocabulary\CodeSystem-FFB.json: line 1, col 120135, Warning - No definition could be found for URL value 'urn:oid' (INVALID)
-C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.3.0-milestone\input\vocabulary\CodeSystem-FSIII.json: line 1, col 315865, Warning - No definition could be found for URL value 'urn:oid' (INVALID)
-C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.3.0-milestone\input\vocabulary\CodeSystem-FSIII.json: line 1, col 529543, Warning - The designation 'Andre problemer med hud og slimhinder' has no use and no language, so is not differentiated from the base display ('Problemer med hud og slimhinder') (BUSINESSRULE)
-C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.3.0-milestone\input\vocabulary\CodeSystem-FSIII.json: line 1, col 529543, Warning - The designation 'Skaffe sig varer og tjenesteydelser' has no use and no language, so is not differentiated from the base display ('Indkøb') (BUSINESSRULE)
-C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.3.0-milestone\input\vocabulary\CodeSystem-FSIII.json: line 1, col 529543, Warning - The designation 'Andre problemer med hud og slimhinder' has no use and no language, so is not differentiated from the base display ('Problemer med hud og slimhinder') (BUSINESSRULE)
-C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.3.0-milestone\input\vocabulary\CodeSystem-FSIII.json: line 1, col 529543, Warning - The designation 'Skaffe sig varer og tjenesteydelser' has no use and no language, so is not differentiated from the base display ('Indkøb') (BUSINESSRULE)
+C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.4.0-milestone\fsh-generated\resources\ValueSet-KLObservationCodes.json: line 1, col 11520, Warning - The concept '248334005' has a status of inactive and its use should be reviewed (BUSINESSRULE)
+C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.4.0-milestone\fsh-generated\resources\ValueSet-KLObservationCodes.json: line 1, col 11541, Warning - The concept '276351002' has a status of inactive and its use should be reviewed (BUSINESSRULE)
+C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.4.0-milestone\fsh-generated\resources\ValueSet-KLObservationCodes.json: line 1, col 11562, Warning - The concept '276353004' has a status of inactive and its use should be reviewed (BUSINESSRULE)
+C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.4.0-milestone\fsh-generated\resources\ValueSet-KLObservationCodes.json: line 1, col 12660, Info - The value set references CodeSystem 'urn:oid:1.2.208.176.2.1' which has status 'fragment' (INVALID)
+C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.4.0-milestone\input\vocabulary\CodeSystem-FFB.json: line 1, col 120135, Warning - No definition could be found for URL value 'urn:oid' (INVALID)
+C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.4.0-milestone\input\vocabulary\CodeSystem-FSIII.json: line 1, col 315865, Warning - No definition could be found for URL value 'urn:oid' (INVALID)
+C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.4.0-milestone\input\vocabulary\CodeSystem-FSIII.json: line 1, col 529543, Warning - The designation 'Andre problemer med hud og slimhinder' has no use and no language, so is not differentiated from the base display ('Problemer med hud og slimhinder') (BUSINESSRULE)
+C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.4.0-milestone\input\vocabulary\CodeSystem-FSIII.json: line 1, col 529543, Warning - The designation 'Skaffe sig varer og tjenesteydelser' has no use and no language, so is not differentiated from the base display ('Indkøb') (BUSINESSRULE)
+C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.4.0-milestone\input\vocabulary\CodeSystem-FSIII.json: line 1, col 529543, Warning - The designation 'Andre problemer med hud og slimhinder' has no use and no language, so is not differentiated from the base display ('Problemer med hud og slimhinder') (BUSINESSRULE)
+C:\Users\KirstineRosenbeckGøe\Projects\temp\ig-builds\kl.dk.fhir.term#2.4.0-milestone\input\vocabulary\CodeSystem-FSIII.json: line 1, col 529543, Warning - The designation 'Skaffe sig varer og tjenesteydelser' has no use and no language, so is not differentiated from the base display ('Indkøb') (BUSINESSRULE)
 
-err = 0, warn = 6, info = 1
-IG Publisher Version: 2.0.13
+err = 0, warn = 9, info = 1
+IG Publisher Version: 2.2.6

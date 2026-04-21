@@ -6,12 +6,12 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet KLConditionCodes</b></p><a name=\"KLConditionCodes\"> </a><a name=\"hcKLConditionCodes\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-KLConditionCodesHomeCare.html\">KLTilstandeKoderHjemmepleje</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-KLConditionCodesNursing.html\">KLTilstandeKoderSygepleje</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-KLConditionCodesTheraphy.html\">KLTilstandKoderTræning</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-KLConditionCodesPrevention.html\">KLTilstandKoderForebyggelse</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-KLConditionCodesFFB.html\">KLTilstandKoderFFB</a></li></ul></div>"
   },
   "url" : "http://fhir.kl.dk/term/ValueSet/KLConditionCodes",
-  "version" : "2.3.0",
+  "version" : "2.4.0",
   "name" : "KLConditionCodes",
   "title" : "KLTilstandKoder",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-21T08:46:07+02:00",
+  "date" : "2026-04-21T22:08:40+02:00",
   "publisher" : "Kommunernes Landsforening",
   "contact" : [{
     "name" : "Kommunernes Landsforening",

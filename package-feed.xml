@@ -4,13 +4,24 @@
     <description>New Packages published by KL</description>
     <link>http://fhir.kl.dk/package-feed.xml</link>
     <generator>HL7, Inc FHIR Publication tooling</generator>
-    <lastBuildDate>Wed, 29 Oct 2025 10:39:09 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 10:00:20 +0200</lastBuildDate>
     <atom:link href="http://fhir.kl.dk/package-feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Oct 2025 10:39:09 +0100</pubDate>
+    <pubDate>Tue, 21 Apr 2026 10:00:20 +0200</pubDate>
     <language>en</language>
     <ttl>600</ttl>
 
 
+    <item>
+      <title>kl.dk.fhir.term#2.4.0</title>
+      <description>One new concept added to CareSocialCodes</description>
+      <link>http://fhir.kl.dk/term/2.4.0/package.tgz</link>
+      <guid isPermaLink="true">http://fhir.kl.dk/term/2.4.0/package.tgz</guid>
+      <dc:creator>KL Denmark</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Tue, 21 Apr 2026 10:00:20 +0200</pubDate>
+      <fhir:details>Publication run at 21/04/2026 by LAPTOP-R1C9T9I7 using Version 2.2.6 (Git# 751af2289075). Built 2026-04-11T09:36:43.552Z (10 days old) source id Unknown (todo)</fhir:details>
+    </item>
     <item>
       <title>kl.dk.fhir.ltt#1.0.1</title>
       <description>Patch release that corrects minor errors in KL ltt</description>

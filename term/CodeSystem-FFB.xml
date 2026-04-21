@@ -10,12 +10,12 @@
     <system value="urn:oid"/>
     <value value="urn:oid:1.2.208.176.2.22"/>
   </identifier>
-  <version value="2.3.0"/>
+  <version value="2.4.0"/>
   <name value="FFB"/>
   <title value="FFB"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-08-21T08:46:07+02:00"/>
+  <date value="2026-04-21T22:08:40+02:00"/>
   <publisher value="Kommunernes Landsforening"/>
   <contact>
     <name value="Kommunernes Landsforening"/>
